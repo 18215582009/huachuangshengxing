@@ -1,0 +1,241 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="renderer" content="webkit|ie-comp|ie-stand">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+	<meta http-equiv="Cache-Control" content="no-siteapp" />
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="/static/lib/html5shiv.js"></script>
+	<script type="text/javascript" src="/static/lib/respond.min.js"></script>
+	<![endif]-->
+	<link rel="stylesheet" type="text/css" href="/static/h-ui/css/H-ui.min.css" />
+	<link rel="stylesheet" type="text/css" href="/static/h-ui.admin/css/H-ui.admin.css" />
+	<link rel="stylesheet" type="text/css" href="/static/lib/Hui-iconfont/1.0.8/iconfont.css" />
+	<link rel="stylesheet" type="text/css" href="/static/h-ui.admin/skin/default/skin.css" id="skin" />
+	<link rel="stylesheet" type="text/css" href="/static/h-ui.admin/css/style.css" />
+	<!--[if IE 6]>
+	<script type="text/javascript" src="/static/lib/DD_belatedPNG_0.0.8a-min.js" ></script>
+
+	<script>DD_belatedPNG.fix('*');</script>
+	<![endif]-->
+	<title>添加banner</title>
+	<link href="/static/lib/webuploader/0.1.5/webuploader.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<div class="page-container">
+		<form class="form form-horizontal" id="form-banner-add">
+			<div class="row cl">
+				<label class="form-label col-xs-4 col-sm-2"><span class="c-red"></span>分类名：</label>
+				<div class="formControls col-xs-8 col-sm-9">
+					<input type="text" class="input-text" value="" placeholder="" id="title" name="type_name">
+				</div>
+			</div>
+			<div class="row cl">
+				<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>类别：</label>
+				<div class="formControls col-xs-8 col-sm-9">
+					<span class="select-box">
+					<select name="pid" class="select" id="soc_click" onchange="change(this);">
+						<option value="">请选择</option>
+						{{volist name='soc' id='item'}}
+						<option value="{{$item.id}}">{{$item.type_name}}</option>
+						{{/volist}}
+					</select>
+					</span>
+					<span class="select-box">
+					<select name="type_id" class="select" id="soc_son">
+						<option value="">请选择</option>
+
+					</select>
+					</span>
+
+				</div>
+			</div>
+
+			<div class="row cl">
+				<label class="form-label col-xs-4 col-sm-2">排序号：</label>
+				<div class="formControls col-xs-8 col-sm-9">
+					<input type="text" class="input-text" value="0" placeholder="越小越靠前"  name="order">
+				</div>
+			</div>
+
+			<div class="row cl">
+				<label class="form-label col-xs-4 col-sm-2">排序号：</label>
+				<div class="formControls col-xs-8 col-sm-9">
+					<input type="file" name="image" onchange="uploads(this);"/>
+					<img src="" id="addImg" style="width:60px;height: 50px;"/>
+				</div>
+			</div>
+
+			<div class="row cl">
+				<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>状态：</label>
+				<div class="formControls col-xs-8 col-sm-9 skin-minimal">
+					<div class="radio-box">
+						<input name="status" type="radio" id="sex-1" value="1" checked onchange="unsetauto()">
+						<label for="sex-1">显示</label>
+					</div>
+					<div class="radio-box">
+						<input name="status" type="radio" id="sex-2" value="2" onchange="unsetauto()">
+						<label for="sex-2">隐藏</label>
+					</div>
+				</div>
+			</div>
+			<!--<div class="row cl autotime" style="display: none;">
+				<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>发布日期：</label>
+				<div class="formControls col-xs-8 col-sm-9">
+					<input type="text" onfocus="WdatePicker({ dateFmt:'yyyy-MM-dd HH:mm:ss',maxDate:'#F{$dp.$D(\'datemax\')||\'%y-%M-%d\'}' })" id="datemin" class="input-text Wdate" name="start_time" readonly>
+				</div>
+			</div>
+			<div class="row cl autotime" style="display: none;">
+				<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>结束日期：</label>
+				<div class="formControls col-xs-8 col-sm-9">
+					<input type="text" onfocus="WdatePicker({ dateFmt:'yyyy-MM-dd HH:mm:ss',minDate:'#F{$dp.$D(\'datemin\')}' })" id="datemax" class="input-text Wdate" name="end_time" readonly>
+				</div>
+			</div>-->
+			<div class="row cl">
+				<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-3">
+					<button type="submit" class="btn btn-success radius" id="admin-role-save" ><i class="icon-ok"></i> 确定</button>
+				</div>
+			</div>
+		</form>
+	</div>
+	<!--_footer 作为公共模版分离出去-->
+	<script type="text/javascript" src="/static/lib/jquery/1.9.1/jquery.min.js"></script> 
+	<script type="text/javascript" src="/static/lib/layer/2.4/layer.js"></script>
+	<script type="text/javascript" src="/static/h-ui/js/H-ui.min.js"></script> 
+	<script type="text/javascript" src="/static/h-ui.admin/js/H-ui.admin.js"></script>
+	<!--/_footer /作为公共模版分离出去-->
+	<!--请在下方写此页面业务相关的脚本-->
+	<script type="text/javascript" src="/static/lib/jquery.validation/1.14.0/jquery.validate.js"></script> 
+	<script type="text/javascript" src="/static/lib/jquery.validation/1.14.0/validate-methods.js"></script> 
+	<script type="text/javascript" src="/static/lib/jquery.validation/1.14.0/messages_zh.js"></script> 
+	<script type="text/javascript" src="/static/lib/webuploader/0.1.5/webuploader.min.js"></script>
+	<script type="text/javascript" src="/static/lib/My97DatePicker/4.8/WdatePicker.js"></script>
+	<script type="text/javascript">
+		//图片上传js
+		function UpImages(obj,url){
+			var formData = new FormData();
+			var inputFile = $(obj)[0].files;
+			if (inputFile.length > 1) {
+				for (var i = 0; i < inputFile.length; i++) {
+					formData.append("image[]", inputFile[i]);
+				}
+			} else {
+				formData.append('image', inputFile[0]);
+			}
+			$.ajax({
+				url: url,
+				type: 'POST',
+				data: formData,
+				async: false,
+				cache: false,
+				contentType: false,
+				processData: false,
+				dataType: "json",
+				success: function (d) {
+					if (d.status == 200) {
+						$("#ThumbnailUrl").val(d.data.url);
+						$(".img-responsive").attr("src", "/"+d.data.url);
+
+					} else {
+						layer.msg(d.msg);
+					}
+
+				},
+				error: function (e) {
+					console.log(e);
+				}
+			});
+		}
+		//选择定时显示
+		function setauto(){
+			var val = $('input:radio[name="status"]:checked').val();
+			if (val == 3) {
+				$(".autotime").show();
+			}
+		}
+		//不选择定时显示
+		function unsetauto(){
+			var val = $('input:radio[name="status"]:checked').val();
+			if (val < 3) {
+				$(".autotime").hide();
+			}
+		}
+		function uploads(obj){
+			var file = obj.files[0]; // 因为使用原生js  files 获取图片上传信息
+			var reader = new FileReader();
+			reader.onload = function(e){
+				$('#addImg').attr('src',e.target.result);
+			};
+			reader.readAsDataURL(file);
+		}
+		function change(obj){
+			var id = obj.value;
+
+			$.ajax({
+				url:"{{:url('sociality/linkage')}}",
+				data:{id:id},
+				type:'post',
+				success:function(org){
+					$('#soc_son').empty();
+					if(org != ''){
+
+						org = JSON.parse(org);
+						var str = '<option value="" > 二级分类</option>';
+						for(var i=0;i<org.length;i++){
+							str += '<option value="'+ org[i]['id'] +'" name="type_id" >'+ org[i]['type_name'] +'</option>';
+						}
+						$('#soc_son').append(str);
+					}else {
+						var option ='<option value="" > 没有下级分类<option>';
+						$('#soc_son').append(option);
+					}
+				}
+
+			})
+		}
+		$(function(){
+			var formData = new FormData;
+			$("#form-banner-add").validate({
+				rules:{
+					type:{
+						required:true,
+					},
+					status:{
+						required:true,
+					},
+					image:{
+						required:true,
+					}
+
+				},
+				onkeyup:false,
+				focusCleanup:true,
+				success:"valid",
+				submitHandler:function(form){
+					$(form).ajaxSubmit({
+						type: "post",
+						url: '{{:url("sociality/add")}}',
+						dataType: "json",
+						success: function (data) {
+							if (data.status == 200) {
+								layer.msg('成功',{time:2000},function(a){
+									parent.layer.close(layer.index);
+									parent.location.reload();
+								})
+
+							} else {
+								layer.msg(data.msg);
+							}
+						}
+					});
+				}
+			});
+
+
+
+		});
+	</script>
+</body>
+</html>

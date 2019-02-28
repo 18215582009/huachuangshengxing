@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>编辑资料</title>
+    <style>
+        *{margin:0 auto;padding: 0;}
+        li{list-style-type: none;}
+        body{background:#eee;}
+
+        div.head-div{width: 100%;background: white;padding: 10px 0;margin-top:15px;}
+
+        div.head-div>ul{width: 92%;}
+        div.head-div>ul>li{line-height: 45px;font-size: 15px;color:#343434;}
+        div.head-div>ul>li#head-li{position: relative;}
+        div.head-div>ul>li#head-li>input{position: absolute;right: 0;border:1px solid red;
+            opacity:0;z-index:10;}
+        div.head-div>ul>li#head-li>img{position: absolute;right: 0;height: 40px;z-index: 1;}
+
+
+        div.head-div>ul>li:after{content:"";display:block;clear:both;}
+
+        div.head-div>ul>li>span{width: 20%;float:left;display: inline-block;}
+        div.head-div>ul>li>input{float: right;line-height: 45px;width: 78%;text-align: right;border:0;outline: none;}
+
+        div.head-div>ul>li:not(:last-child){border-bottom:1px solid #eee;box-sizing: border-box;}
+
+        input.btn-info{width: 90%;background: #0000ff;color:white;height:40px;line-height: 40px;border-radius: 10px;display: block;outline: none;border:0;font-size: 15px;margin-top:20px;}
+
+    </style>
+    <script src="/static/js/jquery-3.3.1.min.js"></script>
+    <script src="/static/js/com.js"></script>
+</head>
+<body>
+<div class="main">
+    <div class="head-div">
+        <ul>
+            <li id="head-li"><span>头像</span><input id="head-img" type="file" name="image"/>{{if $info.head_image == ''}}<img src="/img/jia@3x.png" id="head"/>{{else}}<img src="/{{$info.head_image}}" id="head"/>{{/if}}</li>
+            <li><span>手机号</span><input type="text" id="phone" readonly name="phone" value="{{$info.phone}}"/></li>
+        </ul>
+    </div>
+
+    <div class="head-div">
+        <ul>
+            <li><span>昵称</span><input type="text" id="nickname" required value="{{$info.nickname}}" placeholder="昵称"/></li>
+            <li><span>性别</span><input type="text" id="sex" required value="{{$info.sex}}" placeholder="你的性别 男/女"/></li>
+            <li><span>生日</span><input type="text" id="year" required value="{{$info.user_birth}}" placeholder="你的生日 2019-10-10"/></li>
+        </ul>
+    </div>
+
+    <input type="hidden" id="sid" value="{{$info.sid}}"/>
+    <div class="head-div">
+        <ul>
+            <li><span>学校</span><input type="text" id="school" readonly value="{{$info.school_name}}" placeholder="所在学校"/></li>
+            <li><span>学院</span><input type="text" id="xiaoqu" required value="{{$info.college}}" placeholder="所在学院校区"/></li>
+            <li><span>专业</span><input type="text" id="zhuanye" required value="{{$info.zhuanye}}" placeholder="你的专业"/></li>
+            <li><span>班级</span><input type="text" id="banji" required value="{{$info.student}}" placeholder="所在班级"/></li>
+            <li><span>邮箱</span><input type="text" id="email" required value="{{$info.email}}" placeholder="你的邮箱"/></li>
+        </ul>
+    </div>
+    <input type="hidden" id="uid" value="{{$info.user_id}}"/>
+
+    <input type="button" class="btn-info" value="保存"/>
+
+
+</div>
+
+</body>
+<script>
+
+    $(function(){
+        var filesObj = '';
+        $('input#head-img').change(function(){
+            var file = this.files[0];
+            filesObj = file;
+            var reader = new FileReader();
+            reader.onload = function (e) {
+                $('img#head').attr('src',e.target.result);
+            };
+            reader.readAsDataURL(file)
+
+        });
+
+
+        $('input.btn-info').click(function(){
+            var sex = $('input#sex').val(),
+                    year = $('input#year').val(),
+                    school = $('input#school').val(),
+                    xiaoqu = $('input#xiaoqu').val(),
+                    banji = $('input#banji').val(),
+                    zhuanye = $('input#zhuanye').val(),
+                    phone = $('input#phone').val(),
+                    email = $('input#email').val(),
+                    nickname = $('input#nickname').val(),
+                    sid = $('input#sid').val();
+            var formData = new FormData();
+            if(sex == '男'){
+                sex = 1;
+            }else{
+                sex = 2;
+            }
+            var uid = localStorage.getItem('uid_');
+            if(!uid){
+                uid = $('input#uid').val();
+                localStorage.setItem('uid_',uid);
+            }
+            formData.append('sex',sex);
+            formData.append('user_birth',year);
+            formData.append('school',school);
+            formData.append('email',email);
+            formData.append('student',banji);
+            formData.append('zhuanye',zhuanye);
+            formData.append('college',xiaoqu);
+            formData.append('phone',phone);
+            formData.append('sid',sid);
+            formData.append('u',uid);
+            formData.append('nickname',nickname);
+            formData.append('head',filesObj);
+
+            $.ajax({
+                url:"{{:url('index/upEdit')}}",
+                data:formData,
+                type:'post',
+                contentType: false,
+                processData: false,
+                success:function(org){
+                    org = JSON.parse(org);
+                    if(org.status == 200){
+                        window.location.href = "{{:url('index/index')}}?u="+org.uid;
+                    }
+                }
+            });
+
+        });
+
+
+    });
+
+</script>
+</html>

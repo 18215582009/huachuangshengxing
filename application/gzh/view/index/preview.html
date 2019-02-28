@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>预览</title>
+    <style>
+        *{margin:0 auto;padding:0;border:0;}
+        li{list-style-type: none;}
+        body{background: #eee;}
+        div.top{width: 96%;height: 70px;}
+        div.logo_div{width:100%;height:100%;line-height: 70px;text-align: center;position:relative;}
+
+        div.info-top{width: 100%;margin-top:5px;}
+        div.back-white{width: 97%;padding: 20px 0;background: white;border-radius: 10px;}
+        div.back-white>div.info-div{width:100%;border-left:3px solid #5f6bff;height:60px;box-sizing: border-box;}
+        div.back-white>div.info-div:after{content:"";display:block;clear:both;}
+        div.back-white>div.info-div>div.info-head{width:18%;float:left;height:100%;margin-left:2%;}
+        div.back-white>div.info-div>div.info-details{width:75%;float:left;margin-left:2%;font-size:15px;color:#444;}
+        div.back-white>div.info-div>div.info-head>img{height:60px;width: 60px;}
+
+        div.back-white>div.info-div>div.info-details>ul>li{line-height: 28px;}
+        div.back-white>div.info-div>div.info-details>ul>li:first-child>span:first-child{font-size: 18px;color:#111;margin-right:15px;}
+
+
+        div.main{width: 97%;border-radius: 10px;background: white;padding: 15px 0 60px 0;margin-top:15px;}
+        div.main:after{content:"";display:block;clear:both;}
+        div.main>div.resume-div{width: 94%;border-bottom: 1px solid #ddd;float: right;padding-bottom: 20px;}
+        div.main>div.resume-div:not(:first-child){margin-top:20px;}
+        div.main>div.resume-div>div.resume-title{line-height: 30px;}
+        div.main>div.resume-div>div.resume-title>span:first-child{display: inline-block;width: 10px;height: 10px;border-radius: 10px;background:#615dcc;}
+        div.main>div.resume-div>div.resume-title>span:last-child{font-size: 16px;margin-left:5px;}
+        div.main>div.resume-div>div.resume-content>div.content-div{width: 90%;color:#aaa;font-size: 15px;}
+        div.main>div.resume-div>div.resume-content>div.content-div>p{}
+
+        div.press-div,p.clazz-p{color:#111;line-height: 26px;}
+
+        div.contact-max{float: left;width: 100%;margin-top:15px;}
+        div.contact{width: 82%;}
+        div.contact>div.phone{position: relative;}
+        div.contact>div.email{margin-top:15px;}
+        div.contact>div.phone>img{display: inline-block;margin-right: 20px;position: relative;top:8px;height: 26px;}
+
+        div.wanc{width: 100%;}
+        div.btn-edit{width: 94%;position: fixed;bottom: 0;left:3%;}
+        div.btn-edit>button.btn{width: 100%;line-height: 40px;border-radius: 10px;background:#0000ff;color:white;font-size: 16px;outline: none;border:0;}
+
+    </style>
+    <script src="/static/js/jquery-3.3.1.min.js"></script>
+    <script src="/static/js/com.js"></script>
+</head>
+<body>
+<!--<div class="top">
+    <div class="logo_div">
+        <img src="/static/../img/board_fabu@3x.png"/><span>招聘</span>
+    </div>
+</div>-->
+<div class="info-top">
+    <div class="back-white">
+        <div class="info-div">
+            <div class="info-head"><img src="/{{$u_info.head_image}}"/></div>
+            <div class="info-details">
+                <ul>
+                    <li><span>{{$u_info.nickname}}</span><span>{{$u_info.sex}}</span></li>
+                    <li><span>邮箱：</span><span>{{$u_info.email}}</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<input type="hidden" value="{{$u_info.flag}}" id="flag"/>
+<input type="hidden" value="{{$u_info.user_id}}" id="uid"/>
+<div class="main">
+    <div class="resume-div">
+
+        <div class="resume-title">
+            <span></span><span>个人简介</span>
+        </div>
+        <div class="resume-content">
+            <div class="content-div">
+                <p>{{$u_info.info_content}}</p>
+            </div>
+        </div>
+
+
+    </div>
+<!--就读-->
+    <div class="resume-div">
+
+        <div class="resume-title">
+            <span></span><span>就读</span>
+        </div>
+        <div class="resume-content">
+            <div class="content-div">
+                <p class="clazz-p">{{$u_info.college}}</p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="resume-div">
+
+        <div class="resume-title">
+            <span></span><span>求职</span>
+        </div>
+        <div class="resume-content">
+            {{foreach $u_info.wanted as $k=>$v}}
+            <div class="content-div">
+                <div class="press-div"><span>{{$v.tname}}</span></div>
+                <div><span>成都 </span><span>行业不限</span></div>
+            </div>
+            {{/foreach}}
+        </div>
+    </div>
+
+    <div class="resume-div">
+
+        <div class="resume-title">
+            <span></span><span>工作经历</span>
+        </div>
+        <div class="resume-content">
+            {{foreach $u_info.experience as $k=>$v}}
+            <div class="content-div">
+                <div class="press-div"><span>{{$v.name}}</span></div>
+                <div><span>岗位 </span><span>{{$v.gangwei}}</span></div>
+            </div>
+            {{/foreach}}
+        </div>
+    </div>
+
+
+    <div class="contact-max">
+
+        <div class="contact">
+            <div class="phone"><img src="/img/sj@2x.png"/><span>{{$u_info.phone}}</span></div>
+            <div class="phone email"><img src="/img/yx@2x.png"/><span>{{$u_info.email}}</span></div>
+
+        </div>
+    </div>
+
+</div>
+
+<div class="wanc">
+    <div class="btn-edit">
+        <button class="btn">修改</button>
+    </div>
+</div>
+
+
+</body>
+<script>
+    $(function(){
+        $("button.btn").click(function(){
+            var flag = $('input#flag').val();
+            var uid = localStorage.getItem('uid_');
+            if(!uid){
+                uid = $('input#uid').val();
+            }
+
+            if(flag == 0){
+
+                history.back();
+
+                // window.location.href = "{{:url('index/resume')}}?u="+uid;
+            }else {
+                window.location.href = "{{:url('index/edit')}}?u="+uid;
+            }
+
+        });
+    })
+
+</script>
+</html>

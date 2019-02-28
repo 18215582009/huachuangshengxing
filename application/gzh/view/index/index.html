@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>招聘</title>
+    <style>
+        *{margin:0 auto;padding:0;border:0;}
+        li{list-style-type: none;}
+        body{background: #eee;}
+        div.top{width: 96%;height: 70px;}
+        div.logo_div{width:100%;height:100%;line-height: 70px;text-align: center;position:relative;}
+        div.logo_div>img{height: 25px;position:absolute;left:2%;top:25%;}
+        div.logo_div>span{font-size: 20px;color:#343434;}
+
+        div.banner{width: 100%;height: 120px;position:relative;}
+        div.banner>img{height: 120px;width: 100%;position:absolute;}
+
+
+        div.middle-div{width:100%;height: 98%;z-index:999;position: relative;}
+
+        div.middle-div>div.left-rec-logo{width:40%;text-align: center;color:white;font-size: 14px;padding: 12px 0;}
+        div.middle-div>div.left-rec-logo>img{height:70px;display: block;width: 70px;}
+        div.middle-div>div.right-icon{width:18%;height: 100%;position: absolute;right: 0;top:0;}
+        div.right-icon>img{height:20px;display: block;position:absolute;right: 8px;}
+
+        div.me-list,div.me-out{width:100%;padding: 8px 0;background: white;line-height:30px;font-size: 15px;color:#666666;margin-top:8px;border-radius: 5px;}
+        div.edit-info{width:92%;}
+        div.edit-info>img{height:20px;position:relative;top:3px;margin-right: 10px;}
+        div.edit-info>span:last-child{float: right;}
+
+        div.me-out{margin-top:30px;text-align: center;font-size: 16px;}
+    </style>
+    <script src="/static/js/jquery-3.3.1.min.js"></script>
+    <script src="/static/js/com.js"></script>
+</head>
+<body>
+<!--<div class="top">
+    <div class="logo_div">
+        <img src="/static/../img/board_fabu@3x.png"/><span>招聘</span>
+    </div>
+</div>-->
+<div class="banner" id="banner">
+    <img src="/img/timg-2.jpeg"/>
+    <div class="middle-div">
+        <div class="left-rec-logo">
+            <img src="/{{$u_info.head_image}}"/>
+            <span style="display: inline-block;margin-top:3px;">{{$u_info.nickname}}</span>
+        </div>
+    </div>
+</div>
+<input type="hidden" value="{{$u_info.user_id}}" id="uid"/>
+
+<div class="me-list">
+    <div class="edit-info" id="edit-info">
+        <img src="/img/bianjiziliao@2x.png"/><span class="text">编辑资料</span><span>></span>
+    </div>
+</div>
+
+<div class="me-list">
+    <div class="edit-info" id="me-resume">
+        <img src="/img/wodejianzhi@2x.png"/><span class="text">我的兼职</span><span>></span>
+    </div>
+</div>
+
+<div class="me-list">
+    <div class="edit-info" id="edit-resume">
+        <img src="/img/wodejianli@2x.png"/><span class="text">我的简历</span><span>></span>
+    </div>
+</div>
+
+<div class="me-out">
+    <span>退出登录</span>
+</div>
+
+
+</body>
+<script>
+    $(function(){
+
+        $('#edit-resume').click(function(){
+            var uid = localStorage.getItem('uid_');
+            if(!uid){
+                uid = $('input#uid').val();
+            }
+            $.ajax({
+                url:"{{:url('index/select_u')}}",
+                data: {u:uid},
+                type:'post',
+                success:function(msg){
+                    if(msg == 200){
+                        window.location.href = "{{:url('index/preview')}}?u="+uid;
+                    }else {
+                        window.location.href = "{{:url('index/resume')}}?u="+uid;
+                    }
+                }
+            });
+        });
+
+        $('#me-resume').click(function(){
+
+            var uid = localStorage.getItem('uid_');
+            if(!uid){
+                uid = $('input#uid').val();
+            }
+
+            window.location.href = "{{:url('index/meresume')}}?u="+uid;
+
+        });
+
+        $('#edit-info').click(function(){
+
+            var uid = localStorage.getItem('uid_');
+            if(!uid){
+                uid = $('input#uid').val();
+            }
+
+            window.location.href = "{{:url('index/editinfo')}}?u="+uid;
+
+        });
+
+
+        $('div.me-out').click(function(){
+            var uid = localStorage.getItem('uid_');
+            $.ajax({
+                url:"{{:url('index/loginOut')}}",
+                data:{u:uid},
+                type:'post',
+                success:function(arg){
+                    if(arg == 200){
+                        localStorage.removeItem('uid_');
+                        window.location.href = "{{:url('login/index')}}";
+                    }
+                }
+            })
+        })
+
+    })
+
+</script>
+
+</html>
+
+<script>
+    var id = localStorage.getItem('uid_');
+    var timer = null;
+    if(!id){
+        msg('请先登陆');
+        timer = setTimeout(function(){
+            window.location.href = "{{:url('login/index')}}";
+        },1500);
+    }
+
+</script>

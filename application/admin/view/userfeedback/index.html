@@ -1,0 +1,259 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="renderer" content="webkit|ie-comp|ie-stand">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+	<meta http-equiv="Cache-Control" content="no-siteapp" />
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="/static/lib/html5shiv.js"></script>
+	<script type="text/javascript" src="/static/lib/respond.min.js"></script>
+	<![endif]-->
+	<link rel="stylesheet" type="text/css" href="/static/h-ui/css/H-ui.min.css" />
+	<link rel="stylesheet" type="text/css" href="/static/h-ui.admin/css/H-ui.admin.css" />
+	<link rel="stylesheet" type="text/css" href="/static/lib/Hui-iconfont/1.0.8/iconfont.css" />
+	<link rel="stylesheet" type="text/css" href="/static/h-ui.admin/skin/default/skin.css" id="skin" />
+	<link rel="stylesheet" type="text/css" href="/static/h-ui.admin/css/style.css" />
+	<!--[if IE 6]>
+	<script type="text/javascript" src="/static/lib/DD_belatedPNG_0.0.8a-min.js" ></script>
+	<script>DD_belatedPNG.fix('*');</script>
+	<![endif]-->
+	<title>意见反馈</title>
+	<style type="text/css">
+		.dataTables_info {clear: both;float: left;padding-top: 10px;font-size: 14px;color: #666;}
+		.pagination{float: right;padding-top: 10px;text-align: right;}
+		.pagination>li{border: 1px solid #ccc;cursor: pointer;display: inline-block;margin-left: 2px;text-align: center;text-decoration: none;color: #666;height: 26px;line-height: 26px;text-decoration: none;margin: 0 0 6px 6px;padding: 0 10px;font-size: 14px;}
+		.fb-1{height:20px;}
+		.fb-1>img{display:block;height:100%;float:left;cursor:pointer;}
+	</style>
+</head>
+<body>
+	<nav class="breadcrumb">
+		<i class="Hui-iconfont">&#xe67f;</i> 首页 
+		<span class="c-gray en">&gt;</span> 用户管理 
+		<span class="c-gray en">&gt;</span> 意见反馈 
+		<a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" >
+			<i class="Hui-iconfont">&#xe68f;</i>
+		</a>
+	</nav>
+	<div class="page-container">
+		<form class="form form-horizontal" id="form-admin-add" action="">
+		<div class="text-c">
+			<span class="select-box inline">
+				<select name="status" class="select">
+					<option value="">状态</option>
+					<option value="1" {{if($status==1)}} selected {{/if}}>待审核</option>
+					<option value="2" {{if($status==2)}} selected {{/if}}>审核中</option>
+					<option value="3" {{if($status==3)}} selected {{/if}}>未完成</option>
+					<option value="4" {{if($status==4)}} selected {{/if}}>已完成</option>
+				</select>
+			</span> 日期范围：
+			<input type="text" onfocus="WdatePicker({ maxDate:'#F{$dp.$D(\'datemax\')||\'%y-%M-%d\'}' })" id="datemin" class="input-text Wdate" style="width:120px;" name="datemin" value="{{$datemin}}" readonly>
+			-
+			<input type="text" onfocus="WdatePicker({ minDate:'#F{$dp.$D(\'datemin\')}',maxDate:'%y-%M-%d' })" id="datemax" class="input-text Wdate" style="width:120px;" name="datemax" value="{{$datemax}}" readonly>
+			<input type="text" class="input-text" style="width:250px" placeholder="输入关键词" name="content" value="{{$content}}">
+			<button type="submit" class="btn btn-success radius" id="" name="">
+				<i class="Hui-iconfont">&#xe665;</i> 搜索
+			</button>
+		</div>
+		</form>
+		<div class="cl pd-5 bg-1 bk-gray mt-20"> 
+			<span class="l">
+				<!-- <a href="javascript:;" onclick="datadel()" class="btn btn-danger radius">
+					<i class="Hui-iconfont">&#xe6e2;</i> 批量删除
+				</a>  -->
+			</span> 
+			<span class="r">共有数据：<strong>{{$page.total}}</strong> 条</span> 
+		</div>
+		<div class="mt-20">
+			<table class="table table-border table-bordered table-hover table-bg table-sort">
+				<thead>
+					<tr class="text-c">
+						<th width="25"><input type="checkbox" name="" value=""></th>
+						<th width="60">ID</th>
+						<th width="60">用户名</th>
+						<th>反馈内容</th>
+						<th>状态</th>
+						<th width="100">操作</th>
+					</tr>
+				</thead>
+				<tbody>
+					{{volist name='data' id='vo'}}
+					<tr class="text-c">
+						<td><input type="checkbox" value="{{$vo.id}}" name=""></td>
+						<td>{{$vo.id}}</td>
+						<td>
+							<a href="javascript:;" onclick="member_show('{{$vo.nickname}}','','800','500')">
+								<i class="avatar size-L radius">
+									<img alt="" src="/uploads/levelicon/20181225/11029172cb86f9d20e4bd37b25956a75.png">
+								</i>
+							</a>
+						</td>
+						<td class="text-l">
+							<div class="c-999 f-12">
+								<u style="cursor:pointer" class="text-primary" onclick="member_show('{{$vo.nickname}}','','800','500')">{{$vo.nickname}}
+								</u> 
+								<span class="ml-20">{{$vo.username}}</span> 
+								<span class="ml-20">{{$vo.create_time}}</span>
+							</div>
+							<div>{{$vo.content}}</div>
+							<div class="fb-1">
+								{{volist name='vo.urls' id='vo2'}}
+								<img src="/{{$vo2}}" onclick="member_show('{{$vo.nickname}} 反馈的图片','/{{$vo2}}','500','500')">
+								{{/volist}}
+							</div>
+						</td>
+						<td class="td-status" style="color:{{if($vo.status==1)}} darkorange {{/if}} {{if($vo.status==2)}} green {{/if}} {{if($vo.status==3)}} red {{/if}};">
+							{{$vo.status_name}}
+						</td>
+						<td class="td-manage">
+							{{if( action('Base/is_power','/admin/userfeedback/shenhe.html') )}}
+								{{if($vo.status==1 || $vo.status==3)}}
+								<a class="c-primary" onClick="article_shenhe(this,{{$vo.id}})" href="javascript:;" title="审核">审核</a> 
+								{{/if}}
+								{{if($vo.status==2)}}
+								<a class="c-primary" onClick="article_shenhe2(this,{{$vo.id}})" href="javascript:;" title="标记">标记</a> 
+								{{/if}}
+							{{/if}}
+							{{if( action('Base/is_power','/admin/userfeedback/del.html') )}}
+							<a title="删除" href="javascript:;" onclick="member_del(this,{{$vo.id}})" class="ml-5" style="text-decoration:none">
+								<i class="Hui-iconfont">&#xe6e2;</i>
+							</a>
+							{{/if}}
+						</td>
+					</tr>
+					{{/volist}}
+				</tbody>
+			</table>
+			{{if($page.last>1)}}
+			<div class="dataTables_info">当前第 {{$page.current}} 页 共 {{$page.last}} 页</div>
+			{{$page_data->render()}}
+			{{/if}}
+		</div>
+	</div>
+	<!--_footer 作为公共模版分离出去-->
+	<script type="text/javascript" src="/static/lib/jquery/1.9.1/jquery.min.js"></script> 
+	<script type="text/javascript" src="/static/lib/layer/2.4/layer.js"></script>  
+	<script type="text/javascript" src="/static/h-ui/js/H-ui.min.js"></script> 
+	<script type="text/javascript" src="/static/h-ui.admin/js/H-ui.admin.js"></script> 
+	<!--/_footer /作为公共模版分离出去-->
+	<!--请在下方写此页面业务相关的脚本-->
+	<script type="text/javascript" src="/static/lib/My97DatePicker/4.8/WdatePicker.js"></script> 
+	<script type="text/javascript" src="/static/lib/datatables/1.10.0/jquery.dataTables.min.js"></script> 
+	<script type="text/javascript" src="/static/lib/laypage/1.2/laypage.js"></script>
+	<script type="text/javascript">
+		//查看用户信息
+		function member_show(title,url,w,h){
+			layer_show(title,url,w,h);
+		}
+		/*资讯-审核*/
+		function article_shenhe(obj,id){
+			layer.confirm('审核文章？', {
+				btn: ['审核中','取消'], 
+				shade: false,
+				closeBtn: 0
+			},
+			function(){
+				$.ajax({
+					type: 'POST',
+					url: '/admin/userfeedback/shenhe.html',
+					data:{id:id,status:2},
+					dataType: 'json',
+					success: function(data){
+						if (data.status==200) {
+							$(obj).parents("tr").find(".td-manage").prepend('<a class="c-primary" onClick="article_shenhe2(this,'+id+')" href="javascript:;" title="标记">标记</a>');
+							$(obj).parents("tr").find(".td-status").html('审核中');
+							$(obj).parents("tr").find(".td-status").css('color','green');
+							$(obj).remove();
+							layer.msg(data.msg,{icon:1,time:2000});
+						}else{
+							layer.msg(data.msg,{icon:2,time:2000});
+						}
+					},
+					error:function(data) {
+						alert(data.msg);
+					},
+				});
+			}
+			);
+		}
+		/*资讯-审核2*/
+		function article_shenhe2(obj,id){
+			layer.confirm('标记为？', {
+				btn: ['已完成','未完成','取消'], 
+				shade: false,
+				closeBtn: 0
+			},
+			function(){
+				$.ajax({
+					type: 'POST',
+					url: '/admin/userfeedback/shenhe.html',
+					data:{id:id,status:4},
+					dataType: 'json',
+					success: function(data){
+						if (data.status==200) {
+							$(obj).parents("tr").find(".td-status").html('已完成');
+							$(obj).parents("tr").find(".td-status").css('color','#333');
+							$(obj).remove();
+							layer.msg(data.msg,{icon:1,time:2000});
+						}else{
+							layer.msg(data.msg,{icon:2,time:2000});
+						}
+					},
+					error:function(data) {
+						alert(data.msg);
+					},
+				});
+			},
+			function(){
+				$.ajax({
+					type: 'POST',
+					url: '/admin/userfeedback/shenhe.html',
+					data:{id:id,status:3},
+					dataType: 'json',
+					success: function(data){
+						if (data.status==200) {
+							$(obj).parents("tr").find(".td-manage").prepend('<a class="c-primary" onClick="article_shenhe(this,'+id+')" href="javascript:;" title="审核">审核</a>');
+							$(obj).parents("tr").find(".td-status").html('未完成');
+							$(obj).parents("tr").find(".td-status").css('color','red');
+							$(obj).remove();
+							layer.msg(data.msg,{icon:1,time:2000});
+						}else{
+							layer.msg(data.msg,{icon:2,time:2000});
+						}
+					},
+					error:function(data) {
+						alert(data.msg);
+					},
+				});
+			},
+			);
+		}
+		/*用户-删除*/
+		function member_del(obj,id){
+			layer.confirm('确认要删除吗？',function(index){
+				$.ajax({
+					type: 'POST',
+					url: '/admin/userfeedback/del.html',
+					data:{id:id},
+					dataType: 'json',
+					success: function(data){
+						if (data.status == 200) {
+							$(obj).parents("tr").remove();
+							layer.msg(data.msg,{icon:1,time:2000});
+						}else{
+							layer.msg(data.msg,{icon:2,time:2000});
+						}
+					},
+					error:function(data) {
+						alert(data.msg);
+					},
+				});		
+			});
+		}
+		//封装ajax
+		
+	</script>
+</body>
+</html>

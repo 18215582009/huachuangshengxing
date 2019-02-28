@@ -1,0 +1,631 @@
+---------------------------------------------------------------
+[ 2019-02-27T20:21:26+08:00 ] 222.210.15.199 GET www.blankblock.cn/gzh/recruit/index.html?u=30
+[运行时间：0.022945s] [吞吐率：43.58req/s] [内存消耗：2,605.13kb] [文件加载：53]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'gzh',
+    1 => 'recruit',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://www.blankblock.cn/gzh/recruit/des.html?r=2&u=30',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_1_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16D57 MicroMessenger/7.0.2(0x17000222) NetType/WIFI Language/zh_CN',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.blankblock.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'u' => '30',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\gzh\controller\Recruit->index[ /data/web/php/ischool/application/gzh/controller/Recruit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/web/php/ischool/public/../application/gzh/view/recruit/index.html [ array (
+  0 => 'list',
+  1 => 'number',
+  2 => 'banner',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000410s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.000692s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `type` = 1 [ RunTime:0.000330s ]
+[ sql ] [ SQL ]  select r.id,r.rec_address,rt.recruit_name,r.settlement,r.requirement,r.recruit_pay,r.area,r.number,r.recruit_times,e.enterprise_name,e.enter_logo,r.start_time from recruit as r LEFT JOIN recruit_type as rt ON r.rec_type_id=rt.id LEFT JOIN enterprise as e ON e.id=r.enter_id where r.id not in (select rn.recruit_id from recruit_enroll rn where rn.user_id=30) and r.start_time>1551270086 ORDER BY r.id DESC [ RunTime:0.000451s ]
+---------------------------------------------------------------
+[ 2019-02-27T20:21:29+08:00 ] 222.210.15.199 GET www.blankblock.cn/gzh/login/index.html
+[运行时间：0.016488s] [吞吐率：60.65req/s] [内存消耗：1,642.77kb] [文件加载：42]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'gzh',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_1_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16D57 MicroMessenger/7.0.2(0x17000222) NetType/WIFI Language/zh_CN',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'www.blankblock.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\gzh\controller\Login->index[ /data/web/php/ischool/application/gzh/controller/Login.php ]
+[ info ] [ VIEW ] /data/web/php/ischool/public/../application/gzh/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-27T20:21:29+08:00 ] 222.210.15.199 GET www.blankblock.cn/gzh/index/index.html?u=30
+[运行时间：0.022360s] [吞吐率：44.72req/s] [内存消耗：1,828.73kb] [文件加载：46]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'gzh',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://www.blankblock.cn/gzh/login/index.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_1_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16D57 MicroMessenger/7.0.2(0x17000222) NetType/WIFI Language/zh_CN',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.blankblock.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'u' => '30',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\gzh\controller\Index->index[ /data/web/php/ischool/application/gzh/controller/Index.php ]
+[ info ] [ VIEW ] /data/web/php/ischool/public/../application/gzh/view/index/index.html [ array (
+  0 => 'u_info',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-27T20:21:30+08:00 ] 222.210.15.199 GET www.blankblock.cn/gzh/index/meresume.html?u=30
+[运行时间：0.026415s] [吞吐率：37.86req/s] [内存消耗：2,604.71kb] [文件加载：53]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'gzh',
+    1 => 'index',
+    2 => 'meresume',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://www.blankblock.cn/gzh/index/index.html?u=30',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_1_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16D57 MicroMessenger/7.0.2(0x17000222) NetType/WIFI Language/zh_CN',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.blankblock.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'u' => '30',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\gzh\controller\Index->meresume[ /data/web/php/ischool/application/gzh/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/web/php/ischool/public/../application/gzh/view/index/meresume.html [ array (
+  0 => 'info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000358s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `recruit_enroll` [ RunTime:0.000687s ]
+[ sql ] [ SQL ] SELECT re.id reid,`r`.`id`,`r`.`rec_address`,`rt`.`recruit_name`,`r`.`settlement`,`r`.`requirement`,`r`.`recruit_pay`,`r`.`area`,`r`.`number`,`r`.`recruit_times`,`e`.`enterprise_name`,`e`.`enter_logo`,`r`.`start_time` FROM `recruit_enroll` `re` LEFT JOIN `recruit` `r` ON `r`.`id`=`re`.`recruit_id` LEFT JOIN `recruit_type` `rt` ON `r`.`rec_type_id`=`rt`.`id` LEFT JOIN `enterprise` `e` ON `e`.`id`=`r`.`enter_id` WHERE  `re`.`user_id` = '30' [ RunTime:0.000585s ]
+---------------------------------------------------------------
+[ 2019-02-27T20:21:55+08:00 ] 222.210.15.199 GET www.blankblock.cn/gzh/recruit/index.html
+[运行时间：0.030937s] [吞吐率：32.32req/s] [内存消耗：2,605.83kb] [文件加载：53]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'gzh',
+    1 => 'recruit',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_1_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16D57 MicroMessenger/7.0.2(0x17000222) NetType/WIFI Language/zh_CN',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'www.blankblock.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\gzh\controller\Recruit->index[ /data/web/php/ischool/application/gzh/controller/Recruit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/web/php/ischool/public/../application/gzh/view/recruit/index.html [ array (
+  0 => 'list',
+  1 => 'number',
+  2 => 'banner',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000409s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.000817s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `type` = 1 [ RunTime:0.000419s ]
+[ sql ] [ SQL ]  select r.id,r.rec_address,rt.recruit_name,r.settlement,r.requirement,r.recruit_pay,r.area,r.number,r.recruit_times,e.enterprise_name,e.enter_logo,r.start_time from recruit as r LEFT JOIN recruit_type as rt ON r.rec_type_id=rt.id LEFT JOIN enterprise as e ON e.id=r.enter_id where r.id not in (select rn.recruit_id from recruit_enroll rn where rn.user_id=29) and r.start_time>1551270115 ORDER BY r.id DESC [ RunTime:0.000464s ]
+---------------------------------------------------------------
+[ 2019-02-27T20:22:16+08:00 ] 222.210.15.199 GET www.blankblock.cn/gzh/recruit/index.html
+[运行时间：0.025291s] [吞吐率：39.54req/s] [内存消耗：2,605.83kb] [文件加载：53]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'gzh',
+    1 => 'recruit',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_1_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16D57 MicroMessenger/7.0.2(0x17000222) NetType/WIFI Language/zh_CN',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'www.blankblock.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\gzh\controller\Recruit->index[ /data/web/php/ischool/application/gzh/controller/Recruit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/web/php/ischool/public/../application/gzh/view/recruit/index.html [ array (
+  0 => 'list',
+  1 => 'number',
+  2 => 'banner',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000396s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.000690s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `type` = 1 [ RunTime:0.000368s ]
+[ sql ] [ SQL ]  select r.id,r.rec_address,rt.recruit_name,r.settlement,r.requirement,r.recruit_pay,r.area,r.number,r.recruit_times,e.enterprise_name,e.enter_logo,r.start_time from recruit as r LEFT JOIN recruit_type as rt ON r.rec_type_id=rt.id LEFT JOIN enterprise as e ON e.id=r.enter_id where r.id not in (select rn.recruit_id from recruit_enroll rn where rn.user_id=29) and r.start_time>1551270136 ORDER BY r.id DESC [ RunTime:0.000487s ]
+---------------------------------------------------------------
+[ 2019-02-27T20:22:17+08:00 ] 222.210.15.199 GET www.blankblock.cn/gzh/recruit/des.html?r=2&u=30
+[运行时间：0.038953s] [吞吐率：25.67req/s] [内存消耗：2,610.07kb] [文件加载：53]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'gzh',
+    1 => 'recruit',
+    2 => 'des',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://www.blankblock.cn/gzh/recruit/index.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_1_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16D57 MicroMessenger/7.0.2(0x17000222) NetType/WIFI Language/zh_CN',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.blankblock.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'r' => '2',
+  'u' => '30',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\gzh\controller\Recruit->des[ /data/web/php/ischool/application/gzh/controller/Recruit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/web/php/ischool/public/../application/gzh/view/recruit/des.html [ array (
+  0 => 'dec',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000587s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `recruit` [ RunTime:0.000938s ]
+[ sql ] [ SQL ] SELECT `r`.`id`,`r`.`rec_address`,`rt`.`recruit_name`,`r`.`settlement`,`r`.`requirement`,`r`.`recruit_pay`,`r`.`area`,`r`.`number`,`r`.`recruit_times`,`e`.`enterprise_name`,`e`.`enter_logo`,`r`.`start_time`,`r`.`city`,`r`.`big_time`,`r`.`description`,`e`.`phone`,e.id eid FROM `recruit` `r` LEFT JOIN `recruit_type` `rt` ON `r`.`rec_type_id`=`rt`.`id` LEFT JOIN `enterprise` `e` ON `e`.`id`=`r`.`enter_id` WHERE  `r`.`id` = '2' LIMIT 1 [ RunTime:0.000583s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.000925s ]
+[ sql ] [ SQL ] SELECT * FROM `users` WHERE  `sex` IS NULL  AND `user_id` = 30 LIMIT 1 [ RunTime:0.000470s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `recruit_enroll` [ RunTime:0.000808s ]
+[ sql ] [ SQL ] SELECT `id` FROM `recruit_enroll` WHERE  `user_id` = 30  AND `recruit_id` = 2 LIMIT 1 [ RunTime:0.000329s ]
+---------------------------------------------------------------
+[ 2019-02-27T20:22:27+08:00 ] 222.210.15.199 GET www.blankblock.cn/gzh/recruit/info.html?e=1&u=30
+[运行时间：0.030775s] [吞吐率：32.49req/s] [内存消耗：2,537.67kb] [文件加载：52]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'gzh',
+    1 => 'recruit',
+    2 => 'info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://www.blankblock.cn/gzh/recruit/des.html?r=2&u=30',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_1_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16D57 MicroMessenger/7.0.2(0x17000222) NetType/WIFI Language/zh_CN',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.blankblock.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'e' => '1',
+  'u' => '30',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\gzh\controller\Recruit->info[ /data/web/php/ischool/application/gzh/controller/Recruit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/web/php/ischool/public/../application/gzh/view/recruit/info.html [ array (
+  0 => 'info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000471s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `enterprise` [ RunTime:0.000901s ]
+[ sql ] [ SQL ] SELECT `e`.`enterprise_name`,`e`.`enter_logo`,`e`.`p_from`,`e`.`scale`,`e`.`financing`,`e`.`phone`,`e`.`enter_dis`,`e`.`enter_type`,`stationed`,`e`.`real_enter`,`e`.`area`,`e`.`city`,`e`.`info_address`,`e`.`id` FROM `enterprise` `e` WHERE  `e`.`id` = '1' LIMIT 1 [ RunTime:0.000461s ]
+---------------------------------------------------------------
+[ 2019-02-27T20:22:40+08:00 ] 222.210.15.199 GET www.blankblock.cn/gzh/login/index.html
+[运行时间：0.015297s] [吞吐率：65.37req/s] [内存消耗：1,642.77kb] [文件加载：42]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'gzh',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_1_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16D57 MicroMessenger/7.0.2(0x17000222) NetType/WIFI Language/zh_CN',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'www.blankblock.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\gzh\controller\Login->index[ /data/web/php/ischool/application/gzh/controller/Login.php ]
+[ info ] [ VIEW ] /data/web/php/ischool/public/../application/gzh/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-27T20:22:40+08:00 ] 222.210.15.199 GET www.blankblock.cn/gzh/index/index.html?u=30
+[运行时间：0.018363s] [吞吐率：54.46req/s] [内存消耗：1,828.73kb] [文件加载：46]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'gzh',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://www.blankblock.cn/gzh/login/index.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_1_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16D57 MicroMessenger/7.0.2(0x17000222) NetType/WIFI Language/zh_CN',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.blankblock.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'u' => '30',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\gzh\controller\Index->index[ /data/web/php/ischool/application/gzh/controller/Index.php ]
+[ info ] [ VIEW ] /data/web/php/ischool/public/../application/gzh/view/index/index.html [ array (
+  0 => 'u_info',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-27T20:22:41+08:00 ] 54.91.154.111 GET 148.70.73.177/
+[运行时间：0.013047s] [吞吐率：76.65req/s] [内存消耗：1,247.08kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+  'user-agent' => 'Cloud mapping experiment. Contact research@pdrlabs.net',
+  'host' => '148.70.73.177',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-27T20:25:47+08:00 ] 222.210.15.199 GET www.blankblock.cn/gzh/recruit/index.html
+[运行时间：0.026037s] [吞吐率：38.41req/s] [内存消耗：2,605.83kb] [文件加载：53]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'gzh',
+    1 => 'recruit',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_1_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16D57 MicroMessenger/7.0.2(0x17000222) NetType/WIFI Language/zh_CN',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'www.blankblock.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\gzh\controller\Recruit->index[ /data/web/php/ischool/application/gzh/controller/Recruit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/web/php/ischool/public/../application/gzh/view/recruit/index.html [ array (
+  0 => 'list',
+  1 => 'number',
+  2 => 'banner',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000377s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.000911s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `type` = 1 [ RunTime:0.000399s ]
+[ sql ] [ SQL ]  select r.id,r.rec_address,rt.recruit_name,r.settlement,r.requirement,r.recruit_pay,r.area,r.number,r.recruit_times,e.enterprise_name,e.enter_logo,r.start_time from recruit as r LEFT JOIN recruit_type as rt ON r.rec_type_id=rt.id LEFT JOIN enterprise as e ON e.id=r.enter_id where r.id not in (select rn.recruit_id from recruit_enroll rn where rn.user_id=29) and r.start_time>1551270347 ORDER BY r.id DESC [ RunTime:0.000642s ]
+---------------------------------------------------------------
+[ 2019-02-27T21:18:23+08:00 ] 59.36.119.227 GET www.blankblock.cn/gzh/index/index.html?u%3D34
+[运行时间：0.015299s] [吞吐率：65.36req/s] [内存消耗：1,817.03kb] [文件加载：46]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'gzh',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'accept-encoding' => 'deflate, gzip',
+  'host' => 'www.blankblock.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'u=34' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /data/web/php/ischool/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-27T21:28:24+08:00 ] 14.17.3.64 GET www.blankblock.cn/gzh/index/addresume.html
+[运行时间：0.016794s] [吞吐率：59.55req/s] [内存消耗：1,816.74kb] [文件加载：46]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'gzh',
+    1 => 'index',
+    2 => 'addresume',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'accept-encoding' => 'deflate, gzip',
+  'host' => 'www.blankblock.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /data/web/php/ischool/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-27T22:53:02+08:00 ] 187.11.3.170 GET 148.70.73.177:80/
+[运行时间：0.013440s] [吞吐率：74.40req/s] [内存消耗：1,247.17kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'host' => '148.70.73.177:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-27T23:28:49+08:00 ] 163.177.90.152 GET www.blankblock.cn/gzh/recruit/index.html?u%3D34
+[运行时间：0.023587s] [吞吐率：42.40req/s] [内存消耗：2,605.28kb] [文件加载：53]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'gzh',
+    1 => 'recruit',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'accept-encoding' => 'deflate, gzip',
+  'host' => 'www.blankblock.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'u=34' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\gzh\controller\Recruit->index[ /data/web/php/ischool/application/gzh/controller/Recruit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/web/php/ischool/public/../application/gzh/view/recruit/index.html [ array (
+  0 => 'list',
+  1 => 'number',
+  2 => 'banner',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000375s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.000857s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `type` = 1 [ RunTime:0.000299s ]
+[ sql ] [ SQL ]  select r.id,r.rec_address,rt.recruit_name,r.settlement,r.requirement,r.recruit_pay,r.area,r.number,r.recruit_times,e.enterprise_name,e.enter_logo,r.start_time from recruit as r LEFT JOIN recruit_type as rt ON r.rec_type_id=rt.id LEFT JOIN enterprise as e ON e.id=r.enter_id where r.id not in (select rn.recruit_id from recruit_enroll rn where rn.user_id=29) and r.start_time>1551281329 ORDER BY r.id DESC [ RunTime:0.000603s ]
+---------------------------------------------------------------
+[ 2019-02-27T23:38:15+08:00 ] 58.251.121.186 GET www.blankblock.cn/gzh/recruit/search.html
+[运行时间：0.027318s] [吞吐率：36.61req/s] [内存消耗：1,799.13kb] [文件加载：46]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'gzh',
+    1 => 'recruit',
+    2 => 'search',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'accept-encoding' => 'deflate, gzip',
+  'host' => 'www.blankblock.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /data/web/php/ischool/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-27T23:57:09+08:00 ] 59.36.119.226 GET www.blankblock.cn/gzh/index/resume.html?u%3D34
+[运行时间：0.019071s] [吞吐率：52.44req/s] [内存消耗：1,817.05kb] [文件加载：46]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'gzh',
+    1 => 'index',
+    2 => 'resume',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'accept-encoding' => 'deflate, gzip',
+  'host' => 'www.blankblock.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'u=34' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /data/web/php/ischool/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File

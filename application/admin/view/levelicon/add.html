@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="renderer" content="webkit|ie-comp|ie-stand">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+	<meta http-equiv="Cache-Control" content="no-siteapp" />
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="/static/lib/html5shiv.js"></script>
+	<script type="text/javascript" src="/static/lib/respond.min.js"></script>
+	<![endif]-->
+	<link rel="stylesheet" type="text/css" href="/static/h-ui/css/H-ui.min.css" />
+	<link rel="stylesheet" type="text/css" href="/static/h-ui.admin/css/H-ui.admin.css" />
+	<link rel="stylesheet" type="text/css" href="/static/lib/Hui-iconfont/1.0.8/iconfont.css" />
+	<link rel="stylesheet" type="text/css" href="/static/h-ui.admin/skin/default/skin.css" id="skin" />
+	<link rel="stylesheet" type="text/css" href="/static/h-ui.admin/css/style.css" />
+	<!--[if IE 6]>
+	<script type="text/javascript" src="/static/lib/DD_belatedPNG_0.0.8a-min.js" ></script>
+	<script>DD_belatedPNG.fix('*');</script>
+	<![endif]-->
+	<title>添加等级图标</title>
+	<link href="/static/lib/webuploader/0.1.5/webuploader.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<div class="page-container">
+		<form class="form form-horizontal" id="form-banner-add">
+			<div class="row cl">
+				<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>缩略图：</label>
+				<div class="formControls col-xs-8 col-sm-9">
+					<span class="btn-upload form-group">
+	                    <input style="margin-right: 5px;width:200px;" class="input-text upload-url radius" type="text" name="" value="" id="uploadfile-1" readonly required>
+	                    <a href="javascript:" class="btn btn-primary radius"><i class="Hui-iconfont">&#xe642;</i> 浏览文件</a>
+	                    <input type="file" name="" class="input-file" onchange="UpImages(this,location.href)">
+	                    <input type="hidden" name="url" id="ThumbnailUrl" value="">
+	                </span>
+				</div>
+				<label class="form-label col-xs-4 col-sm-2"></label>
+				<div class="formControls col-xs-8 col-sm-9">
+	                <span class="btn-upload form-group" style="width:100px;min-height:100px;">
+	                    <img src="/" class="img-responsive" alt="响应式图片">
+	                </span>
+				</div>
+			</div>
+			<div class="row cl">
+				<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-3">
+					<button type="submit" class="btn btn-success radius" id="admin-role-save" ><i class="icon-ok"></i> 确定</button>
+				</div>
+			</div>
+		</form>
+	</div>
+	<!--_footer 作为公共模版分离出去-->
+	<script type="text/javascript" src="/static/lib/jquery/1.9.1/jquery.min.js"></script> 
+	<script type="text/javascript" src="/static/lib/layer/2.4/layer.js"></script>
+	<script type="text/javascript" src="/static/h-ui/js/H-ui.min.js"></script> 
+	<script type="text/javascript" src="/static/h-ui.admin/js/H-ui.admin.js"></script>
+	<!--/_footer /作为公共模版分离出去-->
+	<!--请在下方写此页面业务相关的脚本-->
+	<script type="text/javascript" src="/static/lib/jquery.validation/1.14.0/jquery.validate.js"></script> 
+	<script type="text/javascript" src="/static/lib/jquery.validation/1.14.0/validate-methods.js"></script> 
+	<script type="text/javascript" src="/static/lib/jquery.validation/1.14.0/messages_zh.js"></script> 
+	<script type="text/javascript" src="/static/lib/webuploader/0.1.5/webuploader.min.js"></script>
+	<script type="text/javascript">
+		//图片上传js
+		function UpImages(obj,url){
+			var formData = new FormData();
+			var inputFile = $(obj)[0].files;
+			if (inputFile.length > 1) {
+				for (var i = 0; i < inputFile.length; i++) {
+					formData.append("image[]", inputFile[i]);
+				}
+			} else {
+				formData.append('image', inputFile[0]);
+			}
+			$.ajax({
+				url: url,
+				type: 'POST',
+				data: formData,
+				async: false,
+				cache: false,
+				contentType: false,
+				processData: false,
+				dataType: "json",
+				success: function (d) {
+					if (d.status == 200) {
+						$("#ThumbnailUrl").val(d.data.url);
+						$(".img-responsive").attr("src", "/"+d.data.url);
+
+					} else {
+						layer.msg(d.msg);
+					}
+
+				},
+				error: function (e) {
+					console.log(e);
+				}
+			});
+		}
+		$(function(){
+			$("#form-banner-add").validate({
+				rules:{
+					type:{
+						required:true,
+					},
+					status:{
+						required:true,
+					},
+				},
+				onkeyup:false,
+				focusCleanup:true,
+				success:"valid",
+				submitHandler:function(form){
+					$(form).ajaxSubmit({
+						type: "post",
+						url: '/admin/levelicon/add.html',
+						dataType: "json",
+						success: function (data) {
+							if (data.status == 200) {
+								parent.parent.layer.msg(data.msg,{icon:1,time:2000});
+								var index = parent.parent.layer.getFrameIndex(window.name);
+								parent.history.go(0);
+								parent.parent.layer.close(index);
+							} else {
+								parent.parent.layer.msg(data.msg,{icon:2,time:2000});
+							}
+						}
+					});
+				}
+			});
+		});
+	</script>
+</body>
+</html>

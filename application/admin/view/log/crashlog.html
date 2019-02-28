@@ -1,0 +1,232 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="renderer" content="webkit|ie-comp|ie-stand">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+	<meta http-equiv="Cache-Control" content="no-siteapp" />
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="/static/lib/html5shiv.js"></script>
+	<script type="text/javascript" src="/static/lib/respond.min.js"></script>
+	<![endif]-->
+	<link rel="stylesheet" type="text/css" href="/static/h-ui/css/H-ui.min.css" />
+	<link rel="stylesheet" type="text/css" href="/static/h-ui.admin/css/H-ui.admin.css" />
+	<link rel="stylesheet" type="text/css" href="/static/lib/Hui-iconfont/1.0.8/iconfont.css" />
+	<link rel="stylesheet" type="text/css" href="/static/h-ui.admin/skin/default/skin.css" id="skin" />
+	<link rel="stylesheet" type="text/css" href="/static/h-ui.admin/css/style.css" />
+	<!--[if IE 6]>
+	<script type="text/javascript" src="/static/lib/DD_belatedPNG_0.0.8a-min.js" ></script>
+	<script>DD_belatedPNG.fix('*');</script>
+	<![endif]-->
+	<title>app崩溃日志</title>
+	<style type="text/css">
+		.dataTables_info {clear: both;float: left;padding-top: 10px;font-size: 14px;color: #666;}
+		.pagination{float: right;padding-top: 10px;text-align: right;}
+		.pagination>li{border: 1px solid #ccc;cursor: pointer;display: inline-block;margin-left: 2px;text-align: center;text-decoration: none;color: #666;height: 26px;line-height: 26px;text-decoration: none;margin: 0 0 6px 6px;padding: 0 10px;font-size: 14px;}
+		.fb-1{height:20px;}
+		.fb-1>img{display:block;height:100%;float:left;cursor:pointer;}
+	</style>
+</head>
+<body>
+	<nav class="breadcrumb">
+		<i class="Hui-iconfont">&#xe67f;</i> 首页 
+		<span class="c-gray en">&gt;</span> 日志管理 
+		<span class="c-gray en">&gt;</span> app崩溃日志 
+		<a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" >
+			<i class="Hui-iconfont">&#xe68f;</i>
+		</a>
+	</nav>
+	<div class="page-container">
+		<form class="form form-horizontal" id="form-admin-add" action="">
+		<div class="text-c">
+			<span class="select-box inline">
+				<select name="comefrom" class="select">
+					<option value="">来源</option>
+					<option value="android" {{if($fanye.comefrom=='android')}} selected {{/if}}>android</option>
+					<option value="ios" {{if($fanye.comefrom=='ios')}} selected {{/if}}>ios</option>
+				</select>
+			</span>
+			<span class="select-box inline">
+				<select name="phone_model" class="select">
+					<option value="">机型</option>
+					{{volist name='phone_models' id='vo'}}
+					<option value="{{$vo.phone_model}}" {{if($fanye.phone_model==$vo.phone_model)}} selected {{/if}}>{{$vo.phone_model}}</option>
+					{{/volist}}
+				</select>
+			</span>
+			<span class="select-box inline">
+				<select name="status" class="select">
+					<option value="">状态</option>
+					{{volist name='status' id='vo' key='k'}}
+					<option value="1" {{if($fanye.status==$k)}} selected {{/if}}>{{$vo}}</option>
+					{{/volist}}
+				</select>
+			</span>
+			<input type="text" class="input-text" style="width:250px" placeholder="日志关键词" name="content" value="{{$fanye.content}}">
+			<button type="submit" class="btn btn-success radius" id="" name="">
+				<i class="Hui-iconfont">&#xe665;</i> 搜索
+			</button>
+		</div>
+		</form>
+		<div class="cl pd-5 bg-1 bk-gray mt-20"> 
+			<span class="r">共有数据：<strong>{{$page.total}}</strong> 条</span> 
+		</div>
+		<div class="mt-20">
+			<table class="table table-border table-bordered table-hover table-bg table-sort">
+				<thead>
+					<tr class="text-c">
+						<th width="25"><input type="checkbox" name="" value=""></th>
+						<th width="60">ID</th>
+						<th width="60">来源</th>
+						<th>日志内容</th>
+						<th>机型</th>
+						<th>状态</th>
+						<th width="100">操作</th>
+					</tr>
+				</thead>
+				<tbody>
+					{{volist name='data' id='vo'}}
+					<tr class="text-c">
+						<td><input type="checkbox" value="{{$vo.id}}" name=""></td>
+						<td>{{$vo.id}}</td>
+						<td>
+							{{$vo.comefrom}}
+						</td>
+						<td class="text-l">
+							<div class="c-999 f-12">
+								<span class="ml-20" style="width: 100px;overflow: hidden;">{{$vo.content}}</span>
+								<br>
+								<span class="ml-20">{{$vo.nickname}}（{{$vo.username}}，{{$vo.user_id}}）</span>
+								<u style="cursor:pointer;float: right;" class="text-primary" onclick="member_show('查看详情','/admin/crashlog/show.html?id={{$vo.id}}','800','500')">查看详情
+								</u> 
+								<span class="ml-20" style="float: right;">{{$vo.create_time}}&nbsp;&nbsp;</span>
+							</div>
+						</td>
+						<td>
+							{{$vo.phone_model}}
+						</td>
+						<td class="td-status" style="color:{{if($vo.status==1)}} darkorange {{/if}} {{if($vo.status==2)}} green {{/if}} {{if($vo.status==3)}} red {{/if}};">
+							{{$vo.status_name}}
+						</td>
+						<td class="td-manage">
+							{{if( action('Base/is_power','/admin/crashlog/shenhe.html') )}}
+								{{if($vo.status==1 || $vo.status==3)}}
+								<a class="c-primary" onClick="article_shenhe(this,{{$vo.id}})" href="javascript:;" title="解决">解决</a> 
+								{{/if}}
+								{{if($vo.status==2)}}
+								<a class="c-primary" onClick="article_shenhe2(this,{{$vo.id}})" href="javascript:;" title="标记">标记</a> 
+								{{/if}}
+							{{/if}}
+						</td>
+					</tr>
+					{{/volist}}
+				</tbody>
+			</table>
+			{{if($page.last>1)}}
+			<div class="dataTables_info">当前第 {{$page.current}} 页 共 {{$page.last}} 页</div>
+			{{$page_data->render()}}
+			{{/if}}
+		</div>
+	</div>
+	<!--_footer 作为公共模版分离出去-->
+	<script type="text/javascript" src="/static/lib/jquery/1.9.1/jquery.min.js"></script> 
+	<script type="text/javascript" src="/static/lib/layer/2.4/layer.js"></script>  
+	<script type="text/javascript" src="/static/h-ui/js/H-ui.min.js"></script> 
+	<script type="text/javascript" src="/static/h-ui.admin/js/H-ui.admin.js"></script> 
+	<!--/_footer /作为公共模版分离出去-->
+	<!--请在下方写此页面业务相关的脚本-->
+	<script type="text/javascript" src="/static/lib/My97DatePicker/4.8/WdatePicker.js"></script> 
+	<script type="text/javascript" src="/static/lib/datatables/1.10.0/jquery.dataTables.min.js"></script> 
+	<script type="text/javascript" src="/static/lib/laypage/1.2/laypage.js"></script>
+	<script type="text/javascript">
+		//查看用户信息
+		function member_show(title,url,w,h){
+			layer_show(title,url,w,h);
+		}
+		/*资讯-解决*/
+		function article_shenhe(obj,id){
+			layer.confirm('解决？', {
+				btn: ['解决中','取消'], 
+				shade: false,
+				closeBtn: 0
+			},
+			function(){
+				$.ajax({
+					type: 'POST',
+					url: '/admin/crashlog/shenhe.html',
+					data:{id:id,status:2},
+					dataType: 'json',
+					success: function(data){
+						if (data.status==200) {
+							$(obj).parents("tr").find(".td-manage").prepend('<a class="c-primary" onClick="article_shenhe2(this,'+id+')" href="javascript:;" title="标记">标记</a>');
+							$(obj).parents("tr").find(".td-status").html('解决中');
+							$(obj).parents("tr").find(".td-status").css('color','green');
+							$(obj).remove();
+							layer.msg(data.msg,{icon:1,time:2000});
+						}else{
+							layer.msg(data.msg,{icon:2,time:2000});
+						}
+					},
+					error:function(data) {
+						alert(data.msg);
+					},
+				});
+			}
+			);
+		}
+		/*资讯-解决2*/
+		function article_shenhe2(obj,id){
+			layer.confirm('标记为？', {
+				btn: ['已解决','未解决','取消'], 
+				shade: false,
+				closeBtn: 0
+			},
+			function(){
+				$.ajax({
+					type: 'POST',
+					url: '/admin/crashlog/shenhe.html',
+					data:{id:id,status:4},
+					dataType: 'json',
+					success: function(data){
+						if (data.status==200) {
+							$(obj).parents("tr").find(".td-status").html('已解决');
+							$(obj).parents("tr").find(".td-status").css('color','#333');
+							$(obj).remove();
+							layer.msg(data.msg,{icon:1,time:2000});
+						}else{
+							layer.msg(data.msg,{icon:2,time:2000});
+						}
+					},
+					error:function(data) {
+						alert(data.msg);
+					},
+				});
+			},
+			function(){
+				$.ajax({
+					type: 'POST',
+					url: '/admin/crashlog/shenhe.html',
+					data:{id:id,status:3},
+					dataType: 'json',
+					success: function(data){
+						if (data.status==200) {
+							$(obj).parents("tr").find(".td-manage").prepend('<a class="c-primary" onClick="article_shenhe(this,'+id+')" href="javascript:;" title="解决">解决</a>');
+							$(obj).parents("tr").find(".td-status").html('未解决');
+							$(obj).parents("tr").find(".td-status").css('color','red');
+							$(obj).remove();
+							layer.msg(data.msg,{icon:1,time:2000});
+						}else{
+							layer.msg(data.msg,{icon:2,time:2000});
+						}
+					},
+					error:function(data) {
+						alert(data.msg);
+					},
+				});
+			},
+			);
+		}
+	</script>
+</body>
+</html>

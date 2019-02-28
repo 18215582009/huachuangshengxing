@@ -1,0 +1,3657 @@
+---------------------------------------------------------------
+[ 2019-02-28T00:01:38+08:00 ] 101.226.102.70 GET www.blankblock.cn/gzh/login/logins.html
+[运行时间：0.017132s] [吞吐率：58.37req/s] [内存消耗：1,574.73kb] [文件加载：39]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'gzh',
+    1 => 'login',
+    2 => 'logins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'accept-encoding' => 'deflate, gzip',
+  'host' => 'www.blankblock.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\gzh\controller\Login->logins[ /data/web/php/ischool/application/gzh/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-28T00:01:39+08:00 ] 14.17.3.64 GET www.blankblock.cn/gzh/login/index.html
+[运行时间：0.021190s] [吞吐率：47.19req/s] [内存消耗：1,641.59kb] [文件加载：42]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'gzh',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'accept-encoding' => 'deflate, gzip',
+  'host' => 'www.blankblock.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\gzh\controller\Login->index[ /data/web/php/ischool/application/gzh/controller/Login.php ]
+[ info ] [ VIEW ] /data/web/php/ischool/public/../application/gzh/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-28T00:06:38+08:00 ] 163.177.90.152 GET 148.70.73.177/%2520
+[运行时间：0.020887s] [吞吐率：47.88req/s] [内存消耗：1,372.74kb] [文件加载：35]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '%20',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'accept-encoding' => 'deflate, gzip',
+  'host' => '148.70.73.177',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-28T00:10:02+08:00 ] 103.231.146.242 GET blankblock.cn/
+[运行时间：0.021340s] [吞吐率：46.86req/s] [内存消耗：1,247.30kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'host' => 'blankblock.cn',
+  'user-agent' => 'Java/1.8.0_172-ea',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-28T00:25:42+08:00 ] 14.17.3.65 GET 148.70.73.177/api/banner/showBanner
+[运行时间：0.042092s] [吞吐率：23.76req/s] [内存消耗：2,740.89kb] [文件加载：55]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'banner',
+    2 => 'showBanner',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'accept-encoding' => 'deflate, gzip',
+  'host' => '148.70.73.177',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Banner->showBanner[ /data/web/php/ischool/application/api/controller/Banner.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003719s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.001449s ]
+[ sql ] [ SQL ] SELECT `banner_id`,`url` FROM `banner` WHERE  `type` = 1  AND `status` = 1 ORDER BY `banner_id` DESC [ RunTime:0.000473s ]
+---------------------------------------------------------------
+[ 2019-02-28T00:32:19+08:00 ] 93.116.189.131 GET 148.70.73.177:80/
+[运行时间：0.012522s] [吞吐率：79.86req/s] [内存消耗：1,247.17kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'host' => '148.70.73.177:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-28T00:45:34+08:00 ] 59.36.119.226 GET 148.70.73.177/api/users/showinfo
+[运行时间：0.023223s] [吞吐率：43.06req/s] [内存消耗：2,703.67kb] [文件加载：54]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'users',
+    2 => 'showinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'accept-encoding' => 'deflate, gzip',
+  'host' => '148.70.73.177',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Users->showInfo[ /data/web/php/ischool/application/api/controller/Users.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-28T01:38:14+08:00 ] 185.214.45.157 GET 148.70.73.177:80/
+[运行时间：0.015150s] [吞吐率：66.01req/s] [内存消耗：1,247.17kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'host' => '148.70.73.177:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-28T02:57:19+08:00 ] 103.233.122.113 GET 148.70.73.177:80/
+[运行时间：0.013681s] [吞吐率：73.09req/s] [内存消耗：1,247.17kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'host' => '148.70.73.177:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-28T03:33:54+08:00 ] 111.118.153.30 GET 148.70.73.177:80/
+[运行时间：0.018682s] [吞吐率：53.53req/s] [内存消耗：1,247.17kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'host' => '148.70.73.177:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-28T03:57:58+08:00 ] 103.107.176.6 GET 148.70.73.177:80/
+[运行时间：0.013290s] [吞吐率：75.24req/s] [内存消耗：1,247.17kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'host' => '148.70.73.177:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-28T04:52:45+08:00 ] 101.226.114.193 GET 148.70.73.177/
+[运行时间：0.016435s] [吞吐率：60.85req/s] [内存消耗：1,249.69kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'accept-encoding' => 'deflate, gzip',
+  'host' => '148.70.73.177',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-28T06:01:57+08:00 ] 106.14.215.243 GET blankblock.cn/
+[运行时间：0.014229s] [吞吐率：70.28req/s] [内存消耗：1,247.36kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'host' => 'blankblock.cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X)',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-28T06:21:15+08:00 ] 120.79.217.140 GET www.blankblock.cn/
+[运行时间：0.014631s] [吞吐率：68.35req/s] [内存消耗：1,247.56kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'host' => 'www.blankblock.cn',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-28T06:25:24+08:00 ] 47.92.29.149 GET blankblock.cn/
+[运行时间：0.011568s] [吞吐率：86.44req/s] [内存消耗：1,247.55kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'host' => 'blankblock.cn',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-28T07:01:01+08:00 ] 186.233.176.35 GET 148.70.73.177:80/
+[运行时间：0.095645s] [吞吐率：10.46req/s] [内存消耗：1,247.30kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7',
+  'host' => '148.70.73.177:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-28T07:11:47+08:00 ] 117.132.183.17 GET 148.70.73.177/
+[运行时间：0.015266s] [吞吐率：65.51req/s] [内存消耗：1,250.05kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'host' => '148.70.73.177',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.104 Safari/537.36',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-28T07:26:14+08:00 ] 103.231.146.242 GET blankblock.cn/
+[运行时间：0.015820s] [吞吐率：63.21req/s] [内存消耗：1,247.30kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'host' => 'blankblock.cn',
+  'user-agent' => 'Java/1.8.0_172-ea',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-28T08:33:01+08:00 ] 188.231.223.189 GET 148.70.73.177:80/
+[运行时间：0.027970s] [吞吐率：35.75req/s] [内存消耗：1,247.17kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'host' => '148.70.73.177:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-28T08:43:35+08:00 ] 41.161.93.2 GET 148.70.73.177:80/
+[运行时间：0.016917s] [吞吐率：59.11req/s] [内存消耗：1,247.30kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7',
+  'host' => '148.70.73.177:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-28T08:48:14+08:00 ] 117.132.183.17 GET www.blankblock.cn/
+[运行时间：0.014144s] [吞吐率：70.70req/s] [内存消耗：1,250.07kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'host' => 'www.blankblock.cn',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.104 Safari/537.36',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-28T09:06:50+08:00 ] 117.136.62.33 GET www.blankblock.cn/gzh/recruit/index.html
+[运行时间：0.286139s] [吞吐率：3.49req/s] [内存消耗：2,605.83kb] [文件加载：53]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'gzh',
+    1 => 'recruit',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_1_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16D57 MicroMessenger/7.0.3(0x17000321) NetType/4G Language/zh_CN',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'www.blankblock.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\gzh\controller\Recruit->index[ /data/web/php/ischool/application/gzh/controller/Recruit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/web/php/ischool/public/../application/gzh/view/recruit/index.html [ array (
+  0 => 'list',
+  1 => 'number',
+  2 => 'banner',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.089548s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.073503s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `type` = 1 [ RunTime:0.000574s ]
+[ sql ] [ SQL ]  select r.id,r.rec_address,rt.recruit_name,r.settlement,r.requirement,r.recruit_pay,r.area,r.number,r.recruit_times,e.enterprise_name,e.enter_logo,r.start_time from recruit as r LEFT JOIN recruit_type as rt ON r.rec_type_id=rt.id LEFT JOIN enterprise as e ON e.id=r.enter_id where r.id not in (select rn.recruit_id from recruit_enroll rn where rn.user_id=29) and r.start_time>1551316010 ORDER BY r.id DESC [ RunTime:0.000746s ]
+---------------------------------------------------------------
+[ 2019-02-28T09:11:47+08:00 ] 117.136.62.33 POST 148.70.73.177/api/banner/showBanner
+[运行时间：0.065742s] [吞吐率：15.21req/s] [内存消耗：2,741.27kb] [文件加载：55]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'banner',
+    2 => 'showBanner',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '131',
+  'accept-language' => 'zh-Hans-CN;q=1, en-CN;q=0.9',
+  'user-agent' => 'you si gu/1.0 (iPhone; iOS 12.1.4; Scale/3.00)',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => '148.70.73.177',
+)
+[ info ] [ PARAM ] array (
+  'app_os' => 'IOS',
+  'app_version' => '1.0',
+  'cid' => '4C586264-49F3-423D-8013-EB2D6CD508A5',
+  'number' => '-1',
+  'tk' => 'f94444d20d7bc3992253210ebf96b5d4',
+  'type' => '1',
+  'user_id' => '34',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Banner->showBanner[ /data/web/php/ischool/application/api/controller/Banner.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000500s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.000922s ]
+[ sql ] [ SQL ] SELECT `banner_id`,`url` FROM `banner` WHERE  `type` = 1  AND `status` = 1 ORDER BY `banner_id` DESC [ RunTime:0.000454s ]
+---------------------------------------------------------------
+[ 2019-02-28T09:12:21+08:00 ] 117.136.62.33 POST 148.70.73.177/api/banner/showBanner
+[运行时间：0.054700s] [吞吐率：18.28req/s] [内存消耗：2,741.12kb] [文件加载：55]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'banner',
+    2 => 'showBanner',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '131',
+  'accept-language' => 'zh-Hans-CN;q=1, en-CN;q=0.9',
+  'user-agent' => 'you si gu/1.0 (iPhone; iOS 12.1.4; Scale/3.00)',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => '148.70.73.177',
+)
+[ info ] [ PARAM ] array (
+  'app_os' => 'IOS',
+  'app_version' => '1.0',
+  'cid' => '4C586264-49F3-423D-8013-EB2D6CD508A5',
+  'number' => '-1',
+  'tk' => 'f94444d20d7bc3992253210ebf96b5d4',
+  'type' => '2',
+  'user_id' => '34',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Banner->showBanner[ /data/web/php/ischool/application/api/controller/Banner.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000365s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.022805s ]
+[ sql ] [ SQL ] SELECT `banner_id`,`url` FROM `banner` WHERE  `type` = 2  AND `status` = 1 ORDER BY `banner_id` DESC [ RunTime:0.000479s ]
+---------------------------------------------------------------
+[ 2019-02-28T09:12:21+08:00 ] 117.136.62.33 POST 148.70.73.177/api/sociality/getModule
+[运行时间：0.119540s] [吞吐率：8.37req/s] [内存消耗：2,617.65kb] [文件加载：53]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'sociality',
+    2 => 'getModule',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '114',
+  'accept-language' => 'zh-Hans-CN;q=1, en-CN;q=0.9',
+  'user-agent' => 'you si gu/1.0 (iPhone; iOS 12.1.4; Scale/3.00)',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => '148.70.73.177',
+)
+[ info ] [ PARAM ] array (
+  'app_os' => 'IOS',
+  'app_version' => '1.0',
+  'cid' => '4C586264-49F3-423D-8013-EB2D6CD508A5',
+  'tk' => 'f94444d20d7bc3992253210ebf96b5d4',
+  'user_id' => '34',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\Sociality->getModule[ /data/web/php/ischool/application/api/controller/Sociality.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000474s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sociality_type` [ RunTime:0.000651s ]
+[ sql ] [ SQL ] SELECT type_name s_type_name,id pid,`icon` FROM `sociality_type` WHERE  `pid` = 0 [ RunTime:0.000321s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `s_sociality_type` [ RunTime:0.001503s ]
+[ sql ] [ SQL ] SELECT sst.type_name s_type_name,sst.id s_type_id,`sst`.`icon`,`st`.`pid`,st.id type_id,`st`.`type_name` FROM `s_sociality_type` `sst` LEFT JOIN `sociality_type` `st` ON `st`.`id`=`sst`.`type_id` WHERE  `sst`.`id` = '9' LIMIT 1 [ RunTime:0.001544s ]
+[ sql ] [ SQL ] SELECT sst.type_name s_type_name,sst.id s_type_id,`sst`.`icon`,`st`.`pid`,st.id type_id,`st`.`type_name` FROM `s_sociality_type` `sst` LEFT JOIN `sociality_type` `st` ON `st`.`id`=`sst`.`type_id` WHERE  `sst`.`id` = '5' LIMIT 1 [ RunTime:0.002378s ]
+[ sql ] [ SQL ] SELECT sst.type_name s_type_name,sst.id s_type_id,`sst`.`icon`,`st`.`pid`,st.id type_id,`st`.`type_name` FROM `s_sociality_type` `sst` LEFT JOIN `sociality_type` `st` ON `st`.`id`=`sst`.`type_id` WHERE  `sst`.`id` = '11' LIMIT 1 [ RunTime:0.000263s ]
+---------------------------------------------------------------
+[ 2019-02-28T09:12:21+08:00 ] 117.136.62.33 POST 148.70.73.177/api/sociality/serveObtain
+[运行时间：0.110958s] [吞吐率：9.01req/s] [内存消耗：2,643.88kb] [文件加载：54]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'sociality',
+    2 => 'serveObtain',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '114',
+  'accept-language' => 'zh-Hans-CN;q=1, en-CN;q=0.9',
+  'user-agent' => 'you si gu/1.0 (iPhone; iOS 12.1.4; Scale/3.00)',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => '148.70.73.177',
+)
+[ info ] [ PARAM ] array (
+  'app_os' => 'IOS',
+  'app_version' => '1.0',
+  'cid' => '4C586264-49F3-423D-8013-EB2D6CD508A5',
+  'tk' => 'f94444d20d7bc3992253210ebf96b5d4',
+  'user_id' => '34',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\Sociality->serveObtain[ /data/web/php/ischool/application/api/controller/Sociality.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015133s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.000960s ]
+[ sql ] [ SQL ] SELECT `school` FROM `users` WHERE  `user_id` = 34 LIMIT 1 [ RunTime:0.000355s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `s_serve` [ RunTime:0.001134s ]
+[ sql ] [ SQL ] SELECT sst.id type_id,st.type_name p_name,ss.plays_id serve_id,`event_title`,`sst`.`type_name`,`u`.`head_image`,`u`.`nickname`,`us`.`grade`,`ss`.`user_id`,`ss`.`launch`,`ss`.`charging`,`ss`.`funds`,`ss`.`images` FROM `s_serve` `ss` LEFT JOIN `s_sociality_type` `sst` ON `ss`.`about_type_id`=`sst`.`id` LEFT JOIN `sociality_type` `st` ON `st`.`id`=`sst`.`type_id` LEFT JOIN `users` `u` ON `ss`.`user_id`=`u`.`user_id` LEFT JOIN `users_secretary` `us` ON `u`.`user_id`=`us`.`user_id` WHERE  `st`.`pid` = 1  AND (   u.school=1 )  AND `end_times` > 1551316341  AND `ss`.`status` = 1 ORDER BY `ss`.`launch` DESC LIMIT 0,10 [ RunTime:0.001923s ]
+---------------------------------------------------------------
+[ 2019-02-28T09:12:21+08:00 ] 117.136.62.33 POST 148.70.73.177/api/sociality/playsObtain
+[运行时间：0.060721s] [吞吐率：16.47req/s] [内存消耗：2,661.88kb] [文件加载：54]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'sociality',
+    2 => 'playsObtain',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '114',
+  'accept-language' => 'zh-Hans-CN;q=1, en-CN;q=0.9',
+  'user-agent' => 'you si gu/1.0 (iPhone; iOS 12.1.4; Scale/3.00)',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => '148.70.73.177',
+)
+[ info ] [ PARAM ] array (
+  'app_os' => 'IOS',
+  'app_version' => '1.0',
+  'cid' => '4C586264-49F3-423D-8013-EB2D6CD508A5',
+  'tk' => 'f94444d20d7bc3992253210ebf96b5d4',
+  'user_id' => '34',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\Sociality->playsObtain[ /data/web/php/ischool/application/api/controller/Sociality.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010562s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.001061s ]
+[ sql ] [ SQL ] SELECT `school` FROM `users` WHERE  `user_id` = 34 LIMIT 1 [ RunTime:0.000309s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sociality_type` [ RunTime:0.000522s ]
+[ sql ] [ SQL ] SELECT `st`.`id`,`st`.`type_name` FROM `sociality_type` `st` WHERE  `pid` = 2 [ RunTime:0.000278s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `s_sociality_type` [ RunTime:0.000524s ]
+[ sql ] [ SQL ] SELECT `id` FROM `s_sociality_type` WHERE  `type_id` = 6 [ RunTime:0.000271s ]
+[ sql ] [ SQL ] SELECT `id` FROM `s_sociality_type` WHERE  `type_id` = 7 [ RunTime:0.000209s ]
+[ sql ] [ SQL ] SELECT `id` FROM `s_sociality_type` WHERE  `type_id` = 8 [ RunTime:0.000187s ]
+[ sql ] [ SQL ] SELECT `id` FROM `s_sociality_type` WHERE  `type_id` = 9 [ RunTime:0.000183s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `plays` [ RunTime:0.000524s ]
+[ sql ] [ SQL ] SELECT `p`.`plays_id`,`p`.`event_title`,`sst`.`type_name`,`u`.`head_image`,`p`.`user_id`,`u`.`nickname`,`us`.`grade`,`p`.`launch`,`p`.`funds`,`p`.`images`,`p`.`p_start`,`p`.`end_times`,`u`.`sex`,`p`.`p_address`,`p`.`number`,`p`.`ask` FROM `plays` `p` LEFT JOIN `s_sociality_type` `sst` ON `p`.`about_type_id`=`sst`.`id` LEFT JOIN `sociality_type` `st` ON `st`.`id`=`sst`.`type_id` LEFT JOIN `users` `u` ON `p`.`user_id`=`u`.`user_id` LEFT JOIN `users_secretary` `us` ON `u`.`user_id`=`us`.`user_id` WHERE  (   p.about_type_id in ( 9,11 ) and u.school=1 )  AND `p_start` > 1551316341  AND `p`.`status` = 1 ORDER BY `p`.`launch` DESC LIMIT 0,3 [ RunTime:0.000856s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `plays_attach` [ RunTime:0.000540s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `plays_attach` WHERE  `plays_id` = 19 LIMIT 1 [ RunTime:0.000234s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `plays_attach` WHERE  `plays_id` = 24 LIMIT 1 [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `plays_attach` WHERE  `plays_id` = 25 LIMIT 1 [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SELECT `p`.`plays_id`,`p`.`event_title`,`sst`.`type_name`,`u`.`head_image`,`p`.`user_id`,`u`.`nickname`,`us`.`grade`,`p`.`launch`,`p`.`funds`,`p`.`images`,`p`.`p_start`,`p`.`end_times`,`u`.`sex`,`p`.`p_address`,`p`.`number`,`p`.`ask` FROM `plays` `p` LEFT JOIN `s_sociality_type` `sst` ON `p`.`about_type_id`=`sst`.`id` LEFT JOIN `sociality_type` `st` ON `st`.`id`=`sst`.`type_id` LEFT JOIN `users` `u` ON `p`.`user_id`=`u`.`user_id` LEFT JOIN `users_secretary` `us` ON `u`.`user_id`=`us`.`user_id` WHERE  (   p.about_type_id in ( 6 ) and u.school=1 )  AND `p_start` > 1551316341  AND `p`.`status` = 1 ORDER BY `p`.`launch` DESC LIMIT 0,3 [ RunTime:0.000781s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `plays_attach` WHERE  `plays_id` = 23 LIMIT 1 [ RunTime:0.000212s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `plays_attach` WHERE  `plays_id` = 22 LIMIT 1 [ RunTime:0.000193s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `plays_attach` WHERE  `plays_id` = 21 LIMIT 1 [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SELECT `p`.`plays_id`,`p`.`event_title`,`sst`.`type_name`,`u`.`head_image`,`p`.`user_id`,`u`.`nickname`,`us`.`grade`,`p`.`launch`,`p`.`funds`,`p`.`images`,`p`.`p_start`,`p`.`end_times`,`u`.`sex`,`p`.`p_address`,`p`.`number`,`p`.`ask` FROM `plays` `p` LEFT JOIN `s_sociality_type` `sst` ON `p`.`about_type_id`=`sst`.`id` LEFT JOIN `sociality_type` `st` ON `st`.`id`=`sst`.`type_id` LEFT JOIN `users` `u` ON `p`.`user_id`=`u`.`user_id` LEFT JOIN `users_secretary` `us` ON `u`.`user_id`=`us`.`user_id` WHERE  (   p.about_type_id in ( 7 ) and u.school=1 )  AND `p_start` > 1551316341  AND `p`.`status` = 1 ORDER BY `p`.`launch` DESC LIMIT 0,3 [ RunTime:0.000677s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `plays_attach` WHERE  `plays_id` = 16 LIMIT 1 [ RunTime:0.000241s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `plays_attach` WHERE  `plays_id` = 14 LIMIT 1 [ RunTime:0.000241s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `plays_attach` WHERE  `plays_id` = 13 LIMIT 1 [ RunTime:0.000249s ]
+[ sql ] [ SQL ] SELECT `p`.`plays_id`,`p`.`event_title`,`sst`.`type_name`,`u`.`head_image`,`p`.`user_id`,`u`.`nickname`,`us`.`grade`,`p`.`launch`,`p`.`funds`,`p`.`images`,`p`.`p_start`,`p`.`end_times`,`u`.`sex`,`p`.`p_address`,`p`.`number`,`p`.`ask` FROM `plays` `p` LEFT JOIN `s_sociality_type` `sst` ON `p`.`about_type_id`=`sst`.`id` LEFT JOIN `sociality_type` `st` ON `st`.`id`=`sst`.`type_id` LEFT JOIN `users` `u` ON `p`.`user_id`=`u`.`user_id` LEFT JOIN `users_secretary` `us` ON `u`.`user_id`=`us`.`user_id` WHERE  (   p.about_type_id in ( 8 ) and u.school=1 )  AND `p_start` > 1551316341  AND `p`.`status` = 1 ORDER BY `p`.`launch` DESC LIMIT 0,3 [ RunTime:0.000633s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `plays_attach` WHERE  `plays_id` = 10 LIMIT 1 [ RunTime:0.000230s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `plays_attach` WHERE  `plays_id` = 1 LIMIT 1 [ RunTime:0.000256s ]
+---------------------------------------------------------------
+[ 2019-02-28T09:12:22+08:00 ] 117.136.62.33 POST 148.70.73.177/api/sociality/obtainType
+[运行时间：0.034352s] [吞吐率：29.11req/s] [内存消耗：2,616.05kb] [文件加载：53]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'sociality',
+    2 => 'obtainType',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '124',
+  'accept-language' => 'zh-Hans-CN;q=1, en-CN;q=0.9',
+  'user-agent' => 'you si gu/1.0 (iPhone; iOS 12.1.4; Scale/3.00)',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => '148.70.73.177',
+)
+[ info ] [ PARAM ] array (
+  'app_os' => 'IOS',
+  'app_version' => '1.0',
+  'cid' => '4C586264-49F3-423D-8013-EB2D6CD508A5',
+  'tk' => 'f94444d20d7bc3992253210ebf96b5d4',
+  'type_id' => '1',
+  'user_id' => '34',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\Sociality->obtainType[ /data/web/php/ischool/application/api/controller/Sociality.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000475s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sociality_type` [ RunTime:0.001023s ]
+[ sql ] [ SQL ] SELECT `st`.`id`,`st`.`type_name`,`icon` FROM `sociality_type` `st` WHERE  `st`.`pid` = '1'  AND `st`.`status` = 1 [ RunTime:0.000526s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `s_sociality_type` [ RunTime:0.000899s ]
+[ sql ] [ SQL ] SELECT `type_name`,id s_type_id,`icon` FROM `s_sociality_type` WHERE  `type_id` = 3 [ RunTime:0.000403s ]
+[ sql ] [ SQL ] SELECT `type_name`,id s_type_id,`icon` FROM `s_sociality_type` WHERE  `type_id` = 4 [ RunTime:0.000372s ]
+[ sql ] [ SQL ] SELECT `type_name`,id s_type_id,`icon` FROM `s_sociality_type` WHERE  `type_id` = 5 [ RunTime:0.000326s ]
+---------------------------------------------------------------
+[ 2019-02-28T09:12:30+08:00 ] 117.136.62.33 POST 148.70.73.177/api/sociality/obtainType
+[运行时间：0.032912s] [吞吐率：30.38req/s] [内存消耗：2,616.90kb] [文件加载：53]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'sociality',
+    2 => 'obtainType',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '124',
+  'accept-language' => 'zh-Hans-CN;q=1, en-CN;q=0.9',
+  'user-agent' => 'you si gu/1.0 (iPhone; iOS 12.1.4; Scale/3.00)',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => '148.70.73.177',
+)
+[ info ] [ PARAM ] array (
+  'app_os' => 'IOS',
+  'app_version' => '1.0',
+  'cid' => '4C586264-49F3-423D-8013-EB2D6CD508A5',
+  'tk' => 'f94444d20d7bc3992253210ebf96b5d4',
+  'type_id' => '2',
+  'user_id' => '34',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\Sociality->obtainType[ /data/web/php/ischool/application/api/controller/Sociality.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000436s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sociality_type` [ RunTime:0.000739s ]
+[ sql ] [ SQL ] SELECT `st`.`id`,`st`.`type_name`,`icon` FROM `sociality_type` `st` WHERE  `st`.`pid` = '2'  AND `st`.`status` = 1 [ RunTime:0.000326s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `s_sociality_type` [ RunTime:0.000645s ]
+[ sql ] [ SQL ] SELECT `type_name`,id s_type_id,`icon` FROM `s_sociality_type` WHERE  `type_id` = 6 [ RunTime:0.000325s ]
+[ sql ] [ SQL ] SELECT `type_name`,id s_type_id,`icon` FROM `s_sociality_type` WHERE  `type_id` = 7 [ RunTime:0.000255s ]
+[ sql ] [ SQL ] SELECT `type_name`,id s_type_id,`icon` FROM `s_sociality_type` WHERE  `type_id` = 8 [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SELECT `type_name`,id s_type_id,`icon` FROM `s_sociality_type` WHERE  `type_id` = 9 [ RunTime:0.000257s ]
+---------------------------------------------------------------
+[ 2019-02-28T09:12:59+08:00 ] 117.136.62.33 POST 148.70.73.177/api/sociality/obtainType
+[运行时间：0.026466s] [吞吐率：37.78req/s] [内存消耗：2,616.05kb] [文件加载：53]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'sociality',
+    2 => 'obtainType',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '124',
+  'accept-language' => 'zh-Hans-CN;q=1, en-CN;q=0.9',
+  'user-agent' => 'you si gu/1.0 (iPhone; iOS 12.1.4; Scale/3.00)',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => '148.70.73.177',
+)
+[ info ] [ PARAM ] array (
+  'app_os' => 'IOS',
+  'app_version' => '1.0',
+  'cid' => '4C586264-49F3-423D-8013-EB2D6CD508A5',
+  'tk' => 'f94444d20d7bc3992253210ebf96b5d4',
+  'type_id' => '1',
+  'user_id' => '34',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\Sociality->obtainType[ /data/web/php/ischool/application/api/controller/Sociality.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000376s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sociality_type` [ RunTime:0.000648s ]
+[ sql ] [ SQL ] SELECT `st`.`id`,`st`.`type_name`,`icon` FROM `sociality_type` `st` WHERE  `st`.`pid` = '1'  AND `st`.`status` = 1 [ RunTime:0.000307s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `s_sociality_type` [ RunTime:0.000441s ]
+[ sql ] [ SQL ] SELECT `type_name`,id s_type_id,`icon` FROM `s_sociality_type` WHERE  `type_id` = 3 [ RunTime:0.000219s ]
+[ sql ] [ SQL ] SELECT `type_name`,id s_type_id,`icon` FROM `s_sociality_type` WHERE  `type_id` = 4 [ RunTime:0.000236s ]
+[ sql ] [ SQL ] SELECT `type_name`,id s_type_id,`icon` FROM `s_sociality_type` WHERE  `type_id` = 5 [ RunTime:0.000213s ]
+---------------------------------------------------------------
+[ 2019-02-28T09:13:05+08:00 ] 117.136.62.33 POST 148.70.73.177/api/sociality/obtainType
+[运行时间：0.033897s] [吞吐率：29.50req/s] [内存消耗：2,616.05kb] [文件加载：53]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'sociality',
+    2 => 'obtainType',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '124',
+  'accept-language' => 'zh-Hans-CN;q=1, en-CN;q=0.9',
+  'user-agent' => 'you si gu/1.0 (iPhone; iOS 12.1.4; Scale/3.00)',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => '148.70.73.177',
+)
+[ info ] [ PARAM ] array (
+  'app_os' => 'IOS',
+  'app_version' => '1.0',
+  'cid' => '4C586264-49F3-423D-8013-EB2D6CD508A5',
+  'tk' => 'f94444d20d7bc3992253210ebf96b5d4',
+  'type_id' => '1',
+  'user_id' => '34',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\Sociality->obtainType[ /data/web/php/ischool/application/api/controller/Sociality.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000460s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sociality_type` [ RunTime:0.000938s ]
+[ sql ] [ SQL ] SELECT `st`.`id`,`st`.`type_name`,`icon` FROM `sociality_type` `st` WHERE  `st`.`pid` = '1'  AND `st`.`status` = 1 [ RunTime:0.000454s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `s_sociality_type` [ RunTime:0.000591s ]
+[ sql ] [ SQL ] SELECT `type_name`,id s_type_id,`icon` FROM `s_sociality_type` WHERE  `type_id` = 3 [ RunTime:0.000369s ]
+[ sql ] [ SQL ] SELECT `type_name`,id s_type_id,`icon` FROM `s_sociality_type` WHERE  `type_id` = 4 [ RunTime:0.000291s ]
+[ sql ] [ SQL ] SELECT `type_name`,id s_type_id,`icon` FROM `s_sociality_type` WHERE  `type_id` = 5 [ RunTime:0.000308s ]
+---------------------------------------------------------------
+[ 2019-02-28T09:13:06+08:00 ] 117.136.62.33 POST 148.70.73.177/api/sociality/obtainSerType
+[运行时间：0.034069s] [吞吐率：29.35req/s] [内存消耗：2,609.95kb] [文件加载：54]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'sociality',
+    2 => 'obtainSerType',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '126',
+  'accept-language' => 'zh-Hans-CN;q=1, en-CN;q=0.9',
+  'user-agent' => 'you si gu/1.0 (iPhone; iOS 12.1.4; Scale/3.00)',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => '148.70.73.177',
+)
+[ info ] [ PARAM ] array (
+  'app_os' => 'IOS',
+  'app_version' => '1.0',
+  'cid' => '4C586264-49F3-423D-8013-EB2D6CD508A5',
+  's_type_id' => '1',
+  'tk' => 'f94444d20d7bc3992253210ebf96b5d4',
+  'user_id' => '34',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\Sociality->obtainSerType[ /data/web/php/ischool/application/api/controller/Sociality.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000496s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `s_sociality_type` [ RunTime:0.000845s ]
+[ sql ] [ SQL ] SELECT id type_id,`type_name` FROM `s_sociality_type` WHERE  (   type_id=1 ) [ RunTime:0.000361s ]
+---------------------------------------------------------------
+[ 2019-02-28T09:13:10+08:00 ] 117.136.62.33 POST 148.70.73.177/api/sociality/obtainType
+[运行时间：0.036882s] [吞吐率：27.11req/s] [内存消耗：2,616.90kb] [文件加载：53]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'sociality',
+    2 => 'obtainType',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '124',
+  'accept-language' => 'zh-Hans-CN;q=1, en-CN;q=0.9',
+  'user-agent' => 'you si gu/1.0 (iPhone; iOS 12.1.4; Scale/3.00)',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => '148.70.73.177',
+)
+[ info ] [ PARAM ] array (
+  'app_os' => 'IOS',
+  'app_version' => '1.0',
+  'cid' => '4C586264-49F3-423D-8013-EB2D6CD508A5',
+  'tk' => 'f94444d20d7bc3992253210ebf96b5d4',
+  'type_id' => '2',
+  'user_id' => '34',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\Sociality->obtainType[ /data/web/php/ischool/application/api/controller/Sociality.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000618s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sociality_type` [ RunTime:0.000955s ]
+[ sql ] [ SQL ] SELECT `st`.`id`,`st`.`type_name`,`icon` FROM `sociality_type` `st` WHERE  `st`.`pid` = '2'  AND `st`.`status` = 1 [ RunTime:0.000521s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `s_sociality_type` [ RunTime:0.000717s ]
+[ sql ] [ SQL ] SELECT `type_name`,id s_type_id,`icon` FROM `s_sociality_type` WHERE  `type_id` = 6 [ RunTime:0.000374s ]
+[ sql ] [ SQL ] SELECT `type_name`,id s_type_id,`icon` FROM `s_sociality_type` WHERE  `type_id` = 7 [ RunTime:0.000375s ]
+[ sql ] [ SQL ] SELECT `type_name`,id s_type_id,`icon` FROM `s_sociality_type` WHERE  `type_id` = 8 [ RunTime:0.000317s ]
+[ sql ] [ SQL ] SELECT `type_name`,id s_type_id,`icon` FROM `s_sociality_type` WHERE  `type_id` = 9 [ RunTime:0.000357s ]
+---------------------------------------------------------------
+[ 2019-02-28T09:13:11+08:00 ] 117.136.62.33 POST 148.70.73.177/api/sociality/allPlaysAb
+[运行时间：0.044308s] [吞吐率：22.57req/s] [内存消耗：2,642.52kb] [文件加载：54]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'sociality',
+    2 => 'allPlaysAb',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '145',
+  'accept-language' => 'zh-Hans-CN;q=1, en-CN;q=0.9',
+  'user-agent' => 'you si gu/1.0 (iPhone; iOS 12.1.4; Scale/3.00)',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => '148.70.73.177',
+)
+[ info ] [ PARAM ] array (
+  'app_os' => 'IOS',
+  'app_version' => '1.0',
+  'cid' => '4C586264-49F3-423D-8013-EB2D6CD508A5',
+  'pages' => '1',
+  's_type_id' => '11',
+  'tk' => 'f94444d20d7bc3992253210ebf96b5d4',
+  'type_id' => '6',
+  'user_id' => '34',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\Sociality->allPlaysAb[ /data/web/php/ischool/application/api/controller/Sociality.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001073s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.001321s ]
+[ sql ] [ SQL ] SELECT `school` FROM `users` WHERE  `user_id` = 34 LIMIT 1 [ RunTime:0.000430s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `plays` [ RunTime:0.000865s ]
+[ sql ] [ SQL ] SELECT `p`.`event_title`,`p`.`plays_id`,`p`.`ask`,`p`.`funds`,`p`.`p_start`,`p`.`launch`,sst.id s_type_id,`sst`.`type_name`,`u`.`head_image`,`us`.`grade`,`u`.`sex`,`p`.`number`,`u`.`u_vip` FROM `plays` `p` LEFT JOIN `s_sociality_type` `sst` ON `sst`.`id`=`p`.`about_type_id` LEFT JOIN `sociality_type` `st` ON `sst`.`type_id`=`st`.`id` LEFT JOIN `users` `u` ON `p`.`user_id`=`u`.`user_id` LEFT JOIN `users_secretary` `us` ON `u`.`user_id`=`us`.`user_id` WHERE  `sst`.`type_id` = '6'  AND (   school=1 and sst.id=11 )  AND `p_start` > 1551316391  AND `p`.`status` = 1 ORDER BY `p`.`plays_id` DESC LIMIT 0,10 [ RunTime:0.001071s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `plays` `p` LEFT JOIN `s_sociality_type` `sst` ON `sst`.`id`=`p`.`about_type_id` LEFT JOIN `sociality_type` `st` ON `sst`.`type_id`=`st`.`id` LEFT JOIN `users` `u` ON `p`.`user_id`=`u`.`user_id` LEFT JOIN `users_secretary` `us` ON `u`.`user_id`=`us`.`user_id` WHERE  `sst`.`type_id` = '6'  AND (   school=1 and sst.id=11 )  AND `p_start` > 1551316391  AND `p`.`status` = 1 LIMIT 1 [ RunTime:0.000616s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `plays_attach` [ RunTime:0.000624s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `plays_attach` WHERE  `plays_id` = 27 LIMIT 1 [ RunTime:0.000327s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `plays_attach` WHERE  `plays_id` = 26 LIMIT 1 [ RunTime:0.000257s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `plays_attach` WHERE  `plays_id` = 25 LIMIT 1 [ RunTime:0.000248s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `plays_attach` WHERE  `plays_id` = 24 LIMIT 1 [ RunTime:0.000244s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `plays_attach` WHERE  `plays_id` = 19 LIMIT 1 [ RunTime:0.000235s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `plays_attach` WHERE  `plays_id` = 18 LIMIT 1 [ RunTime:0.000255s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `plays_attach` WHERE  `plays_id` = 17 LIMIT 1 [ RunTime:0.000252s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `plays_attach` WHERE  `plays_id` = 6 LIMIT 1 [ RunTime:0.000333s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `plays_attach` WHERE  `plays_id` = 3 LIMIT 1 [ RunTime:0.000265s ]
+---------------------------------------------------------------
+[ 2019-02-28T09:13:28+08:00 ] 117.136.62.33 POST 148.70.73.177/api/sociality/getModule
+[运行时间：0.111313s] [吞吐率：8.98req/s] [内存消耗：2,617.65kb] [文件加载：53]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'sociality',
+    2 => 'getModule',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '114',
+  'accept-language' => 'zh-Hans-CN;q=1, en-CN;q=0.9',
+  'user-agent' => 'you si gu/1.0 (iPhone; iOS 12.1.4; Scale/3.00)',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => '148.70.73.177',
+)
+[ info ] [ PARAM ] array (
+  'app_os' => 'IOS',
+  'app_version' => '1.0',
+  'cid' => '4C586264-49F3-423D-8013-EB2D6CD508A5',
+  'tk' => 'f94444d20d7bc3992253210ebf96b5d4',
+  'user_id' => '34',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\Sociality->getModule[ /data/web/php/ischool/application/api/controller/Sociality.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020288s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sociality_type` [ RunTime:0.002055s ]
+[ sql ] [ SQL ] SELECT type_name s_type_name,id pid,`icon` FROM `sociality_type` WHERE  `pid` = 0 [ RunTime:0.000357s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `s_sociality_type` [ RunTime:0.001257s ]
+[ sql ] [ SQL ] SELECT sst.type_name s_type_name,sst.id s_type_id,`sst`.`icon`,`st`.`pid`,st.id type_id,`st`.`type_name` FROM `s_sociality_type` `sst` LEFT JOIN `sociality_type` `st` ON `st`.`id`=`sst`.`type_id` WHERE  `sst`.`id` = '9' LIMIT 1 [ RunTime:0.001261s ]
+[ sql ] [ SQL ] SELECT sst.type_name s_type_name,sst.id s_type_id,`sst`.`icon`,`st`.`pid`,st.id type_id,`st`.`type_name` FROM `s_sociality_type` `sst` LEFT JOIN `sociality_type` `st` ON `st`.`id`=`sst`.`type_id` WHERE  `sst`.`id` = '5' LIMIT 1 [ RunTime:0.001465s ]
+[ sql ] [ SQL ] SELECT sst.type_name s_type_name,sst.id s_type_id,`sst`.`icon`,`st`.`pid`,st.id type_id,`st`.`type_name` FROM `s_sociality_type` `sst` LEFT JOIN `sociality_type` `st` ON `st`.`id`=`sst`.`type_id` WHERE  `sst`.`id` = '11' LIMIT 1 [ RunTime:0.001921s ]
+---------------------------------------------------------------
+[ 2019-02-28T09:13:28+08:00 ] 117.136.62.33 POST 148.70.73.177/api/banner/showBanner
+[运行时间：0.113906s] [吞吐率：8.78req/s] [内存消耗：2,741.12kb] [文件加载：55]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'banner',
+    2 => 'showBanner',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '131',
+  'accept-language' => 'zh-Hans-CN;q=1, en-CN;q=0.9',
+  'user-agent' => 'you si gu/1.0 (iPhone; iOS 12.1.4; Scale/3.00)',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => '148.70.73.177',
+)
+[ info ] [ PARAM ] array (
+  'app_os' => 'IOS',
+  'app_version' => '1.0',
+  'cid' => '4C586264-49F3-423D-8013-EB2D6CD508A5',
+  'number' => '-1',
+  'tk' => 'f94444d20d7bc3992253210ebf96b5d4',
+  'type' => '2',
+  'user_id' => '34',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Banner->showBanner[ /data/web/php/ischool/application/api/controller/Banner.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009681s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.003456s ]
+[ sql ] [ SQL ] SELECT `banner_id`,`url` FROM `banner` WHERE  `type` = 2  AND `status` = 1 ORDER BY `banner_id` DESC [ RunTime:0.001012s ]
+---------------------------------------------------------------
+[ 2019-02-28T09:13:28+08:00 ] 117.136.62.33 POST 148.70.73.177/api/sociality/playsObtain
+[运行时间：0.114629s] [吞吐率：8.72req/s] [内存消耗：2,661.88kb] [文件加载：54]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'sociality',
+    2 => 'playsObtain',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '114',
+  'accept-language' => 'zh-Hans-CN;q=1, en-CN;q=0.9',
+  'user-agent' => 'you si gu/1.0 (iPhone; iOS 12.1.4; Scale/3.00)',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => '148.70.73.177',
+)
+[ info ] [ PARAM ] array (
+  'app_os' => 'IOS',
+  'app_version' => '1.0',
+  'cid' => '4C586264-49F3-423D-8013-EB2D6CD508A5',
+  'tk' => 'f94444d20d7bc3992253210ebf96b5d4',
+  'user_id' => '34',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\Sociality->playsObtain[ /data/web/php/ischool/application/api/controller/Sociality.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010810s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.002127s ]
+[ sql ] [ SQL ] SELECT `school` FROM `users` WHERE  `user_id` = 34 LIMIT 1 [ RunTime:0.001802s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sociality_type` [ RunTime:0.001472s ]
+[ sql ] [ SQL ] SELECT `st`.`id`,`st`.`type_name` FROM `sociality_type` `st` WHERE  `pid` = 2 [ RunTime:0.000885s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `s_sociality_type` [ RunTime:0.000648s ]
+[ sql ] [ SQL ] SELECT `id` FROM `s_sociality_type` WHERE  `type_id` = 6 [ RunTime:0.001980s ]
+[ sql ] [ SQL ] SELECT `id` FROM `s_sociality_type` WHERE  `type_id` = 7 [ RunTime:0.001680s ]
+[ sql ] [ SQL ] SELECT `id` FROM `s_sociality_type` WHERE  `type_id` = 8 [ RunTime:0.001323s ]
+[ sql ] [ SQL ] SELECT `id` FROM `s_sociality_type` WHERE  `type_id` = 9 [ RunTime:0.002040s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `plays` [ RunTime:0.011523s ]
+[ sql ] [ SQL ] SELECT `p`.`plays_id`,`p`.`event_title`,`sst`.`type_name`,`u`.`head_image`,`p`.`user_id`,`u`.`nickname`,`us`.`grade`,`p`.`launch`,`p`.`funds`,`p`.`images`,`p`.`p_start`,`p`.`end_times`,`u`.`sex`,`p`.`p_address`,`p`.`number`,`p`.`ask` FROM `plays` `p` LEFT JOIN `s_sociality_type` `sst` ON `p`.`about_type_id`=`sst`.`id` LEFT JOIN `sociality_type` `st` ON `st`.`id`=`sst`.`type_id` LEFT JOIN `users` `u` ON `p`.`user_id`=`u`.`user_id` LEFT JOIN `users_secretary` `us` ON `u`.`user_id`=`us`.`user_id` WHERE  (   p.about_type_id in ( 9,11 ) and u.school=1 )  AND `p_start` > 1551316408  AND `p`.`status` = 1 ORDER BY `p`.`launch` DESC LIMIT 0,3 [ RunTime:0.001293s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `plays_attach` [ RunTime:0.002734s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `plays_attach` WHERE  `plays_id` = 19 LIMIT 1 [ RunTime:0.000332s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `plays_attach` WHERE  `plays_id` = 24 LIMIT 1 [ RunTime:0.000326s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `plays_attach` WHERE  `plays_id` = 25 LIMIT 1 [ RunTime:0.000249s ]
+[ sql ] [ SQL ] SELECT `p`.`plays_id`,`p`.`event_title`,`sst`.`type_name`,`u`.`head_image`,`p`.`user_id`,`u`.`nickname`,`us`.`grade`,`p`.`launch`,`p`.`funds`,`p`.`images`,`p`.`p_start`,`p`.`end_times`,`u`.`sex`,`p`.`p_address`,`p`.`number`,`p`.`ask` FROM `plays` `p` LEFT JOIN `s_sociality_type` `sst` ON `p`.`about_type_id`=`sst`.`id` LEFT JOIN `sociality_type` `st` ON `st`.`id`=`sst`.`type_id` LEFT JOIN `users` `u` ON `p`.`user_id`=`u`.`user_id` LEFT JOIN `users_secretary` `us` ON `u`.`user_id`=`us`.`user_id` WHERE  (   p.about_type_id in ( 6 ) and u.school=1 )  AND `p_start` > 1551316408  AND `p`.`status` = 1 ORDER BY `p`.`launch` DESC LIMIT 0,3 [ RunTime:0.001021s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `plays_attach` WHERE  `plays_id` = 23 LIMIT 1 [ RunTime:0.000272s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `plays_attach` WHERE  `plays_id` = 22 LIMIT 1 [ RunTime:0.000247s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `plays_attach` WHERE  `plays_id` = 21 LIMIT 1 [ RunTime:0.000320s ]
+[ sql ] [ SQL ] SELECT `p`.`plays_id`,`p`.`event_title`,`sst`.`type_name`,`u`.`head_image`,`p`.`user_id`,`u`.`nickname`,`us`.`grade`,`p`.`launch`,`p`.`funds`,`p`.`images`,`p`.`p_start`,`p`.`end_times`,`u`.`sex`,`p`.`p_address`,`p`.`number`,`p`.`ask` FROM `plays` `p` LEFT JOIN `s_sociality_type` `sst` ON `p`.`about_type_id`=`sst`.`id` LEFT JOIN `sociality_type` `st` ON `st`.`id`=`sst`.`type_id` LEFT JOIN `users` `u` ON `p`.`user_id`=`u`.`user_id` LEFT JOIN `users_secretary` `us` ON `u`.`user_id`=`us`.`user_id` WHERE  (   p.about_type_id in ( 7 ) and u.school=1 )  AND `p_start` > 1551316408  AND `p`.`status` = 1 ORDER BY `p`.`launch` DESC LIMIT 0,3 [ RunTime:0.000998s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `plays_attach` WHERE  `plays_id` = 16 LIMIT 1 [ RunTime:0.000282s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `plays_attach` WHERE  `plays_id` = 14 LIMIT 1 [ RunTime:0.000249s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `plays_attach` WHERE  `plays_id` = 13 LIMIT 1 [ RunTime:0.000240s ]
+[ sql ] [ SQL ] SELECT `p`.`plays_id`,`p`.`event_title`,`sst`.`type_name`,`u`.`head_image`,`p`.`user_id`,`u`.`nickname`,`us`.`grade`,`p`.`launch`,`p`.`funds`,`p`.`images`,`p`.`p_start`,`p`.`end_times`,`u`.`sex`,`p`.`p_address`,`p`.`number`,`p`.`ask` FROM `plays` `p` LEFT JOIN `s_sociality_type` `sst` ON `p`.`about_type_id`=`sst`.`id` LEFT JOIN `sociality_type` `st` ON `st`.`id`=`sst`.`type_id` LEFT JOIN `users` `u` ON `p`.`user_id`=`u`.`user_id` LEFT JOIN `users_secretary` `us` ON `u`.`user_id`=`us`.`user_id` WHERE  (   p.about_type_id in ( 8 ) and u.school=1 )  AND `p_start` > 1551316408  AND `p`.`status` = 1 ORDER BY `p`.`launch` DESC LIMIT 0,3 [ RunTime:0.000910s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `plays_attach` WHERE  `plays_id` = 10 LIMIT 1 [ RunTime:0.000269s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `plays_attach` WHERE  `plays_id` = 1 LIMIT 1 [ RunTime:0.000246s ]
+---------------------------------------------------------------
+[ 2019-02-28T09:13:28+08:00 ] 117.136.62.33 POST 148.70.73.177/api/sociality/serveObtain
+[运行时间：0.047219s] [吞吐率：21.18req/s] [内存消耗：2,643.88kb] [文件加载：54]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'sociality',
+    2 => 'serveObtain',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '114',
+  'accept-language' => 'zh-Hans-CN;q=1, en-CN;q=0.9',
+  'user-agent' => 'you si gu/1.0 (iPhone; iOS 12.1.4; Scale/3.00)',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => '148.70.73.177',
+)
+[ info ] [ PARAM ] array (
+  'app_os' => 'IOS',
+  'app_version' => '1.0',
+  'cid' => '4C586264-49F3-423D-8013-EB2D6CD508A5',
+  'tk' => 'f94444d20d7bc3992253210ebf96b5d4',
+  'user_id' => '34',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\Sociality->serveObtain[ /data/web/php/ischool/application/api/controller/Sociality.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000356s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.000835s ]
+[ sql ] [ SQL ] SELECT `school` FROM `users` WHERE  `user_id` = 34 LIMIT 1 [ RunTime:0.000334s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `s_serve` [ RunTime:0.000590s ]
+[ sql ] [ SQL ] SELECT sst.id type_id,st.type_name p_name,ss.plays_id serve_id,`event_title`,`sst`.`type_name`,`u`.`head_image`,`u`.`nickname`,`us`.`grade`,`ss`.`user_id`,`ss`.`launch`,`ss`.`charging`,`ss`.`funds`,`ss`.`images` FROM `s_serve` `ss` LEFT JOIN `s_sociality_type` `sst` ON `ss`.`about_type_id`=`sst`.`id` LEFT JOIN `sociality_type` `st` ON `st`.`id`=`sst`.`type_id` LEFT JOIN `users` `u` ON `ss`.`user_id`=`u`.`user_id` LEFT JOIN `users_secretary` `us` ON `u`.`user_id`=`us`.`user_id` WHERE  `st`.`pid` = 1  AND (   u.school=1 )  AND `end_times` > 1551316408  AND `ss`.`status` = 1 ORDER BY `ss`.`launch` DESC LIMIT 0,10 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-02-28T09:13:43+08:00 ] 117.136.62.33 POST 148.70.73.177/api/sociality/serveObtain
+[运行时间：0.075936s] [吞吐率：13.17req/s] [内存消耗：2,643.88kb] [文件加载：54]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'sociality',
+    2 => 'serveObtain',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '114',
+  'accept-language' => 'zh-Hans-CN;q=1, en-CN;q=0.9',
+  'user-agent' => 'you si gu/1.0 (iPhone; iOS 12.1.4; Scale/3.00)',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => '148.70.73.177',
+)
+[ info ] [ PARAM ] array (
+  'app_os' => 'IOS',
+  'app_version' => '1.0',
+  'cid' => '4C586264-49F3-423D-8013-EB2D6CD508A5',
+  'tk' => 'f94444d20d7bc3992253210ebf96b5d4',
+  'user_id' => '34',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\Sociality->serveObtain[ /data/web/php/ischool/application/api/controller/Sociality.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009085s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.001933s ]
+[ sql ] [ SQL ] SELECT `school` FROM `users` WHERE  `user_id` = 34 LIMIT 1 [ RunTime:0.000898s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `s_serve` [ RunTime:0.001852s ]
+[ sql ] [ SQL ] SELECT sst.id type_id,st.type_name p_name,ss.plays_id serve_id,`event_title`,`sst`.`type_name`,`u`.`head_image`,`u`.`nickname`,`us`.`grade`,`ss`.`user_id`,`ss`.`launch`,`ss`.`charging`,`ss`.`funds`,`ss`.`images` FROM `s_serve` `ss` LEFT JOIN `s_sociality_type` `sst` ON `ss`.`about_type_id`=`sst`.`id` LEFT JOIN `sociality_type` `st` ON `st`.`id`=`sst`.`type_id` LEFT JOIN `users` `u` ON `ss`.`user_id`=`u`.`user_id` LEFT JOIN `users_secretary` `us` ON `u`.`user_id`=`us`.`user_id` WHERE  `st`.`pid` = 1  AND (   u.school=1 )  AND `end_times` > 1551316423  AND `ss`.`status` = 1 ORDER BY `ss`.`launch` DESC LIMIT 0,10 [ RunTime:0.002243s ]
+---------------------------------------------------------------
+[ 2019-02-28T09:13:43+08:00 ] 117.136.62.33 POST 148.70.73.177/api/sociality/playsObtain
+[运行时间：0.107278s] [吞吐率：9.32req/s] [内存消耗：2,661.88kb] [文件加载：54]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'sociality',
+    2 => 'playsObtain',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '114',
+  'accept-language' => 'zh-Hans-CN;q=1, en-CN;q=0.9',
+  'user-agent' => 'you si gu/1.0 (iPhone; iOS 12.1.4; Scale/3.00)',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => '148.70.73.177',
+)
+[ info ] [ PARAM ] array (
+  'app_os' => 'IOS',
+  'app_version' => '1.0',
+  'cid' => '4C586264-49F3-423D-8013-EB2D6CD508A5',
+  'tk' => 'f94444d20d7bc3992253210ebf96b5d4',
+  'user_id' => '34',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\Sociality->playsObtain[ /data/web/php/ischool/application/api/controller/Sociality.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023279s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.001176s ]
+[ sql ] [ SQL ] SELECT `school` FROM `users` WHERE  `user_id` = 34 LIMIT 1 [ RunTime:0.005601s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sociality_type` [ RunTime:0.000621s ]
+[ sql ] [ SQL ] SELECT `st`.`id`,`st`.`type_name` FROM `sociality_type` `st` WHERE  `pid` = 2 [ RunTime:0.001026s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `s_sociality_type` [ RunTime:0.000457s ]
+[ sql ] [ SQL ] SELECT `id` FROM `s_sociality_type` WHERE  `type_id` = 6 [ RunTime:0.000654s ]
+[ sql ] [ SQL ] SELECT `id` FROM `s_sociality_type` WHERE  `type_id` = 7 [ RunTime:0.000647s ]
+[ sql ] [ SQL ] SELECT `id` FROM `s_sociality_type` WHERE  `type_id` = 8 [ RunTime:0.000217s ]
+[ sql ] [ SQL ] SELECT `id` FROM `s_sociality_type` WHERE  `type_id` = 9 [ RunTime:0.001041s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `plays` [ RunTime:0.001547s ]
+[ sql ] [ SQL ] SELECT `p`.`plays_id`,`p`.`event_title`,`sst`.`type_name`,`u`.`head_image`,`p`.`user_id`,`u`.`nickname`,`us`.`grade`,`p`.`launch`,`p`.`funds`,`p`.`images`,`p`.`p_start`,`p`.`end_times`,`u`.`sex`,`p`.`p_address`,`p`.`number`,`p`.`ask` FROM `plays` `p` LEFT JOIN `s_sociality_type` `sst` ON `p`.`about_type_id`=`sst`.`id` LEFT JOIN `sociality_type` `st` ON `st`.`id`=`sst`.`type_id` LEFT JOIN `users` `u` ON `p`.`user_id`=`u`.`user_id` LEFT JOIN `users_secretary` `us` ON `u`.`user_id`=`us`.`user_id` WHERE  (   p.about_type_id in ( 9,11 ) and u.school=1 )  AND `p_start` > 1551316423  AND `p`.`status` = 1 ORDER BY `p`.`launch` DESC LIMIT 0,3 [ RunTime:0.000790s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `plays_attach` [ RunTime:0.002147s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `plays_attach` WHERE  `plays_id` = 19 LIMIT 1 [ RunTime:0.000278s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `plays_attach` WHERE  `plays_id` = 24 LIMIT 1 [ RunTime:0.000274s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `plays_attach` WHERE  `plays_id` = 25 LIMIT 1 [ RunTime:0.000216s ]
+[ sql ] [ SQL ] SELECT `p`.`plays_id`,`p`.`event_title`,`sst`.`type_name`,`u`.`head_image`,`p`.`user_id`,`u`.`nickname`,`us`.`grade`,`p`.`launch`,`p`.`funds`,`p`.`images`,`p`.`p_start`,`p`.`end_times`,`u`.`sex`,`p`.`p_address`,`p`.`number`,`p`.`ask` FROM `plays` `p` LEFT JOIN `s_sociality_type` `sst` ON `p`.`about_type_id`=`sst`.`id` LEFT JOIN `sociality_type` `st` ON `st`.`id`=`sst`.`type_id` LEFT JOIN `users` `u` ON `p`.`user_id`=`u`.`user_id` LEFT JOIN `users_secretary` `us` ON `u`.`user_id`=`us`.`user_id` WHERE  (   p.about_type_id in ( 6 ) and u.school=1 )  AND `p_start` > 1551316423  AND `p`.`status` = 1 ORDER BY `p`.`launch` DESC LIMIT 0,3 [ RunTime:0.011942s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `plays_attach` WHERE  `plays_id` = 23 LIMIT 1 [ RunTime:0.000326s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `plays_attach` WHERE  `plays_id` = 22 LIMIT 1 [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `plays_attach` WHERE  `plays_id` = 21 LIMIT 1 [ RunTime:0.000282s ]
+[ sql ] [ SQL ] SELECT `p`.`plays_id`,`p`.`event_title`,`sst`.`type_name`,`u`.`head_image`,`p`.`user_id`,`u`.`nickname`,`us`.`grade`,`p`.`launch`,`p`.`funds`,`p`.`images`,`p`.`p_start`,`p`.`end_times`,`u`.`sex`,`p`.`p_address`,`p`.`number`,`p`.`ask` FROM `plays` `p` LEFT JOIN `s_sociality_type` `sst` ON `p`.`about_type_id`=`sst`.`id` LEFT JOIN `sociality_type` `st` ON `st`.`id`=`sst`.`type_id` LEFT JOIN `users` `u` ON `p`.`user_id`=`u`.`user_id` LEFT JOIN `users_secretary` `us` ON `u`.`user_id`=`us`.`user_id` WHERE  (   p.about_type_id in ( 7 ) and u.school=1 )  AND `p_start` > 1551316423  AND `p`.`status` = 1 ORDER BY `p`.`launch` DESC LIMIT 0,3 [ RunTime:0.000780s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `plays_attach` WHERE  `plays_id` = 16 LIMIT 1 [ RunTime:0.000243s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `plays_attach` WHERE  `plays_id` = 14 LIMIT 1 [ RunTime:0.000216s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `plays_attach` WHERE  `plays_id` = 13 LIMIT 1 [ RunTime:0.000233s ]
+[ sql ] [ SQL ] SELECT `p`.`plays_id`,`p`.`event_title`,`sst`.`type_name`,`u`.`head_image`,`p`.`user_id`,`u`.`nickname`,`us`.`grade`,`p`.`launch`,`p`.`funds`,`p`.`images`,`p`.`p_start`,`p`.`end_times`,`u`.`sex`,`p`.`p_address`,`p`.`number`,`p`.`ask` FROM `plays` `p` LEFT JOIN `s_sociality_type` `sst` ON `p`.`about_type_id`=`sst`.`id` LEFT JOIN `sociality_type` `st` ON `st`.`id`=`sst`.`type_id` LEFT JOIN `users` `u` ON `p`.`user_id`=`u`.`user_id` LEFT JOIN `users_secretary` `us` ON `u`.`user_id`=`us`.`user_id` WHERE  (   p.about_type_id in ( 8 ) and u.school=1 )  AND `p_start` > 1551316423  AND `p`.`status` = 1 ORDER BY `p`.`launch` DESC LIMIT 0,3 [ RunTime:0.001710s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `plays_attach` WHERE  `plays_id` = 10 LIMIT 1 [ RunTime:0.000219s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `plays_attach` WHERE  `plays_id` = 1 LIMIT 1 [ RunTime:0.000206s ]
+---------------------------------------------------------------
+[ 2019-02-28T09:13:43+08:00 ] 117.136.62.33 POST 148.70.73.177/api/banner/showBanner
+[运行时间：0.087305s] [吞吐率：11.45req/s] [内存消耗：2,741.12kb] [文件加载：55]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'banner',
+    2 => 'showBanner',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '131',
+  'accept-language' => 'zh-Hans-CN;q=1, en-CN;q=0.9',
+  'user-agent' => 'you si gu/1.0 (iPhone; iOS 12.1.4; Scale/3.00)',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => '148.70.73.177',
+)
+[ info ] [ PARAM ] array (
+  'app_os' => 'IOS',
+  'app_version' => '1.0',
+  'cid' => '4C586264-49F3-423D-8013-EB2D6CD508A5',
+  'number' => '-1',
+  'tk' => 'f94444d20d7bc3992253210ebf96b5d4',
+  'type' => '2',
+  'user_id' => '34',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Banner->showBanner[ /data/web/php/ischool/application/api/controller/Banner.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.027997s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.002905s ]
+[ sql ] [ SQL ] SELECT `banner_id`,`url` FROM `banner` WHERE  `type` = 2  AND `status` = 1 ORDER BY `banner_id` DESC [ RunTime:0.000364s ]
+---------------------------------------------------------------
+[ 2019-02-28T09:13:43+08:00 ] 117.136.62.33 POST 148.70.73.177/api/sociality/getModule
+[运行时间：0.037980s] [吞吐率：26.33req/s] [内存消耗：2,617.65kb] [文件加载：53]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'sociality',
+    2 => 'getModule',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '114',
+  'accept-language' => 'zh-Hans-CN;q=1, en-CN;q=0.9',
+  'user-agent' => 'you si gu/1.0 (iPhone; iOS 12.1.4; Scale/3.00)',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => '148.70.73.177',
+)
+[ info ] [ PARAM ] array (
+  'app_os' => 'IOS',
+  'app_version' => '1.0',
+  'cid' => '4C586264-49F3-423D-8013-EB2D6CD508A5',
+  'tk' => 'f94444d20d7bc3992253210ebf96b5d4',
+  'user_id' => '34',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\Sociality->getModule[ /data/web/php/ischool/application/api/controller/Sociality.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000366s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sociality_type` [ RunTime:0.000688s ]
+[ sql ] [ SQL ] SELECT type_name s_type_name,id pid,`icon` FROM `sociality_type` WHERE  `pid` = 0 [ RunTime:0.000274s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `s_sociality_type` [ RunTime:0.000454s ]
+[ sql ] [ SQL ] SELECT sst.type_name s_type_name,sst.id s_type_id,`sst`.`icon`,`st`.`pid`,st.id type_id,`st`.`type_name` FROM `s_sociality_type` `sst` LEFT JOIN `sociality_type` `st` ON `st`.`id`=`sst`.`type_id` WHERE  `sst`.`id` = '9' LIMIT 1 [ RunTime:0.000271s ]
+[ sql ] [ SQL ] SELECT sst.type_name s_type_name,sst.id s_type_id,`sst`.`icon`,`st`.`pid`,st.id type_id,`st`.`type_name` FROM `s_sociality_type` `sst` LEFT JOIN `sociality_type` `st` ON `st`.`id`=`sst`.`type_id` WHERE  `sst`.`id` = '5' LIMIT 1 [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SELECT sst.type_name s_type_name,sst.id s_type_id,`sst`.`icon`,`st`.`pid`,st.id type_id,`st`.`type_name` FROM `s_sociality_type` `sst` LEFT JOIN `sociality_type` `st` ON `st`.`id`=`sst`.`type_id` WHERE  `sst`.`id` = '11' LIMIT 1 [ RunTime:0.000250s ]
+---------------------------------------------------------------
+[ 2019-02-28T09:13:54+08:00 ] 117.136.62.33 POST 148.70.73.177/api/banner/showBanner
+[运行时间：0.080497s] [吞吐率：12.42req/s] [内存消耗：2,741.12kb] [文件加载：55]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'banner',
+    2 => 'showBanner',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '131',
+  'accept-language' => 'zh-Hans-CN;q=1, en-CN;q=0.9',
+  'user-agent' => 'you si gu/1.0 (iPhone; iOS 12.1.4; Scale/3.00)',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => '148.70.73.177',
+)
+[ info ] [ PARAM ] array (
+  'app_os' => 'IOS',
+  'app_version' => '1.0',
+  'cid' => '4C586264-49F3-423D-8013-EB2D6CD508A5',
+  'number' => '-1',
+  'tk' => 'f94444d20d7bc3992253210ebf96b5d4',
+  'type' => '2',
+  'user_id' => '34',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Banner->showBanner[ /data/web/php/ischool/application/api/controller/Banner.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004279s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.002641s ]
+[ sql ] [ SQL ] SELECT `banner_id`,`url` FROM `banner` WHERE  `type` = 2  AND `status` = 1 ORDER BY `banner_id` DESC [ RunTime:0.001222s ]
+---------------------------------------------------------------
+[ 2019-02-28T09:13:54+08:00 ] 117.136.62.33 POST 148.70.73.177/api/sociality/serveObtain
+[运行时间：0.081948s] [吞吐率：12.20req/s] [内存消耗：2,643.88kb] [文件加载：54]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'sociality',
+    2 => 'serveObtain',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '114',
+  'accept-language' => 'zh-Hans-CN;q=1, en-CN;q=0.9',
+  'user-agent' => 'you si gu/1.0 (iPhone; iOS 12.1.4; Scale/3.00)',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => '148.70.73.177',
+)
+[ info ] [ PARAM ] array (
+  'app_os' => 'IOS',
+  'app_version' => '1.0',
+  'cid' => '4C586264-49F3-423D-8013-EB2D6CD508A5',
+  'tk' => 'f94444d20d7bc3992253210ebf96b5d4',
+  'user_id' => '34',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\Sociality->serveObtain[ /data/web/php/ischool/application/api/controller/Sociality.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002243s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.002253s ]
+[ sql ] [ SQL ] SELECT `school` FROM `users` WHERE  `user_id` = 34 LIMIT 1 [ RunTime:0.001645s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `s_serve` [ RunTime:0.002324s ]
+[ sql ] [ SQL ] SELECT sst.id type_id,st.type_name p_name,ss.plays_id serve_id,`event_title`,`sst`.`type_name`,`u`.`head_image`,`u`.`nickname`,`us`.`grade`,`ss`.`user_id`,`ss`.`launch`,`ss`.`charging`,`ss`.`funds`,`ss`.`images` FROM `s_serve` `ss` LEFT JOIN `s_sociality_type` `sst` ON `ss`.`about_type_id`=`sst`.`id` LEFT JOIN `sociality_type` `st` ON `st`.`id`=`sst`.`type_id` LEFT JOIN `users` `u` ON `ss`.`user_id`=`u`.`user_id` LEFT JOIN `users_secretary` `us` ON `u`.`user_id`=`us`.`user_id` WHERE  `st`.`pid` = 1  AND (   u.school=1 )  AND `end_times` > 1551316434  AND `ss`.`status` = 1 ORDER BY `ss`.`launch` DESC LIMIT 0,10 [ RunTime:0.001578s ]
+---------------------------------------------------------------
+[ 2019-02-28T09:13:54+08:00 ] 117.136.62.33 POST 148.70.73.177/api/sociality/playsObtain
+[运行时间：0.079883s] [吞吐率：12.52req/s] [内存消耗：2,661.88kb] [文件加载：54]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'sociality',
+    2 => 'playsObtain',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '114',
+  'accept-language' => 'zh-Hans-CN;q=1, en-CN;q=0.9',
+  'user-agent' => 'you si gu/1.0 (iPhone; iOS 12.1.4; Scale/3.00)',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => '148.70.73.177',
+)
+[ info ] [ PARAM ] array (
+  'app_os' => 'IOS',
+  'app_version' => '1.0',
+  'cid' => '4C586264-49F3-423D-8013-EB2D6CD508A5',
+  'tk' => 'f94444d20d7bc3992253210ebf96b5d4',
+  'user_id' => '34',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\Sociality->playsObtain[ /data/web/php/ischool/application/api/controller/Sociality.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002870s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.000807s ]
+[ sql ] [ SQL ] SELECT `school` FROM `users` WHERE  `user_id` = 34 LIMIT 1 [ RunTime:0.000371s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sociality_type` [ RunTime:0.001050s ]
+[ sql ] [ SQL ] SELECT `st`.`id`,`st`.`type_name` FROM `sociality_type` `st` WHERE  `pid` = 2 [ RunTime:0.000888s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `s_sociality_type` [ RunTime:0.001287s ]
+[ sql ] [ SQL ] SELECT `id` FROM `s_sociality_type` WHERE  `type_id` = 6 [ RunTime:0.000561s ]
+[ sql ] [ SQL ] SELECT `id` FROM `s_sociality_type` WHERE  `type_id` = 7 [ RunTime:0.001264s ]
+[ sql ] [ SQL ] SELECT `id` FROM `s_sociality_type` WHERE  `type_id` = 8 [ RunTime:0.001070s ]
+[ sql ] [ SQL ] SELECT `id` FROM `s_sociality_type` WHERE  `type_id` = 9 [ RunTime:0.001091s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `plays` [ RunTime:0.002055s ]
+[ sql ] [ SQL ] SELECT `p`.`plays_id`,`p`.`event_title`,`sst`.`type_name`,`u`.`head_image`,`p`.`user_id`,`u`.`nickname`,`us`.`grade`,`p`.`launch`,`p`.`funds`,`p`.`images`,`p`.`p_start`,`p`.`end_times`,`u`.`sex`,`p`.`p_address`,`p`.`number`,`p`.`ask` FROM `plays` `p` LEFT JOIN `s_sociality_type` `sst` ON `p`.`about_type_id`=`sst`.`id` LEFT JOIN `sociality_type` `st` ON `st`.`id`=`sst`.`type_id` LEFT JOIN `users` `u` ON `p`.`user_id`=`u`.`user_id` LEFT JOIN `users_secretary` `us` ON `u`.`user_id`=`us`.`user_id` WHERE  (   p.about_type_id in ( 9,11 ) and u.school=1 )  AND `p_start` > 1551316434  AND `p`.`status` = 1 ORDER BY `p`.`launch` DESC LIMIT 0,3 [ RunTime:0.011413s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `plays_attach` [ RunTime:0.002009s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `plays_attach` WHERE  `plays_id` = 19 LIMIT 1 [ RunTime:0.000274s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `plays_attach` WHERE  `plays_id` = 24 LIMIT 1 [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `plays_attach` WHERE  `plays_id` = 25 LIMIT 1 [ RunTime:0.000224s ]
+[ sql ] [ SQL ] SELECT `p`.`plays_id`,`p`.`event_title`,`sst`.`type_name`,`u`.`head_image`,`p`.`user_id`,`u`.`nickname`,`us`.`grade`,`p`.`launch`,`p`.`funds`,`p`.`images`,`p`.`p_start`,`p`.`end_times`,`u`.`sex`,`p`.`p_address`,`p`.`number`,`p`.`ask` FROM `plays` `p` LEFT JOIN `s_sociality_type` `sst` ON `p`.`about_type_id`=`sst`.`id` LEFT JOIN `sociality_type` `st` ON `st`.`id`=`sst`.`type_id` LEFT JOIN `users` `u` ON `p`.`user_id`=`u`.`user_id` LEFT JOIN `users_secretary` `us` ON `u`.`user_id`=`us`.`user_id` WHERE  (   p.about_type_id in ( 6 ) and u.school=1 )  AND `p_start` > 1551316434  AND `p`.`status` = 1 ORDER BY `p`.`launch` DESC LIMIT 0,3 [ RunTime:0.000768s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `plays_attach` WHERE  `plays_id` = 23 LIMIT 1 [ RunTime:0.000224s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `plays_attach` WHERE  `plays_id` = 22 LIMIT 1 [ RunTime:0.000208s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `plays_attach` WHERE  `plays_id` = 21 LIMIT 1 [ RunTime:0.000226s ]
+[ sql ] [ SQL ] SELECT `p`.`plays_id`,`p`.`event_title`,`sst`.`type_name`,`u`.`head_image`,`p`.`user_id`,`u`.`nickname`,`us`.`grade`,`p`.`launch`,`p`.`funds`,`p`.`images`,`p`.`p_start`,`p`.`end_times`,`u`.`sex`,`p`.`p_address`,`p`.`number`,`p`.`ask` FROM `plays` `p` LEFT JOIN `s_sociality_type` `sst` ON `p`.`about_type_id`=`sst`.`id` LEFT JOIN `sociality_type` `st` ON `st`.`id`=`sst`.`type_id` LEFT JOIN `users` `u` ON `p`.`user_id`=`u`.`user_id` LEFT JOIN `users_secretary` `us` ON `u`.`user_id`=`us`.`user_id` WHERE  (   p.about_type_id in ( 7 ) and u.school=1 )  AND `p_start` > 1551316434  AND `p`.`status` = 1 ORDER BY `p`.`launch` DESC LIMIT 0,3 [ RunTime:0.000705s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `plays_attach` WHERE  `plays_id` = 16 LIMIT 1 [ RunTime:0.000210s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `plays_attach` WHERE  `plays_id` = 14 LIMIT 1 [ RunTime:0.000193s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `plays_attach` WHERE  `plays_id` = 13 LIMIT 1 [ RunTime:0.000206s ]
+[ sql ] [ SQL ] SELECT `p`.`plays_id`,`p`.`event_title`,`sst`.`type_name`,`u`.`head_image`,`p`.`user_id`,`u`.`nickname`,`us`.`grade`,`p`.`launch`,`p`.`funds`,`p`.`images`,`p`.`p_start`,`p`.`end_times`,`u`.`sex`,`p`.`p_address`,`p`.`number`,`p`.`ask` FROM `plays` `p` LEFT JOIN `s_sociality_type` `sst` ON `p`.`about_type_id`=`sst`.`id` LEFT JOIN `sociality_type` `st` ON `st`.`id`=`sst`.`type_id` LEFT JOIN `users` `u` ON `p`.`user_id`=`u`.`user_id` LEFT JOIN `users_secretary` `us` ON `u`.`user_id`=`us`.`user_id` WHERE  (   p.about_type_id in ( 8 ) and u.school=1 )  AND `p_start` > 1551316434  AND `p`.`status` = 1 ORDER BY `p`.`launch` DESC LIMIT 0,3 [ RunTime:0.000626s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `plays_attach` WHERE  `plays_id` = 10 LIMIT 1 [ RunTime:0.000245s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `plays_attach` WHERE  `plays_id` = 1 LIMIT 1 [ RunTime:0.000235s ]
+---------------------------------------------------------------
+[ 2019-02-28T09:13:54+08:00 ] 117.136.62.33 POST 148.70.73.177/api/sociality/getModule
+[运行时间：0.035329s] [吞吐率：28.31req/s] [内存消耗：2,617.65kb] [文件加载：53]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'sociality',
+    2 => 'getModule',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '114',
+  'accept-language' => 'zh-Hans-CN;q=1, en-CN;q=0.9',
+  'user-agent' => 'you si gu/1.0 (iPhone; iOS 12.1.4; Scale/3.00)',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => '148.70.73.177',
+)
+[ info ] [ PARAM ] array (
+  'app_os' => 'IOS',
+  'app_version' => '1.0',
+  'cid' => '4C586264-49F3-423D-8013-EB2D6CD508A5',
+  'tk' => 'f94444d20d7bc3992253210ebf96b5d4',
+  'user_id' => '34',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\Sociality->getModule[ /data/web/php/ischool/application/api/controller/Sociality.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000341s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sociality_type` [ RunTime:0.000613s ]
+[ sql ] [ SQL ] SELECT type_name s_type_name,id pid,`icon` FROM `sociality_type` WHERE  `pid` = 0 [ RunTime:0.000307s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `s_sociality_type` [ RunTime:0.000490s ]
+[ sql ] [ SQL ] SELECT sst.type_name s_type_name,sst.id s_type_id,`sst`.`icon`,`st`.`pid`,st.id type_id,`st`.`type_name` FROM `s_sociality_type` `sst` LEFT JOIN `sociality_type` `st` ON `st`.`id`=`sst`.`type_id` WHERE  `sst`.`id` = '9' LIMIT 1 [ RunTime:0.000302s ]
+[ sql ] [ SQL ] SELECT sst.type_name s_type_name,sst.id s_type_id,`sst`.`icon`,`st`.`pid`,st.id type_id,`st`.`type_name` FROM `s_sociality_type` `sst` LEFT JOIN `sociality_type` `st` ON `st`.`id`=`sst`.`type_id` WHERE  `sst`.`id` = '5' LIMIT 1 [ RunTime:0.000222s ]
+[ sql ] [ SQL ] SELECT sst.type_name s_type_name,sst.id s_type_id,`sst`.`icon`,`st`.`pid`,st.id type_id,`st`.`type_name` FROM `s_sociality_type` `sst` LEFT JOIN `sociality_type` `st` ON `st`.`id`=`sst`.`type_id` WHERE  `sst`.`id` = '11' LIMIT 1 [ RunTime:0.000240s ]
+---------------------------------------------------------------
+[ 2019-02-28T09:14:03+08:00 ] 117.136.62.33 POST 148.70.73.177/api/trips/showTrips
+[运行时间：0.046990s] [吞吐率：21.28req/s] [内存消耗：2,770.50kb] [文件加载：55]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'trips',
+    2 => 'showTrips',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '131',
+  'accept-language' => 'zh-Hans-CN;q=1, en-CN;q=0.9',
+  'user-agent' => 'you si gu/1.0 (iPhone; iOS 12.1.4; Scale/3.00)',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => '148.70.73.177',
+)
+[ info ] [ PARAM ] array (
+  'app_os' => 'IOS',
+  'app_version' => '1.0',
+  'cid' => '4C586264-49F3-423D-8013-EB2D6CD508A5',
+  'times' => '1551316443',
+  'tk' => 'f94444d20d7bc3992253210ebf96b5d4',
+  'user_id' => '34',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Trips->showTrips[ /data/web/php/ischool/application/api/controller/Trips.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000503s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tasks` [ RunTime:0.000940s ]
+[ sql ] [ SQL ] SELECT t.id tasks_id,`t`.`type`,`t`.`ctime`,`t`.`content`,`t`.`start_time`,`t`.`end_time`,`t`.`title`,`t`.`plays_id` FROM `tasks` `t` WHERE  ( `t`.`start_time` > 1551283200 AND `t`.`start_time` < 1551369599 )  AND `t`.`user_id` = '34'  AND `t`.`status` = 0 ORDER BY `t`.`start_time` DESC [ RunTime:0.000567s ]
+---------------------------------------------------------------
+[ 2019-02-28T09:14:04+08:00 ] 117.136.62.33 POST 148.70.73.177/api/trips/showTrips
+[运行时间：0.034678s] [吞吐率：28.84req/s] [内存消耗：2,770.50kb] [文件加载：55]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'trips',
+    2 => 'showTrips',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '131',
+  'accept-language' => 'zh-Hans-CN;q=1, en-CN;q=0.9',
+  'user-agent' => 'you si gu/1.0 (iPhone; iOS 12.1.4; Scale/3.00)',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => '148.70.73.177',
+)
+[ info ] [ PARAM ] array (
+  'app_os' => 'IOS',
+  'app_version' => '1.0',
+  'cid' => '4C586264-49F3-423D-8013-EB2D6CD508A5',
+  'times' => '1551316444',
+  'tk' => 'f94444d20d7bc3992253210ebf96b5d4',
+  'user_id' => '34',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Trips->showTrips[ /data/web/php/ischool/application/api/controller/Trips.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000472s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tasks` [ RunTime:0.000916s ]
+[ sql ] [ SQL ] SELECT t.id tasks_id,`t`.`type`,`t`.`ctime`,`t`.`content`,`t`.`start_time`,`t`.`end_time`,`t`.`title`,`t`.`plays_id` FROM `tasks` `t` WHERE  ( `t`.`start_time` > 1551283200 AND `t`.`start_time` < 1551369599 )  AND `t`.`user_id` = '34'  AND `t`.`status` = 0 ORDER BY `t`.`start_time` DESC [ RunTime:0.000511s ]
+---------------------------------------------------------------
+[ 2019-02-28T09:14:04+08:00 ] 117.136.62.33 POST 148.70.73.177/api/trips/showList
+[运行时间：0.035560s] [吞吐率：28.12req/s] [内存消耗：2,768.45kb] [文件加载：56]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'trips',
+    2 => 'showList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '122',
+  'accept-language' => 'zh-Hans-CN;q=1, en-CN;q=0.9',
+  'user-agent' => 'you si gu/1.0 (iPhone; iOS 12.1.4; Scale/3.00)',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => '148.70.73.177',
+)
+[ info ] [ PARAM ] array (
+  'app_os' => 'IOS',
+  'app_version' => '1.0',
+  'cid' => '4C586264-49F3-423D-8013-EB2D6CD508A5',
+  'pages' => '1',
+  'tk' => 'f94444d20d7bc3992253210ebf96b5d4',
+  'user_id' => '34',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Trips->showList[ /data/web/php/ischool/application/api/controller/Trips.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000500s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tasks` [ RunTime:0.000915s ]
+[ sql ] [ SQL ] SELECT t.id tasks_id,`t`.`type`,`t`.`ctime`,`t`.`content`,`t`.`start_time`,`t`.`end_time`,`t`.`title`,`t`.`plays_id`,`t`.`type_name` FROM `tasks` `t` WHERE  `t`.`start_time` > 1551369599  AND `t`.`user_id` = '34'  AND `t`.`status` = 0 ORDER BY `t`.`start_time` DESC LIMIT 0,10 [ RunTime:0.000550s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tasks` `t` WHERE  `t`.`start_time` > 1551369599  AND `t`.`user_id` = '34'  AND `t`.`status` = 0 LIMIT 1 [ RunTime:0.000398s ]
+---------------------------------------------------------------
+[ 2019-02-28T09:14:06+08:00 ] 117.136.62.33 POST 148.70.73.177/api/trips/showTrips
+[运行时间：0.033956s] [吞吐率：29.45req/s] [内存消耗：2,770.50kb] [文件加载：55]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'trips',
+    2 => 'showTrips',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '131',
+  'accept-language' => 'zh-Hans-CN;q=1, en-CN;q=0.9',
+  'user-agent' => 'you si gu/1.0 (iPhone; iOS 12.1.4; Scale/3.00)',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => '148.70.73.177',
+)
+[ info ] [ PARAM ] array (
+  'app_os' => 'IOS',
+  'app_version' => '1.0',
+  'cid' => '4C586264-49F3-423D-8013-EB2D6CD508A5',
+  'times' => '1551316446',
+  'tk' => 'f94444d20d7bc3992253210ebf96b5d4',
+  'user_id' => '34',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Trips->showTrips[ /data/web/php/ischool/application/api/controller/Trips.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000443s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tasks` [ RunTime:0.000741s ]
+[ sql ] [ SQL ] SELECT t.id tasks_id,`t`.`type`,`t`.`ctime`,`t`.`content`,`t`.`start_time`,`t`.`end_time`,`t`.`title`,`t`.`plays_id` FROM `tasks` `t` WHERE  ( `t`.`start_time` > 1551283200 AND `t`.`start_time` < 1551369599 )  AND `t`.`user_id` = '34'  AND `t`.`status` = 0 ORDER BY `t`.`start_time` DESC [ RunTime:0.000354s ]
+---------------------------------------------------------------
+[ 2019-02-28T09:14:06+08:00 ] 117.136.62.33 POST 148.70.73.177/api/trips/showList
+[运行时间：0.030936s] [吞吐率：32.32req/s] [内存消耗：2,768.45kb] [文件加载：56]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'trips',
+    2 => 'showList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '122',
+  'accept-language' => 'zh-Hans-CN;q=1, en-CN;q=0.9',
+  'user-agent' => 'you si gu/1.0 (iPhone; iOS 12.1.4; Scale/3.00)',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => '148.70.73.177',
+)
+[ info ] [ PARAM ] array (
+  'app_os' => 'IOS',
+  'app_version' => '1.0',
+  'cid' => '4C586264-49F3-423D-8013-EB2D6CD508A5',
+  'pages' => '1',
+  'tk' => 'f94444d20d7bc3992253210ebf96b5d4',
+  'user_id' => '34',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Trips->showList[ /data/web/php/ischool/application/api/controller/Trips.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000371s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tasks` [ RunTime:0.000854s ]
+[ sql ] [ SQL ] SELECT t.id tasks_id,`t`.`type`,`t`.`ctime`,`t`.`content`,`t`.`start_time`,`t`.`end_time`,`t`.`title`,`t`.`plays_id`,`t`.`type_name` FROM `tasks` `t` WHERE  `t`.`start_time` > 1551369599  AND `t`.`user_id` = '34'  AND `t`.`status` = 0 ORDER BY `t`.`start_time` DESC LIMIT 0,10 [ RunTime:0.000463s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tasks` `t` WHERE  `t`.`start_time` > 1551369599  AND `t`.`user_id` = '34'  AND `t`.`status` = 0 LIMIT 1 [ RunTime:0.000375s ]
+---------------------------------------------------------------
+[ 2019-02-28T09:14:09+08:00 ] 117.136.62.33 POST 148.70.73.177/api/trips/showTrips
+[运行时间：0.034997s] [吞吐率：28.57req/s] [内存消耗：2,770.50kb] [文件加载：55]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'trips',
+    2 => 'showTrips',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '131',
+  'accept-language' => 'zh-Hans-CN;q=1, en-CN;q=0.9',
+  'user-agent' => 'you si gu/1.0 (iPhone; iOS 12.1.4; Scale/3.00)',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => '148.70.73.177',
+)
+[ info ] [ PARAM ] array (
+  'app_os' => 'IOS',
+  'app_version' => '1.0',
+  'cid' => '4C586264-49F3-423D-8013-EB2D6CD508A5',
+  'times' => '1551316449',
+  'tk' => 'f94444d20d7bc3992253210ebf96b5d4',
+  'user_id' => '34',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Trips->showTrips[ /data/web/php/ischool/application/api/controller/Trips.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000507s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tasks` [ RunTime:0.000929s ]
+[ sql ] [ SQL ] SELECT t.id tasks_id,`t`.`type`,`t`.`ctime`,`t`.`content`,`t`.`start_time`,`t`.`end_time`,`t`.`title`,`t`.`plays_id` FROM `tasks` `t` WHERE  ( `t`.`start_time` > 1551283200 AND `t`.`start_time` < 1551369599 )  AND `t`.`user_id` = '34'  AND `t`.`status` = 0 ORDER BY `t`.`start_time` DESC [ RunTime:0.000476s ]
+---------------------------------------------------------------
+[ 2019-02-28T09:14:10+08:00 ] 117.136.62.33 POST 148.70.73.177/api/users/showSec
+[运行时间：0.041762s] [吞吐率：23.95req/s] [内存消耗：2,797.99kb] [文件加载：55]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'users',
+    2 => 'showSec',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '114',
+  'accept-language' => 'zh-Hans-CN;q=1, en-CN;q=0.9',
+  'user-agent' => 'you si gu/1.0 (iPhone; iOS 12.1.4; Scale/3.00)',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => '148.70.73.177',
+)
+[ info ] [ PARAM ] array (
+  'app_os' => 'IOS',
+  'app_version' => '1.0',
+  'cid' => '4C586264-49F3-423D-8013-EB2D6CD508A5',
+  'tk' => 'f94444d20d7bc3992253210ebf96b5d4',
+  'user_id' => '34',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Users->showSec[ /data/web/php/ischool/application/api/controller/Users.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000489s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users_secretary` [ RunTime:0.000951s ]
+[ sql ] [ SQL ] SELECT id sec_id,`user_id`,`sec_name`,`sec_sex`,`sec_call`,`images`,`intimate`,`charm`,`sec_level`,`attack`,`fatigue`,`spirit`,`hunger`,`grade` FROM `users_secretary` WHERE  `user_id` = 34 LIMIT 1 [ RunTime:0.000509s ]
+---------------------------------------------------------------
+[ 2019-02-28T09:35:10+08:00 ] 171.88.44.94 GET www.blankblock.cn/gzh/recruit/index.html
+[运行时间：0.034278s] [吞吐率：29.17req/s] [内存消耗：2,605.83kb] [文件加载：53]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'gzh',
+    1 => 'recruit',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'www.blankblock.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\gzh\controller\Recruit->index[ /data/web/php/ischool/application/gzh/controller/Recruit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/web/php/ischool/public/../application/gzh/view/recruit/index.html [ array (
+  0 => 'list',
+  1 => 'number',
+  2 => 'banner',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000469s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.000922s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `type` = 1 [ RunTime:0.000437s ]
+[ sql ] [ SQL ]  select r.id,r.rec_address,rt.recruit_name,r.settlement,r.requirement,r.recruit_pay,r.area,r.number,r.recruit_times,e.enterprise_name,e.enter_logo,r.start_time from recruit as r LEFT JOIN recruit_type as rt ON r.rec_type_id=rt.id LEFT JOIN enterprise as e ON e.id=r.enter_id where r.id not in (select rn.recruit_id from recruit_enroll rn where rn.user_id=29) and r.start_time>1551317710 ORDER BY r.id DESC [ RunTime:0.000667s ]
+---------------------------------------------------------------
+[ 2019-02-28T09:35:11+08:00 ] 171.88.44.94 GET www.blankblock.cn/gzh/recruit/des.html?r=3&u=null
+[运行时间：0.051261s] [吞吐率：19.51req/s] [内存消耗：2,610.32kb] [文件加载：53]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'gzh',
+    1 => 'recruit',
+    2 => 'des',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://www.blankblock.cn/gzh/recruit/index.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.blankblock.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'r' => '3',
+  'u' => 'null ',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\gzh\controller\Recruit->des[ /data/web/php/ischool/application/gzh/controller/Recruit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/web/php/ischool/public/../application/gzh/view/recruit/des.html [ array (
+  0 => 'dec',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000539s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `recruit` [ RunTime:0.000950s ]
+[ sql ] [ SQL ] SELECT `r`.`id`,`r`.`rec_address`,`rt`.`recruit_name`,`r`.`settlement`,`r`.`requirement`,`r`.`recruit_pay`,`r`.`area`,`r`.`number`,`r`.`recruit_times`,`e`.`enterprise_name`,`e`.`enter_logo`,`r`.`start_time`,`r`.`city`,`r`.`big_time`,`r`.`description`,`e`.`phone`,e.id eid FROM `recruit` `r` LEFT JOIN `recruit_type` `rt` ON `r`.`rec_type_id`=`rt`.`id` LEFT JOIN `enterprise` `e` ON `e`.`id`=`r`.`enter_id` WHERE  `r`.`id` = '3' LIMIT 1 [ RunTime:0.000575s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.000902s ]
+[ sql ] [ SQL ] SELECT * FROM `users` WHERE  `sex` IS NULL  AND `user_id` = 0 LIMIT 1 [ RunTime:0.000436s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `recruit_enroll` [ RunTime:0.000580s ]
+[ sql ] [ SQL ] SELECT `id` FROM `recruit_enroll` WHERE  `user_id` = 0  AND `recruit_id` = 3 LIMIT 1 [ RunTime:0.000293s ]
+---------------------------------------------------------------
+[ 2019-02-28T09:35:25+08:00 ] 171.88.44.94 GET www.blankblock.cn/gzh/recruit/des.html?r=2&u=null
+[运行时间：0.033264s] [吞吐率：30.06req/s] [内存消耗：2,610.08kb] [文件加载：53]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'gzh',
+    1 => 'recruit',
+    2 => 'des',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://www.blankblock.cn/gzh/recruit/index.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 MicroMessenger/6.7.3(0x16070321) NetType/WIFI Language/zh_CN',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.blankblock.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'r' => '2',
+  'u' => 'null ',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\gzh\controller\Recruit->des[ /data/web/php/ischool/application/gzh/controller/Recruit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/web/php/ischool/public/../application/gzh/view/recruit/des.html [ array (
+  0 => 'dec',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000479s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `recruit` [ RunTime:0.000964s ]
+[ sql ] [ SQL ] SELECT `r`.`id`,`r`.`rec_address`,`rt`.`recruit_name`,`r`.`settlement`,`r`.`requirement`,`r`.`recruit_pay`,`r`.`area`,`r`.`number`,`r`.`recruit_times`,`e`.`enterprise_name`,`e`.`enter_logo`,`r`.`start_time`,`r`.`city`,`r`.`big_time`,`r`.`description`,`e`.`phone`,e.id eid FROM `recruit` `r` LEFT JOIN `recruit_type` `rt` ON `r`.`rec_type_id`=`rt`.`id` LEFT JOIN `enterprise` `e` ON `e`.`id`=`r`.`enter_id` WHERE  `r`.`id` = '2' LIMIT 1 [ RunTime:0.000583s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SELECT * FROM `users` WHERE  `sex` IS NULL  AND `user_id` = 0 LIMIT 1 [ RunTime:0.000441s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `recruit_enroll` [ RunTime:0.000625s ]
+[ sql ] [ SQL ] SELECT `id` FROM `recruit_enroll` WHERE  `user_id` = 0  AND `recruit_id` = 2 LIMIT 1 [ RunTime:0.000319s ]
+---------------------------------------------------------------
+[ 2019-02-28T09:36:11+08:00 ] 101.91.60.107 GET www.blankblock.cn/gzh/recruit/des.html?r=3&u=null
+[运行时间：0.029845s] [吞吐率：33.51req/s] [内存消耗：2,606.05kb] [文件加载：53]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'gzh',
+    1 => 'recruit',
+    2 => 'des',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'host' => 'www.blankblock.cn',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 MicroMessenger/6.5.5 NetType/WIFI Language/zh_CN',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'r' => '3',
+  'u' => 'null ',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\gzh\controller\Recruit->des[ /data/web/php/ischool/application/gzh/controller/Recruit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/web/php/ischool/public/../application/gzh/view/recruit/des.html [ array (
+  0 => 'dec',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000386s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `recruit` [ RunTime:0.000868s ]
+[ sql ] [ SQL ] SELECT `r`.`id`,`r`.`rec_address`,`rt`.`recruit_name`,`r`.`settlement`,`r`.`requirement`,`r`.`recruit_pay`,`r`.`area`,`r`.`number`,`r`.`recruit_times`,`e`.`enterprise_name`,`e`.`enter_logo`,`r`.`start_time`,`r`.`city`,`r`.`big_time`,`r`.`description`,`e`.`phone`,e.id eid FROM `recruit` `r` LEFT JOIN `recruit_type` `rt` ON `r`.`rec_type_id`=`rt`.`id` LEFT JOIN `enterprise` `e` ON `e`.`id`=`r`.`enter_id` WHERE  `r`.`id` = '3' LIMIT 1 [ RunTime:0.000425s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.000732s ]
+[ sql ] [ SQL ] SELECT * FROM `users` WHERE  `sex` IS NULL  AND `user_id` = 0 LIMIT 1 [ RunTime:0.000361s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `recruit_enroll` [ RunTime:0.000559s ]
+[ sql ] [ SQL ] SELECT `id` FROM `recruit_enroll` WHERE  `user_id` = 0  AND `recruit_id` = 3 LIMIT 1 [ RunTime:0.000316s ]
+---------------------------------------------------------------
+[ 2019-02-28T09:37:59+08:00 ] 182.149.169.214 GET www.blankblock.cn/gzh/recruit/index.html
+[运行时间：0.035786s] [吞吐率：27.94req/s] [内存消耗：2,605.83kb] [文件加载：53]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'gzh',
+    1 => 'recruit',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_1_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16D57 MicroMessenger/7.0.2(0x17000222) NetType/WIFI Language/zh_CN',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'www.blankblock.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\gzh\controller\Recruit->index[ /data/web/php/ischool/application/gzh/controller/Recruit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/web/php/ischool/public/../application/gzh/view/recruit/index.html [ array (
+  0 => 'list',
+  1 => 'number',
+  2 => 'banner',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000419s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.000774s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `type` = 1 [ RunTime:0.000446s ]
+[ sql ] [ SQL ]  select r.id,r.rec_address,rt.recruit_name,r.settlement,r.requirement,r.recruit_pay,r.area,r.number,r.recruit_times,e.enterprise_name,e.enter_logo,r.start_time from recruit as r LEFT JOIN recruit_type as rt ON r.rec_type_id=rt.id LEFT JOIN enterprise as e ON e.id=r.enter_id where r.id not in (select rn.recruit_id from recruit_enroll rn where rn.user_id=29) and r.start_time>1551317879 ORDER BY r.id DESC [ RunTime:0.000555s ]
+---------------------------------------------------------------
+[ 2019-02-28T09:38:03+08:00 ] 182.149.169.214 GET www.blankblock.cn/gzh/login/index.html
+[运行时间：0.036298s] [吞吐率：27.55req/s] [内存消耗：1,642.77kb] [文件加载：42]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'gzh',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_1_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16D57 MicroMessenger/7.0.2(0x17000222) NetType/WIFI Language/zh_CN',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'www.blankblock.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\gzh\controller\Login->index[ /data/web/php/ischool/application/gzh/controller/Login.php ]
+[ info ] [ VIEW ] /data/web/php/ischool/public/../application/gzh/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-28T09:38:04+08:00 ] 182.149.169.214 GET www.blankblock.cn/gzh/index/index.html?u=30
+[运行时间：0.039972s] [吞吐率：25.02req/s] [内存消耗：1,828.73kb] [文件加载：46]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'gzh',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://www.blankblock.cn/gzh/login/index.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_1_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16D57 MicroMessenger/7.0.2(0x17000222) NetType/WIFI Language/zh_CN',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.blankblock.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'u' => '30',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\gzh\controller\Index->index[ /data/web/php/ischool/application/gzh/controller/Index.php ]
+[ info ] [ VIEW ] /data/web/php/ischool/public/../application/gzh/view/index/index.html [ array (
+  0 => 'u_info',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-28T09:38:05+08:00 ] 182.149.169.214 GET www.blankblock.cn/gzh/recruit/index.html
+[运行时间：0.027510s] [吞吐率：36.35req/s] [内存消耗：2,605.83kb] [文件加载：53]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'gzh',
+    1 => 'recruit',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_1_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16D57 MicroMessenger/7.0.2(0x17000222) NetType/WIFI Language/zh_CN',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'www.blankblock.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\gzh\controller\Recruit->index[ /data/web/php/ischool/application/gzh/controller/Recruit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/web/php/ischool/public/../application/gzh/view/recruit/index.html [ array (
+  0 => 'list',
+  1 => 'number',
+  2 => 'banner',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000477s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.000870s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `type` = 1 [ RunTime:0.000456s ]
+[ sql ] [ SQL ]  select r.id,r.rec_address,rt.recruit_name,r.settlement,r.requirement,r.recruit_pay,r.area,r.number,r.recruit_times,e.enterprise_name,e.enter_logo,r.start_time from recruit as r LEFT JOIN recruit_type as rt ON r.rec_type_id=rt.id LEFT JOIN enterprise as e ON e.id=r.enter_id where r.id not in (select rn.recruit_id from recruit_enroll rn where rn.user_id=29) and r.start_time>1551317885 ORDER BY r.id DESC [ RunTime:0.000528s ]
+---------------------------------------------------------------
+[ 2019-02-28T10:15:36+08:00 ] 127.0.0.1 GET www.huachuang.com/
+[运行时间：0.091150s] [吞吐率：10.97req/s] [内存消耗：1,231.41kb] [文件加载：33]
+[ info ] [ LANG ] /Applications/xampp/xamppfiles/htdocs/huachuang/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.huachuang.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-28T10:15:41+08:00 ] 127.0.0.1 GET www.huachuang.com/admin
+[运行时间：0.053770s] [吞吐率：18.60req/s] [内存消耗：1,732.03kb] [文件加载：44]
+[ info ] [ LANG ] /Applications/xampp/xamppfiles/htdocs/huachuang/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.huachuang.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /Applications/xampp/xamppfiles/htdocs/huachuang/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-28T10:15:44+08:00 ] 127.0.0.1 GET www.huachuang.com/admin/login/login.html
+[运行时间：0.030405s] [吞吐率：32.89req/s] [内存消耗：1,739.16kb] [文件加载：43]
+[ info ] [ LANG ] /Applications/xampp/xamppfiles/htdocs/huachuang/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.huachuang.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.huachuang.com/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=88lqsrl2n3d2h7iavm9gutdt77',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /Applications/xampp/xamppfiles/htdocs/huachuang/public/../application/admin/view/login/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-28T10:15:44+08:00 ] 127.0.0.1 GET www.huachuang.com/captcha.html
+[运行时间：0.073626s] [吞吐率：13.58req/s] [内存消耗：1,291.58kb] [文件加载：34]
+[ info ] [ LANG ] /Applications/xampp/xamppfiles/htdocs/huachuang/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.huachuang.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.huachuang.com/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=88lqsrl2n3d2h7iavm9gutdt77',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /Applications/xampp/xamppfiles/htdocs/huachuang/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-28T10:19:40+08:00 ] 127.0.0.1 GET www.huachuang.com/admin/login/login.html
+[运行时间：0.093634s] [吞吐率：10.68req/s] [内存消耗：1,602.54kb] [文件加载：41]
+[ info ] [ LANG ] /Applications/xampp/xamppfiles/htdocs/huachuang/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.huachuang.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.huachuang.com/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=88lqsrl2n3d2h7iavm9gutdt77',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /Applications/xampp/xamppfiles/htdocs/huachuang/public/../application/admin/view/login/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-28T10:19:40+08:00 ] 127.0.0.1 GET www.huachuang.com/captcha.html
+[运行时间：0.038715s] [吞吐率：25.83req/s] [内存消耗：1,290.90kb] [文件加载：34]
+[ info ] [ LANG ] /Applications/xampp/xamppfiles/htdocs/huachuang/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.huachuang.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.huachuang.com/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=88lqsrl2n3d2h7iavm9gutdt77',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /Applications/xampp/xamppfiles/htdocs/huachuang/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-28T10:19:50+08:00 ] 127.0.0.1 POST www.huachuang.com/admin/login/login.html
+[运行时间：0.102681s] [吞吐率：9.74req/s] [内存消耗：2,377.13kb] [文件加载：49]
+[ info ] [ LANG ] /Applications/xampp/xamppfiles/htdocs/huachuang/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.huachuang.com',
+  'connection' => 'keep-alive',
+  'content-length' => '43',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.huachuang.com',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.huachuang.com/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=88lqsrl2n3d2h7iavm9gutdt77',
+)
+[ info ] [ PARAM ] array (
+  'account' => 'admin',
+  'password' => 'xiewen123',
+  'code' => 'xe3hx',
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Applications/xampp/xamppfiles/htdocs/huachuang/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006062s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.011491s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `account` = 'admin' LIMIT 1 [ RunTime:0.002820s ]
+---------------------------------------------------------------
+[ 2019-02-28T10:19:53+08:00 ] 127.0.0.1 GET www.huachuang.com/admin/login/login.html
+[运行时间：0.021301s] [吞吐率：46.95req/s] [内存消耗：1,600.59kb] [文件加载：41]
+[ info ] [ LANG ] /Applications/xampp/xamppfiles/htdocs/huachuang/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.huachuang.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.huachuang.com/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=88lqsrl2n3d2h7iavm9gutdt77',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /Applications/xampp/xamppfiles/htdocs/huachuang/public/../application/admin/view/login/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-28T10:20:00+08:00 ] 127.0.0.1 GET www.huachuang.com/captcha.html?0.22792724468375103
+[运行时间：0.030106s] [吞吐率：33.22req/s] [内存消耗：1,291.95kb] [文件加载：34]
+[ info ] [ LANG ] /Applications/xampp/xamppfiles/htdocs/huachuang/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.huachuang.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.huachuang.com/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=88lqsrl2n3d2h7iavm9gutdt77',
+)
+[ info ] [ PARAM ] array (
+  '0_22792724468375103' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /Applications/xampp/xamppfiles/htdocs/huachuang/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-28T10:20:06+08:00 ] 127.0.0.1 POST www.huachuang.com/admin/login/login.html
+[运行时间：0.083092s] [吞吐率：12.03req/s] [内存消耗：2,377.13kb] [文件加载：49]
+[ info ] [ LANG ] /Applications/xampp/xamppfiles/htdocs/huachuang/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.huachuang.com',
+  'connection' => 'keep-alive',
+  'content-length' => '43',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.huachuang.com',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.huachuang.com/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=88lqsrl2n3d2h7iavm9gutdt77',
+)
+[ info ] [ PARAM ] array (
+  'account' => 'admin',
+  'password' => 'xiewen123',
+  'code' => 'xrjhi',
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Applications/xampp/xamppfiles/htdocs/huachuang/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001127s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.006456s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `account` = 'admin' LIMIT 1 [ RunTime:0.000688s ]
+---------------------------------------------------------------
+[ 2019-02-28T10:20:09+08:00 ] 127.0.0.1 GET www.huachuang.com/admin/login/login.html
+[运行时间：0.026452s] [吞吐率：37.80req/s] [内存消耗：1,600.59kb] [文件加载：41]
+[ info ] [ LANG ] /Applications/xampp/xamppfiles/htdocs/huachuang/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.huachuang.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.huachuang.com/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=88lqsrl2n3d2h7iavm9gutdt77',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /Applications/xampp/xamppfiles/htdocs/huachuang/public/../application/admin/view/login/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-28T10:20:10+08:00 ] 127.0.0.1 GET www.huachuang.com/captcha.html
+[运行时间：0.032578s] [吞吐率：30.70req/s] [内存消耗：1,290.74kb] [文件加载：34]
+[ info ] [ LANG ] /Applications/xampp/xamppfiles/htdocs/huachuang/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.huachuang.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.huachuang.com/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=88lqsrl2n3d2h7iavm9gutdt77',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /Applications/xampp/xamppfiles/htdocs/huachuang/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-28T10:21:37+08:00 ] 127.0.0.1 GET www.huachuang.com/captcha.html?0.29674609497386983
+[运行时间：0.078111s] [吞吐率：12.80req/s] [内存消耗：1,291.27kb] [文件加载：34]
+[ info ] [ LANG ] /Applications/xampp/xamppfiles/htdocs/huachuang/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.huachuang.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.huachuang.com/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=88lqsrl2n3d2h7iavm9gutdt77',
+)
+[ info ] [ PARAM ] array (
+  '0_29674609497386983' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /Applications/xampp/xamppfiles/htdocs/huachuang/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-28T10:21:39+08:00 ] 127.0.0.1 GET www.huachuang.com/captcha.html?0.4763215960962086
+[运行时间：0.019080s] [吞吐率：52.41req/s] [内存消耗：1,291.27kb] [文件加载：34]
+[ info ] [ LANG ] /Applications/xampp/xamppfiles/htdocs/huachuang/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.huachuang.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.huachuang.com/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=88lqsrl2n3d2h7iavm9gutdt77',
+)
+[ info ] [ PARAM ] array (
+  '0_4763215960962086' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /Applications/xampp/xamppfiles/htdocs/huachuang/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-28T10:21:40+08:00 ] 127.0.0.1 GET www.huachuang.com/captcha.html?0.308573231152272
+[运行时间：0.019781s] [吞吐率：50.55req/s] [内存消耗：1,291.27kb] [文件加载：34]
+[ info ] [ LANG ] /Applications/xampp/xamppfiles/htdocs/huachuang/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.huachuang.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.huachuang.com/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=88lqsrl2n3d2h7iavm9gutdt77',
+)
+[ info ] [ PARAM ] array (
+  '0_308573231152272' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /Applications/xampp/xamppfiles/htdocs/huachuang/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-28T10:21:47+08:00 ] 127.0.0.1 POST www.huachuang.com/admin/login/login.html
+[运行时间：0.111049s] [吞吐率：9.01req/s] [内存消耗：2,503.77kb] [文件加载：53]
+[ info ] [ LANG ] /Applications/xampp/xamppfiles/htdocs/huachuang/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.huachuang.com',
+  'connection' => 'keep-alive',
+  'content-length' => '40',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.huachuang.com',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.huachuang.com/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=88lqsrl2n3d2h7iavm9gutdt77',
+)
+[ info ] [ PARAM ] array (
+  'account' => 'admin',
+  'password' => '123456',
+  'code' => 'vrfsz',
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000950s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.007210s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `account` = 'admin' LIMIT 1 [ RunTime:0.000607s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_log` [ RunTime:0.007699s ]
+[ sql ] [ SQL ] INSERT INTO `admin_log` (`admin_id` , `type` , `content` , `ip` , `create_time`) VALUES (1 , 1 , '登录成功！' , '127.0.0.1' , '2019-02-28 10:21:47') [ RunTime:0.003628s ]
+[ sql ] [ SQL ] UPDATE `admin`  SET `login_sum`=24  WHERE  `id` = 1 [ RunTime:0.002180s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.005392s ]
+---------------------------------------------------------------
+[ 2019-02-28T10:21:47+08:00 ] 127.0.0.1 GET www.huachuang.com/admin/index/index.html
+[运行时间：0.078494s] [吞吐率：12.74req/s] [内存消耗：2,697.78kb] [文件加载：54]
+[ info ] [ LANG ] /Applications/xampp/xamppfiles/htdocs/huachuang/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.huachuang.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.huachuang.com/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=88lqsrl2n3d2h7iavm9gutdt77',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /Applications/xampp/xamppfiles/htdocs/huachuang/public/../application/admin/view/index/index.html [ array (
+  0 => 'data',
+  1 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000657s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_roles` [ RunTime:0.006960s ]
+[ sql ] [ SQL ] SELECT `name`,`functions` FROM `admin_roles` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.006225s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_func` [ RunTime:0.005792s ]
+[ sql ] [ SQL ] SELECT `id`,`level`,`pid`,`name`,`url` FROM `admin_func` WHERE  `status` = 1 ORDER BY `order_num` ASC [ RunTime:0.004347s ]
+---------------------------------------------------------------
+[ 2019-02-28T10:21:48+08:00 ] 127.0.0.1 GET www.huachuang.com/admin/index/welcome.html
+[运行时间：0.077022s] [吞吐率：12.98req/s] [内存消耗：2,516.25kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/xampp/xamppfiles/htdocs/huachuang/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.huachuang.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.huachuang.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=88lqsrl2n3d2h7iavm9gutdt77',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Applications/xampp/xamppfiles/htdocs/huachuang/public/../application/admin/view/index/welcome.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001144s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_log` [ RunTime:0.006629s ]
+[ sql ] [ SQL ] SELECT `ip`,`create_time` FROM `admin_log` WHERE  `admin_id` = 1  AND `type` = 1 ORDER BY `id` DESC LIMIT 2 [ RunTime:0.002144s ]
+---------------------------------------------------------------
+[ 2019-02-28T10:21:53+08:00 ] 127.0.0.1 GET www.huachuang.com/admin/Sociality/addList.html
+[运行时间：0.091848s] [吞吐率：10.89req/s] [内存消耗：2,693.44kb] [文件加载：54]
+[ info ] [ LANG ] /Applications/xampp/xamppfiles/htdocs/huachuang/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Sociality',
+    2 => 'addList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.huachuang.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.huachuang.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=88lqsrl2n3d2h7iavm9gutdt77',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\admin\controller\Sociality->addList[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Sociality.php ]
+[ info ] [ VIEW ] /Applications/xampp/xamppfiles/htdocs/huachuang/public/../application/admin/view/sociality/index.html [ array (
+  0 => 'list',
+  1 => 'type',
+  2 => 'total',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000730s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_func` [ RunTime:0.011159s ]
+[ sql ] [ SQL ] SELECT `status` FROM `admin_func` WHERE  `url` = '/admin/Sociality/addList.html' LIMIT 1 [ RunTime:0.000661s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_roles` [ RunTime:0.004402s ]
+[ sql ] [ SQL ] SELECT `functions` FROM `admin_roles` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000503s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sociality_type` [ RunTime:0.005686s ]
+[ sql ] [ SQL ] SELECT `id`,`type_name` FROM `sociality_type` WHERE  `pid` = 0  AND `status` = 1 [ RunTime:0.000691s ]
+[ sql ] [ SQL ] SELECT `id`,`type_name` FROM `sociality_type` WHERE  `status` = 1  AND `pid` = 1 [ RunTime:0.000571s ]
+[ sql ] [ SQL ] SELECT `id`,`type_name` FROM `sociality_type` WHERE  `status` = 1  AND `pid` = 2 [ RunTime:0.000571s ]
+[ sql ] [ SQL ] SELECT `id`,`type_name`,`icon`,`ctime`,`order`,`pid` FROM `sociality_type` WHERE  `status` = 1 ORDER BY `pid` ASC [ RunTime:0.002420s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `s_sociality_type` [ RunTime:0.007395s ]
+[ sql ] [ SQL ] SELECT `id`,`type_name`,`icon`,`ctime`,`order`,type_id pid FROM `s_sociality_type` WHERE  `status` = 1 ORDER BY `type_id` ASC [ RunTime:0.000842s ]
+---------------------------------------------------------------
+[ 2019-02-28T10:21:58+08:00 ] 127.0.0.1 GET www.huachuang.com/admin/admin/index.html
+[运行时间：0.086447s] [吞吐率：11.57req/s] [内存消耗：2,763.32kb] [文件加载：57]
+[ info ] [ LANG ] /Applications/xampp/xamppfiles/htdocs/huachuang/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.huachuang.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.huachuang.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=88lqsrl2n3d2h7iavm9gutdt77',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\admin\controller\Admin->index[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Admin.php ]
+[ info ] [ VIEW ] /Applications/xampp/xamppfiles/htdocs/huachuang/public/../application/admin/view/admin/index.html [ array (
+  0 => 'adm',
+  1 => 'data',
+  2 => 'page_data',
+  3 => 'page',
+  4 => 'datemin',
+  5 => 'datemax',
+  6 => 'name',
+) ]
+[ info ] [ RUN ] app\admin\controller\Base->is_power[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Base.php ]
+[ info ] [ RUN ] app\admin\controller\Base->is_power[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Base.php ]
+[ info ] [ RUN ] app\admin\controller\Base->is_power[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Base.php ]
+[ info ] [ RUN ] app\admin\controller\Base->is_power[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Base.php ]
+[ info ] [ RUN ] app\admin\controller\Base->is_power[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Base.php ]
+[ info ] [ RUN ] app\admin\controller\Base->is_power[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Base.php ]
+[ info ] [ RUN ] app\admin\controller\Base->is_power[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Base.php ]
+[ info ] [ RUN ] app\admin\controller\Base->is_power[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Base.php ]
+[ info ] [ RUN ] app\admin\controller\Base->is_power[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Base.php ]
+[ info ] [ RUN ] app\admin\controller\Base->is_power[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Base.php ]
+[ info ] [ RUN ] app\admin\controller\Base->is_power[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Base.php ]
+[ info ] [ RUN ] app\admin\controller\Base->is_power[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Base.php ]
+[ info ] [ RUN ] app\admin\controller\Base->is_power[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Base.php ]
+[ info ] [ RUN ] app\admin\controller\Base->is_power[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Base.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000685s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_func` [ RunTime:0.006772s ]
+[ sql ] [ SQL ] SELECT `status` FROM `admin_func` WHERE  `url` = '/admin/admin/index.html' LIMIT 1 [ RunTime:0.000730s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.006834s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `admin` WHERE  (  id > 0 )  AND `status` IN (0,1) LIMIT 1 [ RunTime:0.008426s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  (  id > 0 )  AND `status` IN (0,1) LIMIT 0,10 [ RunTime:0.000774s ]
+[ sql ] [ SQL ] SELECT `status` FROM `admin_func` WHERE  `url` = '/admin/admin/add.html' LIMIT 1 [ RunTime:0.000509s ]
+[ sql ] [ SQL ] SELECT `status` FROM `admin_func` WHERE  `url` = '/admin/admin/edit.html' LIMIT 1 [ RunTime:0.000633s ]
+[ sql ] [ SQL ] SELECT `status` FROM `admin_func` WHERE  `url` = '/admin/admin/stop.html' LIMIT 1 [ RunTime:0.000602s ]
+[ sql ] [ SQL ] SELECT `status` FROM `admin_func` WHERE  `url` = '/admin/admin/del.html' LIMIT 1 [ RunTime:0.000544s ]
+---------------------------------------------------------------
+[ 2019-02-28T10:22:00+08:00 ] 127.0.0.1 GET www.huachuang.com/admin/roles/index.html
+[运行时间：0.072750s] [吞吐率：13.75req/s] [内存消耗：2,723.50kb] [文件加载：57]
+[ info ] [ LANG ] /Applications/xampp/xamppfiles/htdocs/huachuang/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'roles',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.huachuang.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.huachuang.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=88lqsrl2n3d2h7iavm9gutdt77',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\admin\controller\Roles->index[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Roles.php ]
+[ info ] [ VIEW ] /Applications/xampp/xamppfiles/htdocs/huachuang/public/../application/admin/view/roles/index.html [ array (
+  0 => 'data',
+  1 => 'page_data',
+  2 => 'page',
+) ]
+[ info ] [ RUN ] app\admin\controller\Base->is_power[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Base.php ]
+[ info ] [ RUN ] app\admin\controller\Base->is_power[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Base.php ]
+[ info ] [ RUN ] app\admin\controller\Base->is_power[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Base.php ]
+[ info ] [ RUN ] app\admin\controller\Base->is_power[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Base.php ]
+[ info ] [ RUN ] app\admin\controller\Base->is_power[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Base.php ]
+[ info ] [ RUN ] app\admin\controller\Base->is_power[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Base.php ]
+[ info ] [ RUN ] app\admin\controller\Base->is_power[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Base.php ]
+[ info ] [ RUN ] app\admin\controller\Base->is_power[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Base.php ]
+[ info ] [ RUN ] app\admin\controller\Base->is_power[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Base.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000702s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_func` [ RunTime:0.006113s ]
+[ sql ] [ SQL ] SELECT `status` FROM `admin_func` WHERE  `url` = '/admin/roles/index.html' LIMIT 1 [ RunTime:0.000567s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_roles` [ RunTime:0.006694s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `admin_roles` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000554s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_roles` WHERE  `status` = 1 LIMIT 0,10 [ RunTime:0.000643s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.004896s ]
+[ sql ] [ SQL ] SELECT `a`.`roles_id`,`a`.`id`,`a`.`name`,`a`.`account` FROM `admin` `a` INNER JOIN `admin_roles` `b` ON `a`.`roles_id`=`b`.`id` WHERE  (  a.status <= 1  )  AND (  b.status  = 1  ) [ RunTime:0.004394s ]
+[ sql ] [ SQL ] SELECT `status` FROM `admin_func` WHERE  `url` = '/admin/roles/add.html' LIMIT 1 [ RunTime:0.000640s ]
+[ sql ] [ SQL ] SELECT `status` FROM `admin_func` WHERE  `url` = '/admin/roles/edit.html' LIMIT 1 [ RunTime:0.000503s ]
+[ sql ] [ SQL ] SELECT `status` FROM `admin_func` WHERE  `url` = '/admin/roles/del.html' LIMIT 1 [ RunTime:0.000572s ]
+---------------------------------------------------------------
+[ 2019-02-28T10:22:03+08:00 ] 127.0.0.1 GET www.huachuang.com/admin/menu/index.html
+[运行时间：0.065733s] [吞吐率：15.21req/s] [内存消耗：2,750.13kb] [文件加载：57]
+[ info ] [ LANG ] /Applications/xampp/xamppfiles/htdocs/huachuang/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'menu',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.huachuang.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.huachuang.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=88lqsrl2n3d2h7iavm9gutdt77',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\admin\controller\Menu->index[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Menu.php ]
+[ info ] [ VIEW ] /Applications/xampp/xamppfiles/htdocs/huachuang/public/../application/admin/view/menu/index.html [ array (
+  0 => 'adm',
+  1 => 'data',
+  2 => 'page_data',
+  3 => 'page',
+  4 => 'name',
+) ]
+[ info ] [ RUN ] app\admin\controller\Base->is_power[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Base.php ]
+[ info ] [ RUN ] app\admin\controller\Base->is_power[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Base.php ]
+[ info ] [ RUN ] app\admin\controller\Base->is_power[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Base.php ]
+[ info ] [ RUN ] app\admin\controller\Base->is_power[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Base.php ]
+[ info ] [ RUN ] app\admin\controller\Base->is_power[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Base.php ]
+[ info ] [ RUN ] app\admin\controller\Base->is_power[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Base.php ]
+[ info ] [ RUN ] app\admin\controller\Base->is_power[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Base.php ]
+[ info ] [ RUN ] app\admin\controller\Base->is_power[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Base.php ]
+[ info ] [ RUN ] app\admin\controller\Base->is_power[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Base.php ]
+[ info ] [ RUN ] app\admin\controller\Base->is_power[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Base.php ]
+[ info ] [ RUN ] app\admin\controller\Base->is_power[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Base.php ]
+[ info ] [ RUN ] app\admin\controller\Base->is_power[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Base.php ]
+[ info ] [ RUN ] app\admin\controller\Base->is_power[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Base.php ]
+[ info ] [ RUN ] app\admin\controller\Base->is_power[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Base.php ]
+[ info ] [ RUN ] app\admin\controller\Base->is_power[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Base.php ]
+[ info ] [ RUN ] app\admin\controller\Base->is_power[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Base.php ]
+[ info ] [ RUN ] app\admin\controller\Base->is_power[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Base.php ]
+[ info ] [ RUN ] app\admin\controller\Base->is_power[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Base.php ]
+[ info ] [ RUN ] app\admin\controller\Base->is_power[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Base.php ]
+[ info ] [ RUN ] app\admin\controller\Base->is_power[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Base.php ]
+[ info ] [ RUN ] app\admin\controller\Base->is_power[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Base.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000650s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_func` [ RunTime:0.006556s ]
+[ sql ] [ SQL ] SELECT `status` FROM `admin_func` WHERE  `url` = '/admin/menu/index.html' LIMIT 1 [ RunTime:0.000772s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `admin_func` WHERE  (  id > 0 )  AND `status` = 1 LIMIT 1 [ RunTime:0.000702s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_func` WHERE  (  id > 0 )  AND `status` = 1 LIMIT 0,10 [ RunTime:0.000849s ]
+[ sql ] [ SQL ] SELECT `status` FROM `admin_func` WHERE  `url` = '/admin/menu/add.html' LIMIT 1 [ RunTime:0.000643s ]
+[ sql ] [ SQL ] SELECT `status` FROM `admin_func` WHERE  `url` = '/admin/menu/edit.html' LIMIT 1 [ RunTime:0.000511s ]
+[ sql ] [ SQL ] SELECT `status` FROM `admin_func` WHERE  `url` = '/admin/menu/del.html' LIMIT 1 [ RunTime:0.000590s ]
+---------------------------------------------------------------
+[ 2019-02-28T10:22:04+08:00 ] 127.0.0.1 GET www.huachuang.com/admin/Onoff/index.html
+[运行时间：0.052253s] [吞吐率：19.14req/s] [内存消耗：2,574.83kb] [文件加载：53]
+[ info ] [ LANG ] /Applications/xampp/xamppfiles/htdocs/huachuang/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Onoff',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.huachuang.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.huachuang.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=88lqsrl2n3d2h7iavm9gutdt77',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\admin\controller\Onoff->index[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Onoff.php ]
+[ info ] [ VIEW ] /Applications/xampp/xamppfiles/htdocs/huachuang/public/../application/admin/view/onoff/index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ RUN ] app\admin\controller\Base->is_power[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Base.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000604s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_func` [ RunTime:0.004947s ]
+[ sql ] [ SQL ] SELECT `status` FROM `admin_func` WHERE  `url` = '/admin/Onoff/index.html' LIMIT 1 [ RunTime:0.000377s ]
+[ sql ] [ SQL ] SELECT `status` FROM `admin_func` WHERE  `url` = '/admin/onoff/openschool.html' LIMIT 1 [ RunTime:0.000610s ]
+---------------------------------------------------------------
+[ 2019-02-28T10:22:05+08:00 ] 127.0.0.1 GET www.huachuang.com/admin/appconf/index.html
+[运行时间：0.049933s] [吞吐率：20.03req/s] [内存消耗：2,572.29kb] [文件加载：53]
+[ info ] [ LANG ] /Applications/xampp/xamppfiles/htdocs/huachuang/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'appconf',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.huachuang.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.huachuang.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=88lqsrl2n3d2h7iavm9gutdt77',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\admin\controller\Appconf->index[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Appconf.php ]
+[ info ] [ VIEW ] /Applications/xampp/xamppfiles/htdocs/huachuang/public/../application/admin/view/appconf/index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ RUN ] app\admin\controller\Base->is_power[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Base.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000739s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_func` [ RunTime:0.006009s ]
+[ sql ] [ SQL ] SELECT `status` FROM `admin_func` WHERE  `url` = '/admin/appconf/index.html' LIMIT 1 [ RunTime:0.000532s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `appconf` [ RunTime:0.005906s ]
+[ sql ] [ SQL ] SELECT * FROM `appconf` WHERE  `id` = 1 [ RunTime:0.000749s ]
+[ sql ] [ SQL ] SELECT `status` FROM `admin_func` WHERE  `url` = '/admin/appconf/edit.html' LIMIT 1 [ RunTime:0.000570s ]
+---------------------------------------------------------------
+[ 2019-02-28T10:22:11+08:00 ] 127.0.0.1 GET www.huachuang.com/admin/jpush/index.html
+[运行时间：2.216179s] [吞吐率：0.45req/s] [内存消耗：2,545.04kb] [文件加载：54]
+[ info ] [ LANG ] /Applications/xampp/xamppfiles/htdocs/huachuang/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'jpush',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.huachuang.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.huachuang.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=88lqsrl2n3d2h7iavm9gutdt77',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\admin\controller\Jpush->index[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Jpush.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000702s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_func` [ RunTime:0.006071s ]
+[ sql ] [ SQL ] SELECT `status` FROM `admin_func` WHERE  `url` = '/admin/jpush/index.html' LIMIT 1 [ RunTime:0.000576s ]
+---------------------------------------------------------------
+[ 2019-02-28T10:22:24+08:00 ] 127.0.0.1 GET www.huachuang.com/admin/aboutus/index.html
+[运行时间：0.076898s] [吞吐率：13.00req/s] [内存消耗：2,750.16kb] [文件加载：57]
+[ info ] [ LANG ] /Applications/xampp/xamppfiles/htdocs/huachuang/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'aboutus',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.huachuang.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.huachuang.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=88lqsrl2n3d2h7iavm9gutdt77',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\admin\controller\Aboutus->index[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Aboutus.php ]
+[ info ] [ VIEW ] /Applications/xampp/xamppfiles/htdocs/huachuang/public/../application/admin/view/aboutus/index.html [ array (
+  0 => 'data',
+  1 => 'page_data',
+  2 => 'page',
+) ]
+[ info ] [ RUN ] app\admin\controller\Base->is_power[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Base.php ]
+[ info ] [ RUN ] app\admin\controller\Base->is_power[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Base.php ]
+[ info ] [ RUN ] app\admin\controller\Base->is_power[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Base.php ]
+[ info ] [ RUN ] app\admin\controller\Base->is_power[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Base.php ]
+[ info ] [ RUN ] app\admin\controller\Base->is_power[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Base.php ]
+[ info ] [ RUN ] app\admin\controller\Base->is_power[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Base.php ]
+[ info ] [ RUN ] app\admin\controller\Base->is_power[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Base.php ]
+[ info ] [ RUN ] app\admin\controller\Base->is_power[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Base.php ]
+[ info ] [ RUN ] app\admin\controller\Base->is_power[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Base.php ]
+[ info ] [ RUN ] app\admin\controller\Base->is_power[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/Base.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000892s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_func` [ RunTime:0.006292s ]
+[ sql ] [ SQL ] SELECT `status` FROM `admin_func` WHERE  `url` = '/admin/aboutus/index.html' LIMIT 1 [ RunTime:0.000611s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `about_us` [ RunTime:0.008772s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `about_us` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000790s ]
+[ sql ] [ SQL ] SELECT * FROM `about_us` WHERE  `status` = 1 LIMIT 0,10 [ RunTime:0.000656s ]
+[ sql ] [ SQL ] SELECT `status` FROM `admin_func` WHERE  `url` = '/admin/aboutus/add.html' LIMIT 1 [ RunTime:0.000537s ]
+[ sql ] [ SQL ] SELECT `status` FROM `admin_func` WHERE  `url` = '/admin/aboutus/stop.html' LIMIT 1 [ RunTime:0.000538s ]
+[ sql ] [ SQL ] SELECT `status` FROM `admin_func` WHERE  `url` = '/admin/aboutus/edit.html' LIMIT 1 [ RunTime:0.000529s ]
+[ sql ] [ SQL ] SELECT `status` FROM `admin_func` WHERE  `url` = '/admin/aboutus/del.html' LIMIT 1 [ RunTime:0.000525s ]
+---------------------------------------------------------------
+[ 2019-02-28T10:30:15+08:00 ] 127.0.0.1 GET www.huachuang.com/gzh/
+[运行时间：0.069146s] [吞吐率：14.46req/s] [内存消耗：1,719.96kb] [文件加载：46]
+[ info ] [ LANG ] /Applications/xampp/xamppfiles/htdocs/huachuang/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'gzh',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.huachuang.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=88lqsrl2n3d2h7iavm9gutdt77',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /Applications/xampp/xamppfiles/htdocs/huachuang/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-28T10:30:18+08:00 ] 127.0.0.1 GET www.huachuang.com/gzh/login/index.html
+[运行时间：0.031951s] [吞吐率：31.30req/s] [内存消耗：1,763.21kb] [文件加载：44]
+[ info ] [ LANG ] /Applications/xampp/xamppfiles/htdocs/huachuang/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'gzh',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.huachuang.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.huachuang.com/gzh/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=88lqsrl2n3d2h7iavm9gutdt77',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\gzh\controller\Login->index[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/gzh/controller/Login.php ]
+[ info ] [ VIEW ] /Applications/xampp/xamppfiles/htdocs/huachuang/public/../application/gzh/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-28T10:30:54+08:00 ] 127.0.0.1 GET www.huachuang.com/gzh/login/index.html
+[运行时间：0.075490s] [吞吐率：13.25req/s] [内存消耗：1,616.71kb] [文件加载：42]
+[ info ] [ LANG ] /Applications/xampp/xamppfiles/htdocs/huachuang/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'gzh',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.huachuang.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.huachuang.com/gzh/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=88lqsrl2n3d2h7iavm9gutdt77',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\gzh\controller\Login->index[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/gzh/controller/Login.php ]
+[ info ] [ VIEW ] /Applications/xampp/xamppfiles/htdocs/huachuang/public/../application/gzh/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-28T10:30:57+08:00 ] 127.0.0.1 GET www.huachuang.com/gzh/login/index.html
+[运行时间：0.020820s] [吞吐率：48.03req/s] [内存消耗：1,616.71kb] [文件加载：42]
+[ info ] [ LANG ] /Applications/xampp/xamppfiles/htdocs/huachuang/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'gzh',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.huachuang.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.huachuang.com/gzh/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=88lqsrl2n3d2h7iavm9gutdt77',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\gzh\controller\Login->index[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/gzh/controller/Login.php ]
+[ info ] [ VIEW ] /Applications/xampp/xamppfiles/htdocs/huachuang/public/../application/gzh/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-28T10:30:58+08:00 ] 127.0.0.1 GET www.huachuang.com/gzh/login/index.html
+[运行时间：0.028801s] [吞吐率：34.72req/s] [内存消耗：1,616.71kb] [文件加载：42]
+[ info ] [ LANG ] /Applications/xampp/xamppfiles/htdocs/huachuang/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'gzh',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.huachuang.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.huachuang.com/gzh/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=88lqsrl2n3d2h7iavm9gutdt77',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\gzh\controller\Login->index[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/gzh/controller/Login.php ]
+[ info ] [ VIEW ] /Applications/xampp/xamppfiles/htdocs/huachuang/public/../application/gzh/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-28T10:36:40+08:00 ] 127.0.0.1 GET www.huachuang.com/admin/user/index.html
+[运行时间：0.191892s] [吞吐率：5.21req/s] [内存消耗：2,856.80kb] [文件加载：57]
+[ info ] [ LANG ] /Applications/xampp/xamppfiles/htdocs/huachuang/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.huachuang.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.huachuang.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=88lqsrl2n3d2h7iavm9gutdt77',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\admin\controller\User->index[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/admin/controller/User.php ]
+[ info ] [ VIEW ] /Applications/xampp/xamppfiles/htdocs/huachuang/public/../application/admin/view/user/index.html [ array (
+  0 => 'data',
+  1 => 'page_data',
+  2 => 'page',
+  3 => 'fanye',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002336s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.007508s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000934s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_func` [ RunTime:0.006960s ]
+[ sql ] [ SQL ] SELECT `status` FROM `admin_func` WHERE  `url` = '/admin/user/index.html' LIMIT 1 [ RunTime:0.000947s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_roles` [ RunTime:0.009893s ]
+[ sql ] [ SQL ] SELECT `functions` FROM `admin_roles` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000890s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.011282s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `users` `a` LEFT JOIN `school` `b` ON `a`.`school`=`b`.`id` LEFT JOIN `users_secretary` `c` ON `a`.`user_id`=`c`.`user_id` WHERE  (  a.status > 0 ) LIMIT 1 [ RunTime:0.007955s ]
+[ sql ] [ SQL ] SELECT `a`.*,`b`.`sname`,`b`.`address`,`c`.`sec_name`,`c`.`grade`,`c`.`id` FROM `users` `a` LEFT JOIN `school` `b` ON `a`.`school`=`b`.`id` LEFT JOIN `users_secretary` `c` ON `a`.`user_id`=`c`.`user_id` WHERE  (  a.status > 0 ) ORDER BY `a`.`status` ASC,`a`.`ctime` DESC LIMIT 0,10 [ RunTime:0.013768s ]
+---------------------------------------------------------------
+[ 2019-02-28T10:36:40+08:00 ] 127.0.0.1 GET www.huachuang.com/https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1550235009002&di=de3a57d5bbda46865fcd2a5c7a16c8d6&imgtype=0&src=http%3A%2F%2Fimg1.gtimg.com%2Ffashion%2Fpics%2Fhv1%2F31%2F172%2F2227%2F144854566.png
+[运行时间：0.038960s] [吞吐率：25.67req/s] [内存消耗：1,272.90kb] [文件加载：35]
+[ info ] [ LANG ] /Applications/xampp/xamppfiles/htdocs/huachuang/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'https:',
+    1 => 'timgsa.baidu.com',
+    2 => 'timg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.huachuang.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.huachuang.com/admin/user/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=88lqsrl2n3d2h7iavm9gutdt77',
+)
+[ info ] [ PARAM ] array (
+  'image' => '',
+  'quality' => '80',
+  'size' => 'b9999_10000',
+  'sec' => '1550235009002',
+  'di' => 'de3a57d5bbda46865fcd2a5c7a16c8d6',
+  'imgtype' => '0',
+  'src' => 'http://img1.gtimg.com/fashion/pics/hv1/31/172/2227/144854566.png',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-28T10:36:40+08:00 ] 127.0.0.1 GET www.huachuang.com/
+[运行时间：0.038285s] [吞吐率：26.12req/s] [内存消耗：1,231.41kb] [文件加载：33]
+[ info ] [ LANG ] /Applications/xampp/xamppfiles/htdocs/huachuang/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.huachuang.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.huachuang.com/admin/user/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=88lqsrl2n3d2h7iavm9gutdt77',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Applications/xampp/xamppfiles/htdocs/huachuang/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File

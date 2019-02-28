@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>招聘</title>
+    <style>
+        *{margin:0 auto;padding:0;border:0;}
+        body{background: #eee;}
+        div.top{width: 96%;height: 70px;}
+        div.logo_div{width:100%;height:100%;line-height: 70px;text-align: center;position:relative;}
+        div.logo_div>img{height: 25px;position:absolute;left:2%;top:25%;}
+        div.logo_div>span{font-size: 20px;color:#343434;}
+
+        div.banner{width: 100%;height: 120px;position:relative;}
+        div.banner>img{height: 120px;width: 100%;position:absolute;}
+        div.banner>div{position: absolute;bottom: 5px;height:10px;width: 100%;z-index:100;}
+        div.banner>div>ul{width: 40px;}
+        div.banner>div>ul:after{content:"";display:block;clear:both;}
+        div.banner>div>ul>li{width:5px;height:5px;background-color:#eee;list-style-type: none;float: left;margin-left: 5%;border-radius: 5px;}
+
+
+        div.main{width: 100%;}
+        div.main_top{background:white;padding: 10px 5px;margin-bottom:5px;}
+        div.main_top>div{display: inline-block;}
+        /*div.main_top:after{content:"";display:block;clear:both;}*/
+        div.main_top>div.search_text{width:35%;color:#343434;font-size:13px;}
+        div.main_top>div.search_text>span.text{margin-left:2%;}
+        div.main_top>div.search{width:60%;border:1px solid #aaa;border-radius:15px;position:relative;}
+        div.main_top>div.search>input{width:80%;line-height: 28px;font-size:14px;border:0;text-indent: 2px;outline: none;}
+        div.main_top>div.search>img{height: 15px;margin-left:5%;position:relative;top:2px;}
+        div.main>div.keyword{width: 94%;background-color:white;padding: 7px 5px;font-size:14px;}
+        div.main>div.recruit_list{font-size:14px;}
+
+        div.main>div.recruit_list:not(:first-child){ margin-top:8px;}
+
+        div.main>div.recruit_list>div.company_name{width: 94%;padding: 7px 5px;background-color:white;margin-top:1px;}
+        div.main>div.recruit_list>div.company_name>span:first-child{margin-left:5px;}
+        div.main>div.recruit_list>div.company_name:after{content:"";display:block;clear:both;}
+        div.main>div.recruit_list>div.company_name>span.price{float: right;margin-right:5px;
+            color: #9d87ef;}
+        div.info{padding: 20px 5px;background-color:white;margin-top:1px;width:94%;}
+        div.info:after{content:"";display:block;clear:both;}
+        div.info>div.u_head{width:60px;float: left;margin-left:2%;height:60px;}
+        div.info>div.recruit_info{width:58%;float: left;margin-left: 2%;}
+        div.info>div.btn{width:18%;float: right;text-align: center;font-size: 13px;}
+        div.info>div.u_head>img{height: 60px;border-radius:60px;width:60px;}
+        div.info>div.recruit_info>div.info-one{}
+        div.info>div.recruit_info>div.info-two{line-height: 30px;}
+        div.info>div.recruit_info>div.info-two>div{display: inline-block;}
+
+        div.info-one>span.recruit_name{font-size:16px;}
+        div.info-one>span.settlement{display: inline-block;padding:0 8px;font-size: 13px;border:1px solid #0000cc;border-radius: 5px;margin-left: 2%;background-color:#f5f5f5;color:#0000cc;}
+        div.info-one>span.limit{display: inline-block;padding:0 8px;font-size: 13px;border:1px solid #9d87ef;border-radius: 5px;margin-left: 2%;background-color:#eee;color:#0000cc;}
+
+        div.info-two{margin-top:7px;font-size: 12px;}
+        div.info-two>div.info-number{margin-left:1%;}
+        div.info-two>div.info-time{margin-left:1%;}
+        div.info>div.btn{line-height: 50px;}
+        div.info>div.btn>span{background: #0000cc;color:white;padding: 3px 5px;border-radius: 5px;font-size: 12px;}
+        #hiddens{display:none;}
+    </style>
+    <script src="/static/js/jquery-3.3.1.min.js"></script>
+    <script src="/static/js/com.js"></script>
+</head>
+<body>
+    <!--<div class="top">
+        <div class="logo_div">
+            <img src="/static/../img/board_fabu@3x.png"/><span>招聘</span>
+        </div>
+    </div>-->
+    <div class="banner" id="banner">
+        {{foreach $banner as $k=>$v}}
+        <img src="/{{$v.url}}"/>
+        {{/foreach}}
+        <div>
+            <ul>
+                {{foreach $banner as $k=>$v}}
+                <li></li>
+                {{/foreach}}
+            </ul>
+        </div>
+
+
+        <!--<img src="/static/../img/1.jpg"/>
+        <img src="/static/../img/1.jpg"/>
+        <img src="/static/../img/2.jpg"/>
+        <img src="/static/../img/3.jpg"/>
+        <div>
+            <ul>
+                <li style="width: 10px;"></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>-->
+
+    </div>
+    <div class="main">
+        <div class="main_top">
+            <div class="search_text"><span class="text">在线人数 : </span><span class="cur_from">{{$number}}</span></div>
+            <div class="search">
+                <img src="/static/../img/sousuo@3x.png"/>
+                <input type='text' value="" id="keysword" placeholder="输入你想要找的职位"/>
+            </div>
+        </div>
+
+        <div class="keyword" id="hiddens">
+            <span style="border-left:3px solid #0000cc;height: 12px;display: inline-block;border-radius: 10px;margin-right: 2px;"></span><span id="keys-text">搜索的关键字</span>
+        </div>
+        <!--兼职 列表-->
+        {{foreach $list as $k=>$v}}
+        <div class="recruit_list recruit_margin" style="" onclick="des(this,'{{$v.id}}');">
+            <div class="company_name">
+                <span>{{$v.enterprise_name}}</span><span class="price">{{$v.recruit_pay}}/天</span>
+            </div>
+            <div class="info">
+                <input type="hidden" id="rid" value="{{$v.id}}"/>
+                <div class="u_head">{{if $v.enter_logo == ''}}<img src="/static/../img/fastFitHead.png"/>{{else}}<img src="/{{$v.enter_logo}}"/>{{/if}}</div>
+                <div class="recruit_info">
+                    <div class="info-one">
+                        <span class="recruit_name">{{$v.recruit_name}}</span>
+                        <span class="settlement">{{$v.settlement}}</span>
+                        <span class="limit">{{$v.requirement}}</span>
+                    </div>
+                    <div class="info-two">
+                        <div class="info-from">
+                            <img src="/static/../img/weizhi@2x.png" style="height: 13px;position:relative;top:2px;"/>
+                            <span>{{$v.area}}</span>
+                        </div>
+                        <div class="info-number">
+                            <img src="/static/../img/renshu@2x.png" style="height: 13px;position:relative;top:2px;"/>
+                            <span>还需{{$v.number}}人</span>
+                        </div>
+                        <div class="info-time">
+                            <img src="/static/../img/shijian@2x.png" style="height: 13px;position:relative;top:2px;"/>
+                            <span>{{$v.start_time}}</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn"><span>立即报名</span></div>
+            </div>
+        </div>
+
+        {{/foreach}}
+
+
+    <!--<div class="recruit_list recruit_margin" onclick="des(this,1);">
+            <div class="company_name">
+                <span>鸿运公司</span><span class="price">112/天</span>
+            </div>
+            <div class="info">
+                <div class="u_head"><img src="/static/../img/fastFitHead.png"/></div>
+                <div class="recruit_info">
+                    <div class="info-one">
+                        <span class="recruit_name">礼仪小姐</span>
+                        <span class="settlement">日结</span>
+                        <span class="limit">限男</span>
+                    </div>
+                    <div class="info-two">
+                        <div class="info-from">
+                            <img src="/static/../img/weizhi@2x.png" style="height: 13px;position:relative;top:2px;"/>
+                            <span>青羊区</span>
+                        </div>
+                        <div class="info-number">
+                            <img src="/static/../img/renshu@2x.png" style="height: 13px;position:relative;top:2px;"/>
+                            <span>还需5人</span>
+                        </div>
+                        <div class="info-time">
+                            <img src="/static/../img/shijian@2x.png" style="height: 13px;position:relative;top:2px;"/>
+                            <span>剩余时间</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn"><span>立即报名</span></div>
+            </div>
+        </div>-->
+
+
+    </div>
+
+<div id="jiazai" style="width: 100%;text-align: center;padding: 15px 0;display: none;"><span>加载中...</span></div>
+</body>
+<script>
+
+    $(function(){
+        localStorage.removeItem('search');
+        $("#hiddens").css('display','none');
+        $("input#keysword").attr('value','');
+        var timer = null;
+        var idx = 0;
+        timer = clearInterval(timer);
+        idx = 1;
+        function benn(){
+
+            var imgs = $("#banner>img"),
+                    lis = $("#banner>div>ul>li");
+
+            for(var i=0;i<imgs.length;i++){
+                $(lis[i]).css('width',"5px");
+                $(imgs[i]).css('zIndex',"0");
+            }
+            $(lis[idx]).css('width',"10px");
+            $(imgs[idx]).css('zIndex',"10");
+            idx++;
+            if(idx>imgs.length-1){
+                idx=0;
+            }
+
+        }
+        timer = setInterval(benn,2000);
+
+       $("input#keysword").change(function(){
+           $(this).blur(function(){
+               var keys = $(this).val(),uid = localStorage.getItem('uid_');
+               if(keys){
+                   localStorage.setItem('search',keys);
+                   if(keys){
+                       $("#hiddens").css('display','block');
+                       $('span#keys-text').text(keys);
+                   }
+                   $.ajax({
+                       url:"{{:url('recruit/search')}}",
+                       data:{u:uid,search:keys},
+                       type:'post',
+                       success:function(arg){
+                           $('div.recruit_list').remove();
+                           arg = JSON.parse(arg);
+                           //console.log(arg);
+                           if(arg.status == 200){
+                               var str = '';
+                               var data = arg.data;
+                               if(arg.data.length == 0){
+                                   $('div#jiazai').css('display','block');
+                                   $('div#jiazai').html('没有获取到数据');
+                                   timer = clearTimeout(timer);
+                               }
+
+                               localStorage.setItem('search',keys);
+                               for(var i=0;i<data.length;i++){
+                                   str += '<div class="recruit_list recruit_margin" onclick="des(this,'+ data[i].id +');"><div class="company_name"><span>'+ data[i].enterprise_name +'</span><span class="price">'+ data[i].recruit_pay +'/天</span></div><div class="info"><div class="u_head"><img src="/'+ data[i].enter_logo +'"/></div><div class="recruit_info"><div class="info-one"><span class="recruit_name">'+ data[i].recruit_name +'</span><span class="settlement">'+ data[i].settlement +'</span><span class="limit">'+ data[i].requirement +'</span></div><div class="info-two"><div class="info-from"><img src="/static/../img/weizhi@2x.png" style="height: 13px;position:relative;top:2px;"/><span>'+ data[i].area +'</span></div><div class="info-number"><img src="/static/../img/renshu@2x.png" style="height: 13px;position:relative;top:2px;"/><span>还需'+ data[i].number +'人</span></div><div class="info-time"><img src="/static/../img/shijian@2x.png" style="height: 13px;position:relative;top:2px;"/><span>'+ data[i].start_time +'</span></div></div></div><div class="btn"><span>立即报名</span></div></div></div>';
+                               }
+                               //idx++;
+                               $('div.main').append(str);
+                               $('div#jiazai').css('display','block');
+                               $('div#jiazai').html('已加载');
+                           }else{
+                               $('div#jiazai').css('display','block');
+                               $('div#jiazai').html('没有获取到数据');
+                           }
+                       }
+                   });
+               }else{
+                   $("#hiddens").css('display','none');
+                   location.reload();
+               }
+           });
+           /*$("input#keysword").keydown(function(event){
+               if(event.keyCode == 13){
+                   $("#hiddens").css('display','block');
+               }
+
+           });*/
+        });
+
+    });
+
+    function des(that,id){
+
+        var uid = localStorage.getItem('uid_');
+        window.location.href = "{{:url('recruit/des')}}?r="+id+'&u='+uid;
+
+    }
+
+</script>
+</html>
+
+<script>
+
+    var idx = 2;
+    var timer = null;
+    /*$(window).scroll(function(){
+        var dh = document.documentElement.scrollHeight,h = window.screen.height;
+        var st = $(window).scrollTop();
+        var t = st+h;
+        if(t>=dh && t<(dh*2)){
+
+            var search = $('#input#keysword').val();
+            if(!search){
+                search = localStorage.getItem('search');
+                if(search){
+                    $("#hiddens").css('display','block');
+                    $('span#keys-text').text(search);
+                }
+
+            }
+            $('div#jiazai').css('display','block');
+            /!*if(is){
+                domList();
+            }*!/
+            timer = setTimeout(function(){
+                $.ajax({
+                    url:"{{:url('recruit/search')}}",
+                    data:{u:29,search:search,page:idx},
+                    type:'post',
+                    success:function(arg){
+                        arg = JSON.parse(arg);
+
+                        if(arg.status == 200){
+
+                            var str = '';
+                            var data = arg.data;
+                            console.log(arg);
+                            if(arg.data == ''){
+                                $('div#jiazai').html('已加载最新');
+                                timer = clearTimeout(timer);
+                            }else {
+
+                                for(var i=0;i<data.length;i++){
+                                    str += '<div class="recruit_list recruit_margin" onclick="des(this,'+ data[i].id +');"><div class="company_name"><span>'+ data[i].enterprise_name +'</span><span class="price">'+ data[i].recruit_pay +'/天</span></div><div class="info"><div class="u_head"><img src="/'+ data[i].enter_logo +'"/></div><div class="recruit_info"><div class="info-one"><span class="recruit_name">'+ data[i].recruit_name +'</span><span class="settlement">'+ data[i].settlement +'</span><span class="limit">'+ data[i].requirement +'</span></div><div class="info-two"><div class="info-from"><img src="/static/../img/weizhi@2x.png" style="height: 13px;position:relative;top:2px;"/><span>'+ data[i].area +'</span></div><div class="info-number"><img src="/static/../img/renshu@2x.png" style="height: 13px;position:relative;top:2px;"/><span>还需'+ data[i].number +'人</span></div><div class="info-time"><img src="/static/../img/shijian@2x.png" style="height: 13px;position:relative;top:2px;"/><span>'+ data[i].start_time +'</span></div></div></div><div class="btn"><span>立即报名</span></div></div></div>';
+                                }
+                                idx++;
+                                $('div.main').append(str);
+                            }
+
+                        }else{
+
+                            $('div#jiazai').html('已加载最新');
+                        }
+
+                    }
+                });
+            },1000);
+
+        }
+    });*/
+
+
+</script>

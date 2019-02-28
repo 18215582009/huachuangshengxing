@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="renderer" content="webkit|ie-comp|ie-stand">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+	<meta http-equiv="Cache-Control" content="no-siteapp" />
+	<title>我的等级</title>
+	<link rel="stylesheet" type="text/css" href="/static/h-ui/css/H-ui.min.css">
+	<script type="text/javascript" src="/static/lib/jquery/1.9.1/jquery.min.js"></script>
+	<style type="text/css">
+		p{margin:0;padding:0;border:0;}
+		/*body{background:#fff url('/html/img/bj.jpg') no-repeat left -63px;background-size:100%;}*/
+		.topline{position:relative;left: 0;right: 0;width:100%;height: 1px;background: #eeeeee;}
+		.banner{width:100%;position:absolute;top:1px;}
+		.banner-bak{z-index:-1;}
+		.banner-bakimg{width:100%;display:block;}
+		.banner-headimg{width:100%;margin:0 auto;position:absolute;top:17.5px;}
+		.banner-headimg-box{width:15.2%;margin:0 auto;border:2px solid #fff;border-radius: 50%;}
+		.banner-headimg-box>img{width:100%;display:block;border-radius: 50%;}
+		.nickname{width:100%;position:absolute;top:78.5px;font-size:15px;color:#fff;text-align: center;}
+		.notes{width:100%;position:absolute;top:98.5px;font-size:13px;color:#fff;text-align: center;}
+		.bar-line{height:4px;position:absolute;top:143.5px;left:8.6666667%;right:8.6666667%;background:#fff;}
+		.bar-line-line{width:50%;height:4px;background:#FAA166;float: left;}
+		.level-name{position:absolute;top:153.5px;left:7.2%;right:7.2%;}
+		.level-name-left{float:left;font-size:13px;color:#fff;}
+		.level-name-right{float:right;font-size:13px;color:#fff;}
+		.cont{width:100%;position:absolute;top:182px;}
+		.titl{width:100%;float:left;margin-top:14px;font-size:14px;color:#343434;text-align:center;}
+		/*.list{width:86.66666%;float:left;margin-left:6.66666%;margin-top:21px;}*/
+		.cont-list{width:90.4%;float:left;margin-left:4.8%;margin-top:21px;}
+		.list-left{width:23.59882%;float: left;}
+		.list-left-top{width:75%;float:left;margin-left:8.75%;border:3.5px solid #eeeeee;border-radius:50%;}
+		.list-left-top>img{width:100%;display:block;border-radius:50%;}
+		.list-left-word{width:100%;float:left;margin-top:8px;font-size:13px;color:#343434;text-align:center;}
+		.list-left-bottom{float: left;border: 1px solid #9d87ef;border-radius: 5px;font-size:13px;color:#9d87ef;text-align:center;margin-top: 4px;width: 78px;line-height: 22px;}
+		.list-middle{margin-left:14.4%;}
+		.list-right{margin-left:14.7%;}
+		.cont-list2{margin-top: 17px;}
+		.secline{width:100%;position:absolute;top:523px;height:8px;background:#F5F5F5;}
+		.shuoming{width:100%;position:absolute;top:546px;font-size:14px;color:#343434;text-align:center;}
+		.fivep{position:absolute;/*background:blue;*/top:571px;left:3.5%;right:0;}
+		.list{width: 100%;float: left;}
+		.p1{width:6.667%;height:60px;display:block;float:left;margin-right:3.3333%;}
+		.p1img{width:100%;display:block;margin-top:12px;}
+		.p1r{width: 89%;float: left;}
+		.p1tit{float:left;font-size:14px;line-height:26px;color:#343434;}
+		.p1dsc{width: 100%;float:left;margin-top:2px;font-size:13px;line-height:22px;color:#666666;}
+		.p1line{width:100%;height:1px;background:#eeeeee;float:left;margin-top: 10px;}
+		.list2{margin-top:10px;}
+	</style>
+</head>
+<body>
+	<div class="topline"></div>
+	<div class="banner">
+		<div class="banner-bak">
+			<img class="banner-bakimg" src="/html/img/bg@2x.png">
+		</div>
+		<div class="banner-headimg">
+			<div class="banner-headimg-box">
+				<img src="/html/img/toux.png">
+			</div>
+		</div>
+		<p class="nickname">昵称</p>
+		<p class="notes">还需要10经验值到达LV2</p>
+		<div class="bar-line">
+			<div class="bar-line-line"></div>
+		</div>
+		<div class="level-name">
+			<div class="level-name-left">LV1</div>
+			<div class="level-name-right">LV2</div>
+		</div>
+	</div>
+	<div class="cont">
+		<div class="titl">等级特权</div>
+		<div class="cont-list">
+			<div class="list-left">
+				<div class="list-left-top">
+					<img src="/html/img/toux.png">
+				</div>
+				<div class="list-left-word">编辑文本</div>
+				<div class="list-left-bottom">LV10开启</div>
+			</div>
+			<div class="list-left list-middle">
+				<div class="list-left-top">
+					<img src="/html/img/toux.png">
+				</div>
+				<div class="list-left-word">编辑文本</div>
+				<div class="list-left-bottom">LV10开启</div>
+			</div>
+			<div class="list-left list-right">
+				<div class="list-left-top">
+					<img src="/html/img/toux.png">
+				</div>
+				<div class="list-left-word">编辑文本</div>
+				<div class="list-left-bottom">LV10开启</div>
+			</div>
+		</div>
+		<div class="cont-list cont-list2">
+			<div class="list-left">
+				<div class="list-left-top">
+					<img src="/html/img/toux.png">
+				</div>
+				<div class="list-left-word">编辑文本</div>
+				<div class="list-left-bottom">LV10开启</div>
+			</div>
+			<div class="list-left list-middle">
+				<div class="list-left-top">
+					<img src="/html/img/toux.png">
+				</div>
+				<div class="list-left-word">编辑文本</div>
+				<div class="list-left-bottom">LV10开启</div>
+			</div>
+			<div class="list-left list-right">
+				<div class="list-left-top">
+					<img src="/html/img/toux.png">
+				</div>
+				<div class="list-left-word">编辑文本</div>
+				<div class="list-left-bottom">LV10开启</div>
+			</div>
+		</div>
+	</div>
+	<div class="secline"></div>
+	<div class="shuoming">如何快速升级</div>
+	<div class="fivep">
+		<div class="list">
+			<div class="p1">
+				<img class="p1img" src="/html/img/kaitonghuiyuan@3x.png">
+			</div>
+			<div class="p1r">
+				<span class="p1tit">开通会员</span>
+				<p class="p1dsc">开通会员开通会员开通会员</p>
+				<p class="p1line"></p>
+			</div>
+		</div>
+		<div class="list list2">
+			<div class="p1">
+				<img class="p1img" src="/html/img/chongzhifanli@3x.png">
+			</div>
+			<div class="p1r">
+				<span class="p1tit">充值返利</span>
+				<p class="p1dsc">开通会员开通会员开通会员</p>
+				<p class="p1line"></p>
+			</div>
+		</div>
+		<div class="list list2">
+			<div class="p1">
+				<img class="p1img" src="/html/img/kaitonghuiyuan@3x.png">
+			</div>
+			<div class="p1r">
+				<span class="p1tit">开通会员</span>
+				<p class="p1dsc">开通会员开通会员开通会员</p>
+				<p class="p1line"></p>
+			</div>
+		</div>
+		<div class="list list2">
+			<div class="p1">
+				<img class="p1img" src="/html/img/chongzhifanli@3x.png">
+			</div>
+			<div class="p1r">
+				<span class="p1tit">充值返利</span>
+				<p class="p1dsc">开通会员开通会员开通会员</p>
+				<p class="p1line"></p>
+			</div>
+		</div>
+		<div class="list list2">
+			<div class="p1">
+				<img class="p1img" src="/html/img/chongzhifanli@3x.png">
+			</div>
+			<div class="p1r">
+				<span class="p1tit">充值返利</span>
+				<p class="p1dsc">开通会员开通会员开通会员</p>
+				<p class="p1line"></p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>编辑资料</title>
+    <style>
+        *{margin:0 auto;padding: 0;}
+        div.login{background: white;padding: 20px 0;}
+
+        div.login>img{display: block;width: 65px;margin-top:30px;}
+        div.login>span{display: block;font-size: 14px;color:#666;width: 100%;text-align: center;margin-top:15px;}
+        div.login>div{text-align: center;}
+        div.login>div>input{background: #0000ff;color:white;font-size: 15px;height:40px;line-height: 40px;border-radius: 10px;width: 80%;outline: none;border:0;margin-top:40px;}
+
+    </style>
+    <script src="/static/js/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+<div class="login">
+    <img src="/img/wancheng@2x.png"/>
+    <span>登录成功，账号已绑定此微信号</span>
+    <input type="hidden" value="{{$phone}}" class="hide_phone"/>
+    <div>
+        <input type="button" value="完善资料" class="btn"/>
+    </div>
+</div>
+
+</body>
+<script>
+    $('input.btn').click(function(){
+        var phone = $('input.hide_phone').val();
+        window.location.href = "{{:url('login/edit')}}?p="+phone;
+    });
+
+</script>
+</html>

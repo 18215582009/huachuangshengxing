@@ -1,0 +1,1942 @@
+---------------------------------------------------------------
+[ 2019-02-04T00:20:06+08:00 ] 138.94.136.136 GET 148.70.73.177:80/
+[运行时间：0.015286s] [吞吐率：65.42req/s] [内存消耗：1,243.09kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7',
+  'host' => '148.70.73.177:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T00:56:38+08:00 ] 212.20.47.48 GET 148.70.73.177:80/
+[运行时间：0.015925s] [吞吐率：62.79req/s] [内存消耗：1,242.96kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'host' => '148.70.73.177:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T00:57:22+08:00 ] 178.45.69.146 GET 148.70.73.177:80/
+[运行时间：0.015359s] [吞吐率：65.11req/s] [内存消耗：1,243.09kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7',
+  'host' => '148.70.73.177:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T01:52:54+08:00 ] 241.138.162.101 GET 148.70.73.177/index.php
+[运行时间：0.013878s] [吞吐率：72.06req/s] [内存消耗：1,245.48kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => '148.70.73.177',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:18.0) Gecko/20100101 Firefox/18.0',
+  'content-type' => 'text/html',
+  'accept' => 'text/html, application/xhtml+xml, */*',
+  'x-forwarded-for' => '241.138.162.101',
+  'client-ip' => '241.138.162.101',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T02:11:23+08:00 ] 178.73.215.171 GET /
+[运行时间：0.016368s] [吞吐率：61.10req/s] [内存消耗：1,241.77kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T02:43:53+08:00 ] 122.228.19.80 GET 148.70.73.177:80/
+[运行时间：0.037524s] [吞吐率：26.65req/s] [内存消耗：1,243.13kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:47.0) Gecko/20100101 Firefox/47.0',
+  'host' => '148.70.73.177:80',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T02:43:58+08:00 ] 118.89.26.202 GET 148.70.73.177:80/webdav/
+[运行时间：0.012567s] [吞吐率：79.57req/s] [内存消耗：1,364.59kb] [文件加载：35]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'webdav',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0',
+  'host' => '148.70.73.177:80',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T02:45:14+08:00 ] 118.89.26.202 GET 148.70.73.177/index.php
+[运行时间：0.016216s] [吞吐率：61.67req/s] [内存消耗：1,243.14kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'host' => '148.70.73.177',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:28.0) Gecko/20100101 Firefox/28.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T02:45:17+08:00 ] 118.89.26.202 GET 148.70.73.177/index.php
+[运行时间：0.013446s] [吞吐率：74.37req/s] [内存消耗：1,243.14kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'host' => '148.70.73.177',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:28.0) Gecko/20100101 Firefox/28.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T02:45:27+08:00 ] 118.89.26.202 GET 148.70.73.177/manager/html
+[运行时间：0.012057s] [吞吐率：82.94req/s] [内存消耗：1,365.56kb] [文件加载：35]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'manager',
+    1 => 'html',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'host' => '148.70.73.177',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 SE 2.X MetaSr 1.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T03:06:46+08:00 ] 163.177.90.152 GET 148.70.73.177/
+[运行时间：0.017064s] [吞吐率：58.60req/s] [内存消耗：1,245.48kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'accept-encoding' => 'deflate, gzip',
+  'host' => '148.70.73.177',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T03:44:56+08:00 ] 58.251.121.186 GET 148.70.73.177/
+[运行时间：0.016757s] [吞吐率：59.68req/s] [内存消耗：1,245.48kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'accept-encoding' => 'deflate, gzip',
+  'host' => '148.70.73.177',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T04:28:48+08:00 ] 119.15.97.120 GET 148.70.73.177:80/
+[运行时间：0.011815s] [吞吐率：84.64req/s] [内存消耗：1,242.96kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'host' => '148.70.73.177:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T05:22:50+08:00 ] 154.8.226.134 GET 148.70.73.177:80/webdav/
+[运行时间：0.014595s] [吞吐率：68.52req/s] [内存消耗：1,364.59kb] [文件加载：35]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'webdav',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0',
+  'host' => '148.70.73.177:80',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T05:24:12+08:00 ] 154.8.226.134 GET 148.70.73.177/index.php
+[运行时间：0.017074s] [吞吐率：58.57req/s] [内存消耗：1,243.39kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'host' => '148.70.73.177',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T05:24:14+08:00 ] 154.8.226.134 GET 148.70.73.177/index.php
+[运行时间：0.011157s] [吞吐率：89.63req/s] [内存消耗：1,243.39kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'host' => '148.70.73.177',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T05:24:52+08:00 ] 154.8.226.134 GET 148.70.73.177/manager/html
+[运行时间：0.014510s] [吞吐率：68.92req/s] [内存消耗：1,365.34kb] [文件加载：35]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'manager',
+    1 => 'html',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'host' => '148.70.73.177',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T05:33:45+08:00 ] 186.42.191.98 GET 148.70.73.177:80/
+[运行时间：0.014546s] [吞吐率：68.75req/s] [内存消耗：1,242.96kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'host' => '148.70.73.177:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T05:38:40+08:00 ] 191.8.58.137 GET 148.70.73.177:80/
+[运行时间：0.015552s] [吞吐率：64.30req/s] [内存消耗：1,242.96kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'host' => '148.70.73.177:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T05:49:06+08:00 ] 103.235.199.106 GET 148.70.73.177:80/
+[运行时间：0.012817s] [吞吐率：78.02req/s] [内存消耗：1,242.96kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'host' => '148.70.73.177:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T07:51:33+08:00 ] 177.138.194.68 GET 148.70.73.177:80/
+[运行时间：0.014037s] [吞吐率：71.24req/s] [内存消耗：1,242.96kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'host' => '148.70.73.177:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T08:46:33+08:00 ] 84.255.243.177 GET 148.70.73.177:80/
+[运行时间：0.015396s] [吞吐率：64.95req/s] [内存消耗：1,242.96kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'host' => '148.70.73.177:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T09:05:04+08:00 ] 109.94.118.182 GET 148.70.73.177:80/
+[运行时间：0.017309s] [吞吐率：57.77req/s] [内存消耗：1,242.96kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'host' => '148.70.73.177:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T09:38:26+08:00 ] 200.158.185.106 GET 148.70.73.177:80/
+[运行时间：0.015618s] [吞吐率：64.03req/s] [内存消耗：1,243.09kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7',
+  'host' => '148.70.73.177:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T10:11:40+08:00 ] 191.100.11.107 GET 148.70.73.177/
+[运行时间：0.011042s] [吞吐率：90.56req/s] [内存消耗：1,242.66kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '148.70.73.177',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T11:00:15+08:00 ] 193.112.2.155 GET 148.70.73.177:80/webdav/
+[运行时间：0.026585s] [吞吐率：37.62req/s] [内存消耗：1,364.59kb] [文件加载：35]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'webdav',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0',
+  'host' => '148.70.73.177:80',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T11:01:01+08:00 ] 193.112.2.155 GET 148.70.73.177/index.php
+[运行时间：0.016699s] [吞吐率：59.88req/s] [内存消耗：1,243.14kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'host' => '148.70.73.177',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0)',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T11:01:03+08:00 ] 193.112.2.155 GET 148.70.73.177/index.php
+[运行时间：0.017283s] [吞吐率：57.86req/s] [内存消耗：1,243.14kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'host' => '148.70.73.177',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0)',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T11:01:11+08:00 ] 193.112.2.155 GET 148.70.73.177/manager/html
+[运行时间：0.015697s] [吞吐率：63.71req/s] [内存消耗：1,365.56kb] [文件加载：35]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'manager',
+    1 => 'html',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'host' => '148.70.73.177',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 SE 2.X MetaSr 1.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T15:50:08+08:00 ] 159.192.222.105 GET 148.70.73.177:80/
+[运行时间：0.043904s] [吞吐率：22.78req/s] [内存消耗：1,242.96kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'host' => '148.70.73.177:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T16:34:31+08:00 ] 201.42.108.83 GET 148.70.73.177:80/
+[运行时间：0.014394s] [吞吐率：69.47req/s] [内存消耗：1,242.96kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'host' => '148.70.73.177:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T17:41:37+08:00 ] 178.134.141.114 GET 148.70.73.177:80/
+[运行时间：0.016065s] [吞吐率：62.25req/s] [内存消耗：1,242.96kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'host' => '148.70.73.177:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T18:18:49+08:00 ] 117.3.69.247 GET 148.70.73.177:80/manager/html
+[运行时间：0.015324s] [吞吐率：65.26req/s] [内存消耗：1,367.95kb] [文件加载：35]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'manager',
+    1 => 'html',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => 'Basic Og==',
+  'host' => '148.70.73.177:80',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0)',
+  'accept' => 'text/html, application/xhtml+xml, */*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T18:48:49+08:00 ] 129.18.144.214 GET 148.70.73.177:80/
+[运行时间：0.012417s] [吞吐率：80.53req/s] [内存消耗：1,242.96kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'host' => '148.70.73.177:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T18:53:06+08:00 ] 41.50.82.183 GET 148.70.73.177:80/
+[运行时间：0.012161s] [吞吐率：82.23req/s] [内存消耗：1,242.96kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'host' => '148.70.73.177:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T19:39:55+08:00 ] 143.255.142.32 GET 148.70.73.177:80/
+[运行时间：0.015116s] [吞吐率：66.16req/s] [内存消耗：1,242.96kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'host' => '148.70.73.177:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T20:13:56+08:00 ] 140.143.241.113 GET 148.70.73.177/w00tw00t.at.blackhats.romanian.anti-sec:)
+[运行时间：0.011664s] [吞吐率：85.73req/s] [内存消耗：1,368.22kb] [文件加载：35]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'w00tw00t.at.blackhats.romanian.anti-sec:)',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Close',
+  'host' => '148.70.73.177',
+  'user-agent' => 'ZmEu',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-us',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T20:19:45+08:00 ] 60.255.76.130 POST 148.70.73.177/api/banner/showBanner
+[运行时间：0.345077s] [吞吐率：2.90req/s] [内存消耗：2,736.30kb] [文件加载：55]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'banner',
+    2 => 'showBanner',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.10.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => '148.70.73.177',
+  'content-length' => '63',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'max-age=30',
+)
+[ info ] [ PARAM ] array (
+  'number' => '-1',
+  'type' => '1',
+  'tk' => '51a1682117202dfc189675a97e34ca33',
+  'user_id' => '33',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Banner->showBanner[ /data/web/php/ischool/application/api/controller/Banner.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.187971s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.032378s ]
+[ sql ] [ SQL ] SELECT `banner_id`,`url` FROM `banner` WHERE  `type` = 1  AND `status` = 1 ORDER BY `banner_id` DESC [ RunTime:0.000558s ]
+---------------------------------------------------------------
+[ 2019-02-04T20:19:47+08:00 ] 60.255.76.130 POST 148.70.73.177/api/banner/showBanner
+[运行时间：0.082484s] [吞吐率：12.12req/s] [内存消耗：2,736.14kb] [文件加载：55]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'banner',
+    2 => 'showBanner',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.10.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => '148.70.73.177',
+  'content-length' => '63',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'max-age=30',
+)
+[ info ] [ PARAM ] array (
+  'number' => '-1',
+  'type' => '2',
+  'tk' => '51a1682117202dfc189675a97e34ca33',
+  'user_id' => '33',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Banner->showBanner[ /data/web/php/ischool/application/api/controller/Banner.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022829s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.000710s ]
+[ sql ] [ SQL ] SELECT `banner_id`,`url` FROM `banner` WHERE  `type` = 2  AND `status` = 1 ORDER BY `banner_id` DESC [ RunTime:0.010978s ]
+---------------------------------------------------------------
+[ 2019-02-04T20:19:47+08:00 ] 60.255.76.130 POST 148.70.73.177/api/sociality/serveObtain
+[运行时间：0.065028s] [吞吐率：15.38req/s] [内存消耗：2,630.89kb] [文件加载：54]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'sociality',
+    2 => 'serveObtain',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.10.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => '148.70.73.177',
+  'content-length' => '46',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'max-age=30',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '33',
+  'tk' => '51a1682117202dfc189675a97e34ca33',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\Sociality->serveObtain[ /data/web/php/ischool/application/api/controller/Sociality.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014807s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.000793s ]
+[ sql ] [ SQL ] SELECT `school` FROM `users` WHERE  `user_id` = 33 LIMIT 1 [ RunTime:0.000271s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `s_serve` [ RunTime:0.000928s ]
+[ sql ] [ SQL ] SELECT sst.id type_id,st.type_name p_name,ss.plays_id serve_id,`event_title`,`sst`.`type_name`,`u`.`head_image`,`u`.`nickname`,`us`.`grade`,`ss`.`user_id`,`ss`.`launch`,`ss`.`charging`,`ss`.`funds`,`ss`.`images` FROM `s_serve` `ss` LEFT JOIN `s_sociality_type` `sst` ON `ss`.`about_type_id`=`sst`.`id` LEFT JOIN `sociality_type` `st` ON `st`.`id`=`sst`.`type_id` LEFT JOIN `users` `u` ON `ss`.`user_id`=`u`.`user_id` LEFT JOIN `users_secretary` `us` ON `u`.`user_id`=`us`.`user_id` WHERE  `st`.`pid` = 1  AND (   u.school=1 )  AND `end_times` > 1549282787  AND `ss`.`status` = 1 ORDER BY `ss`.`launch` DESC LIMIT 0,10 [ RunTime:0.000560s ]
+---------------------------------------------------------------
+[ 2019-02-04T20:19:47+08:00 ] 60.255.76.130 POST 148.70.73.177/api/sociality/playsObtain
+[运行时间：0.049339s] [吞吐率：20.27req/s] [内存消耗：2,649.41kb] [文件加载：54]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'sociality',
+    2 => 'playsObtain',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.10.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => '148.70.73.177',
+  'content-length' => '46',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'max-age=30',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '33',
+  'tk' => '51a1682117202dfc189675a97e34ca33',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\Sociality->playsObtain[ /data/web/php/ischool/application/api/controller/Sociality.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004295s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.003877s ]
+[ sql ] [ SQL ] SELECT `school` FROM `users` WHERE  `user_id` = 33 LIMIT 1 [ RunTime:0.000239s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sociality_type` [ RunTime:0.000484s ]
+[ sql ] [ SQL ] SELECT `st`.`id`,`st`.`type_name` FROM `sociality_type` `st` WHERE  `pid` = 2 [ RunTime:0.000213s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `s_sociality_type` [ RunTime:0.000439s ]
+[ sql ] [ SQL ] SELECT `id` FROM `s_sociality_type` WHERE  `type_id` = 6 [ RunTime:0.000210s ]
+[ sql ] [ SQL ] SELECT `id` FROM `s_sociality_type` WHERE  `type_id` = 7 [ RunTime:0.000211s ]
+[ sql ] [ SQL ] SELECT `id` FROM `s_sociality_type` WHERE  `type_id` = 8 [ RunTime:0.000183s ]
+[ sql ] [ SQL ] SELECT `id` FROM `s_sociality_type` WHERE  `type_id` = 9 [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `plays` [ RunTime:0.000482s ]
+[ sql ] [ SQL ] SELECT `p`.`plays_id`,`p`.`event_title`,`sst`.`type_name`,`u`.`head_image`,`p`.`user_id`,`u`.`nickname`,`us`.`grade`,`p`.`launch`,`p`.`funds`,`p`.`images`,`p`.`p_start`,`p`.`end_times`,`u`.`sex`,`p`.`p_address`,`p`.`number`,`p`.`ask` FROM `plays` `p` LEFT JOIN `s_sociality_type` `sst` ON `p`.`about_type_id`=`sst`.`id` LEFT JOIN `sociality_type` `st` ON `st`.`id`=`sst`.`type_id` LEFT JOIN `users` `u` ON `p`.`user_id`=`u`.`user_id` LEFT JOIN `users_secretary` `us` ON `u`.`user_id`=`us`.`user_id` WHERE  (   p.about_type_id in ( 9,11 ) and u.school=1 )  AND `p_start` > 1549282787  AND `p`.`status` = 1 ORDER BY `p`.`launch` DESC LIMIT 0,3 [ RunTime:0.000474s ]
+[ sql ] [ SQL ] SELECT `p`.`plays_id`,`p`.`event_title`,`sst`.`type_name`,`u`.`head_image`,`p`.`user_id`,`u`.`nickname`,`us`.`grade`,`p`.`launch`,`p`.`funds`,`p`.`images`,`p`.`p_start`,`p`.`end_times`,`u`.`sex`,`p`.`p_address`,`p`.`number`,`p`.`ask` FROM `plays` `p` LEFT JOIN `s_sociality_type` `sst` ON `p`.`about_type_id`=`sst`.`id` LEFT JOIN `sociality_type` `st` ON `st`.`id`=`sst`.`type_id` LEFT JOIN `users` `u` ON `p`.`user_id`=`u`.`user_id` LEFT JOIN `users_secretary` `us` ON `u`.`user_id`=`us`.`user_id` WHERE  (   p.about_type_id in ( 6 ) and u.school=1 )  AND `p_start` > 1549282787  AND `p`.`status` = 1 ORDER BY `p`.`launch` DESC LIMIT 0,3 [ RunTime:0.000461s ]
+[ sql ] [ SQL ] SELECT `p`.`plays_id`,`p`.`event_title`,`sst`.`type_name`,`u`.`head_image`,`p`.`user_id`,`u`.`nickname`,`us`.`grade`,`p`.`launch`,`p`.`funds`,`p`.`images`,`p`.`p_start`,`p`.`end_times`,`u`.`sex`,`p`.`p_address`,`p`.`number`,`p`.`ask` FROM `plays` `p` LEFT JOIN `s_sociality_type` `sst` ON `p`.`about_type_id`=`sst`.`id` LEFT JOIN `sociality_type` `st` ON `st`.`id`=`sst`.`type_id` LEFT JOIN `users` `u` ON `p`.`user_id`=`u`.`user_id` LEFT JOIN `users_secretary` `us` ON `u`.`user_id`=`us`.`user_id` WHERE  (   p.about_type_id in ( 7 ) and u.school=1 )  AND `p_start` > 1549282787  AND `p`.`status` = 1 ORDER BY `p`.`launch` DESC LIMIT 0,3 [ RunTime:0.000409s ]
+[ sql ] [ SQL ] SELECT `p`.`plays_id`,`p`.`event_title`,`sst`.`type_name`,`u`.`head_image`,`p`.`user_id`,`u`.`nickname`,`us`.`grade`,`p`.`launch`,`p`.`funds`,`p`.`images`,`p`.`p_start`,`p`.`end_times`,`u`.`sex`,`p`.`p_address`,`p`.`number`,`p`.`ask` FROM `plays` `p` LEFT JOIN `s_sociality_type` `sst` ON `p`.`about_type_id`=`sst`.`id` LEFT JOIN `sociality_type` `st` ON `st`.`id`=`sst`.`type_id` LEFT JOIN `users` `u` ON `p`.`user_id`=`u`.`user_id` LEFT JOIN `users_secretary` `us` ON `u`.`user_id`=`us`.`user_id` WHERE  (   p.about_type_id in ( 8 ) and u.school=1 )  AND `p_start` > 1549282787  AND `p`.`status` = 1 ORDER BY `p`.`launch` DESC LIMIT 0,3 [ RunTime:0.000471s ]
+---------------------------------------------------------------
+[ 2019-02-04T20:19:47+08:00 ] 60.255.76.130 POST 148.70.73.177/api/sociality/getModule
+[运行时间：0.037209s] [吞吐率：26.88req/s] [内存消耗：2,610.99kb] [文件加载：53]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'sociality',
+    2 => 'getModule',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.10.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => '148.70.73.177',
+  'content-length' => '46',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'max-age=30',
+)
+[ info ] [ PARAM ] array (
+  'tk' => '51a1682117202dfc189675a97e34ca33',
+  'user_id' => '33',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\Sociality->getModule[ /data/web/php/ischool/application/api/controller/Sociality.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000457s ] mysql:host=127.0.0.1;port=3306;dbname=ischool;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sociality_type` [ RunTime:0.000623s ]
+[ sql ] [ SQL ] SELECT type_name s_type_name,id pid,`icon` FROM `sociality_type` WHERE  `pid` = 0 [ RunTime:0.000328s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `s_sociality_type` [ RunTime:0.000752s ]
+[ sql ] [ SQL ] SELECT sst.type_name s_type_name,sst.id s_type_id,`sst`.`icon`,`st`.`pid`,st.id type_id,`st`.`type_name` FROM `s_sociality_type` `sst` LEFT JOIN `sociality_type` `st` ON `st`.`id`=`sst`.`type_id` WHERE  `sst`.`id` = '11' LIMIT 1 [ RunTime:0.000445s ]
+[ sql ] [ SQL ] SELECT sst.type_name s_type_name,sst.id s_type_id,`sst`.`icon`,`st`.`pid`,st.id type_id,`st`.`type_name` FROM `s_sociality_type` `sst` LEFT JOIN `sociality_type` `st` ON `st`.`id`=`sst`.`type_id` WHERE  `sst`.`id` = '5' LIMIT 1 [ RunTime:0.000253s ]
+[ sql ] [ SQL ] SELECT sst.type_name s_type_name,sst.id s_type_id,`sst`.`icon`,`st`.`pid`,st.id type_id,`st`.`type_name` FROM `s_sociality_type` `sst` LEFT JOIN `sociality_type` `st` ON `st`.`id`=`sst`.`type_id` WHERE  `sst`.`id` = '6' LIMIT 1 [ RunTime:0.000260s ]
+---------------------------------------------------------------
+[ 2019-02-04T20:30:13+08:00 ] 94.183.116.77 GET 148.70.73.177/
+[运行时间：0.012543s] [吞吐率：79.72req/s] [内存消耗：1,243.60kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'host' => '148.70.73.177',
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T20:30:13+08:00 ] 175.42.2.60 GET 148.70.73.177/hs491c8267c4a4f81187dcd9665c61a4988897fb97Dggg.P5v5x.ITp
+[运行时间：0.013037s] [吞吐率：76.70req/s] [内存消耗：1,370.09kb] [文件加载：35]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'hs491c8267c4a4f81187dcd9665c61a4988897fb97Dggg.P5v5x.ITp',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'host' => '148.70.73.177',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T20:30:14+08:00 ] 219.140.119.33 GET 148.70.73.177/view/img/favicon.ico
+[运行时间：0.012733s] [吞吐率：78.54req/s] [内存消耗：1,365.78kb] [文件加载：35]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'view',
+    1 => 'img',
+    2 => 'favicon.ico',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'host' => '148.70.73.177',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T20:30:14+08:00 ] 175.42.2.60 GET 148.70.73.177/hs491c8267c4a4f81187dcd9665c61a4988897fb976777.te8e9.uyO
+[运行时间：0.013458s] [吞吐率：74.31req/s] [内存消耗：1,370.09kb] [文件加载：35]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'hs491c8267c4a4f81187dcd9665c61a4988897fb976777.te8e9.uyO',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'host' => '148.70.73.177',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T20:30:14+08:00 ] 219.140.119.33 GET 148.70.73.177/home/favicon.ico
+[运行时间：0.016974s] [吞吐率：58.91req/s] [内存消耗：1,365.64kb] [文件加载：35]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'favicon.ico',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'host' => '148.70.73.177',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T20:30:14+08:00 ] 219.140.119.33 GET 148.70.73.177/2/favicon.ico
+[运行时间：0.017730s] [吞吐率：56.40req/s] [内存消耗：1,365.65kb] [文件加载：35]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '2',
+    1 => 'favicon.ico',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'host' => '148.70.73.177',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T20:30:14+08:00 ] 175.42.2.60 GET 148.70.73.177/hp491c8267c4a4f81187dcd9665c61a4988897fb97YEY.1MbVPbd1sv.3bE
+[运行时间：0.016037s] [吞吐率：62.36req/s] [内存消耗：1,370.09kb] [文件加载：35]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'hp491c8267c4a4f81187dcd9665c61a4988897fb97YEY.1MbVPbd1sv.3bE',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'host' => '148.70.73.177',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T20:30:14+08:00 ] 219.140.119.33 GET 148.70.73.177/3/favicon.ico
+[运行时间：0.015016s] [吞吐率：66.60req/s] [内存消耗：1,365.65kb] [文件加载：35]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '3',
+    1 => 'favicon.ico',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'host' => '148.70.73.177',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T20:30:14+08:00 ] 175.42.2.60 GET 148.70.73.177/hp491c8267c4a4f81187dcd9665c61a4988897fb97VY.1TKnjXYo1S.nKo
+[运行时间：0.012887s] [吞吐率：77.60req/s] [内存消耗：1,370.09kb] [文件加载：35]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'hp491c8267c4a4f81187dcd9665c61a4988897fb97VY.1TKnjXYo1S.nKo',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'host' => '148.70.73.177',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T20:30:14+08:00 ] 219.140.119.33 GET 148.70.73.177/
+[运行时间：0.013404s] [吞吐率：74.60req/s] [内存消耗：1,243.55kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'host' => '148.70.73.177',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T20:30:15+08:00 ] 219.140.119.33 GET 148.70.73.177/?id=1
+[运行时间：0.015657s] [吞吐率：63.87req/s] [内存消耗：1,244.24kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'host' => '148.70.73.177',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T20:30:15+08:00 ] 175.42.2.60 GET 148.70.73.177/hp491c8267c4a4f81187dcd9665c61a4988897fb97rJr.xwABsAux4C.LAJ
+[运行时间：0.016453s] [吞吐率：60.78req/s] [内存消耗：1,370.09kb] [文件加载：35]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'hp491c8267c4a4f81187dcd9665c61a4988897fb97rJr.xwABsAux4C.LAJ',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'host' => '148.70.73.177',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T20:30:15+08:00 ] 175.42.2.60 GET 148.70.73.177/hp491c8267c4a4f81187dcd9665c61a4988897fb97Br.xbU0khrDxv.0UD
+[运行时间：0.012337s] [吞吐率：81.06req/s] [内存消耗：1,370.09kb] [文件加载：35]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'hp491c8267c4a4f81187dcd9665c61a4988897fb97Br.xbU0khrDxv.0UD',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'host' => '148.70.73.177',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T20:30:15+08:00 ] 175.42.2.60 GET 148.70.73.177/hp491c8267c4a4f81187dcd9665c61a4988897fb97mB.9KqM5vB698.Mq6
+[运行时间：0.018383s] [吞吐率：54.40req/s] [内存消耗：1,370.09kb] [文件加载：35]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'hp491c8267c4a4f81187dcd9665c61a4988897fb97mB.9KqM5vB698.Mq6',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'host' => '148.70.73.177',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T20:30:16+08:00 ] 175.42.2.60 GET 148.70.73.177/hp491c8267c4a4f81187dcd9665c61a4988897fb97QYQ.NczfgzLNdt.2zY
+[运行时间：0.013234s] [吞吐率：75.56req/s] [内存消耗：1,370.09kb] [文件加载：35]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'hp491c8267c4a4f81187dcd9665c61a4988897fb97QYQ.NczfgzLNdt.2zY',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'host' => '148.70.73.177',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T20:30:16+08:00 ] 175.42.2.60 GET 148.70.73.177/hp491c8267c4a4f81187dcd9665c61a4988897fb97fVf.kRpG7p0kIs.wpV
+[运行时间：0.015742s] [吞吐率：63.52req/s] [内存消耗：1,370.09kb] [文件加载：35]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'hp491c8267c4a4f81187dcd9665c61a4988897fb97fVf.kRpG7p0kIs.wpV',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'host' => '148.70.73.177',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T20:30:16+08:00 ] 175.42.2.60 GET 148.70.73.177/hs491c8267c4a4f81187dcd9665c61a4988897fb97Gf.kqOWXHfrkP.WOr
+[运行时间：0.018023s] [吞吐率：55.49req/s] [内存消耗：1,370.09kb] [文件加载：35]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'hs491c8267c4a4f81187dcd9665c61a4988897fb97Gf.kqOWXHfrkP.WOr',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'host' => '148.70.73.177',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T20:30:17+08:00 ] 175.42.2.60 GET 148.70.73.177/hp491c8267c4a4f81187dcd9665c61a4988897fb97iBi.eyE1IE2e34.ZEB
+[运行时间：0.013375s] [吞吐率：74.77req/s] [内存消耗：1,370.09kb] [文件加载：35]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'hp491c8267c4a4f81187dcd9665c61a4988897fb97iBi.eyE1IE2e34.ZEB',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'host' => '148.70.73.177',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T20:30:17+08:00 ] 175.42.2.60 GET 148.70.73.177/hp491c8267c4a4f81187dcd9665c61a4988897fb97lQl.XKJx3JWXL7.RJQ
+[运行时间：0.013210s] [吞吐率：75.70req/s] [内存消耗：1,370.09kb] [文件加载：35]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'hp491c8267c4a4f81187dcd9665c61a4988897fb97lQl.XKJx3JWXL7.RJQ',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'host' => '148.70.73.177',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T20:30:17+08:00 ] 175.42.2.60 GET 148.70.73.177/hp491c8267c4a4f81187dcd9665c61a4988897fb97xfx.SAD9nDZS0d.TDf
+[运行时间：0.014850s] [吞吐率：67.34req/s] [内存消耗：1,370.09kb] [文件加载：35]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'hp491c8267c4a4f81187dcd9665c61a4988897fb97xfx.SAD9nDZS0d.TDf',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'host' => '148.70.73.177',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T20:30:18+08:00 ] 175.42.2.60 GET 148.70.73.177/hp491c8267c4a4f81187dcd9665c61a4988897fb979x.So6yC4xGSg.y6G
+[运行时间：0.017956s] [吞吐率：55.69req/s] [内存消耗：1,370.09kb] [文件加载：35]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'hp491c8267c4a4f81187dcd9665c61a4988897fb979x.So6yC4xGSg.y6G',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'host' => '148.70.73.177',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T20:30:18+08:00 ] 175.42.2.60 GET 148.70.73.177/hp491c8267c4a4f81187dcd9665c61a4988897fb97jij.vqYN0YRv2u.bYi
+[运行时间：0.016770s] [吞吐率：59.63req/s] [内存消耗：1,370.09kb] [文件加载：35]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'hp491c8267c4a4f81187dcd9665c61a4988897fb97jij.vqYN0YRv2u.bYi',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'host' => '148.70.73.177',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T20:30:18+08:00 ] 175.42.2.60 GET 148.70.73.177/hp491c8267c4a4f81187dcd9665c61a4988897fb97N1N.8zVkMVT8w3.KV1
+[运行时间：0.012833s] [吞吐率：77.92req/s] [内存消耗：1,370.09kb] [文件加载：35]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'hp491c8267c4a4f81187dcd9665c61a4988897fb97N1N.8zVkMVT8w3.KV1',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'host' => '148.70.73.177',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T20:30:19+08:00 ] 175.42.2.60 GET 148.70.73.177/hp491c8267c4a4f81187dcd9665c61a4988897fb97klk.Cpr52ryCWn.Arl
+[运行时间：0.011407s] [吞吐率：87.67req/s] [内存消耗：1,370.09kb] [文件加载：35]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'hp491c8267c4a4f81187dcd9665c61a4988897fb97klk.Cpr52ryCWn.Arl',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'host' => '148.70.73.177',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T20:30:19+08:00 ] 175.42.2.60 GET 148.70.73.177/hp491c8267c4a4f81187dcd9665c61a4988897fb975x5.HOBewBbHZL.UBx
+[运行时间：0.016638s] [吞吐率：60.10req/s] [内存消耗：1,370.09kb] [文件加载：35]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'hp491c8267c4a4f81187dcd9665c61a4988897fb975x5.HOBewBbHZL.UBx',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'host' => '148.70.73.177',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T20:30:19+08:00 ] 175.42.2.60 GET 148.70.73.177/hp491c8267c4a4f81187dcd9665c61a4988897fb97e9e.PEmaWmKPc0.qm9
+[运行时间：0.011656s] [吞吐率：85.79req/s] [内存消耗：1,370.09kb] [文件加载：35]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'hp491c8267c4a4f81187dcd9665c61a4988897fb97e9e.PEmaWmKPc0.qm9',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'host' => '148.70.73.177',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T20:30:20+08:00 ] 175.42.2.60 GET 148.70.73.177/hp491c8267c4a4f81187dcd9665c61a4988897fb97aja.toQXZQAtRM.zQj
+[运行时间：0.012414s] [吞吐率：80.55req/s] [内存消耗：1,370.09kb] [文件加载：35]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'hp491c8267c4a4f81187dcd9665c61a4988897fb97aja.toQXZQAtRM.zQj',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'host' => '148.70.73.177',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T20:30:20+08:00 ] 175.42.2.60 GET 148.70.73.177/hp491c8267c4a4f81187dcd9665c61a4988897fb97XNX.sJfScfUsT2.pfN
+[运行时间：0.016826s] [吞吐率：59.43req/s] [内存消耗：1,370.09kb] [文件加载：35]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'hp491c8267c4a4f81187dcd9665c61a4988897fb97XNX.sJfScfUsT2.pfN',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'host' => '148.70.73.177',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T20:30:20+08:00 ] 175.42.2.60 GET 148.70.73.177/hp491c8267c4a4f81187dcd9665c61a4988897fb97SX.smGO7LXks0.OGk
+[运行时间：0.013646s] [吞吐率：73.28req/s] [内存消耗：1,370.09kb] [文件加载：35]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'hp491c8267c4a4f81187dcd9665c61a4988897fb97SX.smGO7LXks0.OGk',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'host' => '148.70.73.177',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T20:30:21+08:00 ] 175.42.2.60 GET 148.70.73.177/hp491c8267c4a4f81187dcd9665c61a4988897fb97h5h.46ivTiz4bW.Ei5
+[运行时间：0.018416s] [吞吐率：54.30req/s] [内存消耗：1,370.09kb] [文件加载：35]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'hp491c8267c4a4f81187dcd9665c61a4988897fb97h5h.46ivTiz4bW.Ei5',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'host' => '148.70.73.177',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T22:25:30+08:00 ] 103.117.33.42 GET 148.70.73.177:80/
+[运行时间：0.013622s] [吞吐率：73.41req/s] [内存消耗：1,242.96kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'host' => '148.70.73.177:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T23:16:08+08:00 ] 101.91.62.11 GET 148.70.73.177/
+[运行时间：0.015851s] [吞吐率：63.09req/s] [内存消耗：1,245.48kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'accept-encoding' => 'deflate, gzip',
+  'host' => '148.70.73.177',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-04T23:58:27+08:00 ] 46.148.133.202 GET 148.70.73.177:80/
+[运行时间：0.015735s] [吞吐率：63.55req/s] [内存消耗：1,242.96kb] [文件加载：33]
+[ info ] [ LANG ] /data/web/php/ischool/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'host' => '148.70.73.177:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/web/php/ischool/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File

@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>招聘</title>
+    <style>
+        *{margin:0 auto;padding:0;border:0;}
+        li{list-style-type: none;}
+        body{background: #eee;}
+        div.top{width: 96%;height: 70px;}
+        div.logo_div{width:100%;height:100%;line-height: 70px;text-align: center;position:relative;}
+        div.logo_div>img{height: 25px;position:absolute;left:2%;top:25%;}
+        div.logo_div>span{font-size: 20px;color:#343434;}
+
+        div.banner{width: 100%;height: 120px;position:relative;}
+        div.banner>img{height: 120px;width: 100%;position:absolute;}
+
+
+        div.middle-div{width:100%;height: 98%;z-index:999;position: relative;}
+
+        div.middle-div>div.left-rec-logo{width:40%;text-align: center;color:white;font-size: 14px;padding: 12px 0;}
+        div.middle-div>div.left-rec-logo>img{width:70px;display: block;}
+        div.middle-div>div.right-icon{width:18%;height: 100%;position: absolute;right: 0;top:0;}
+        div.right-icon>img{height:20px;display: block;position:absolute;right: 8px;}
+
+        div.main>div.info-top{width:94%;background-color:white;padding: 7px 5px;margin-top:5px;}
+        div.main>div.info-top>div.rec-name>span.name-text{font-size:16px;margin-left:5px;}
+        div.main>div.info-top>div.rec-name:after{content:"";display:block;clear:both;}
+        div.main>div.info-top>div.rec-name>span.times-text{font-size:14px;color:#0000cc;float: right;margin-right:5px;}
+
+        div.main>div.info-top>div.ask{font-size: 14px;margin-top:10px;}
+        div.main>div.info-top>div.ask>span{margin-left:5px;color:#666;}
+
+        div.main>div.info-top>div.address{padding: 10px 0;margin-top:5px;}
+        div.main>div.info-top>div.address>div.map>img{height: 18px;position:relative;top:2px;margin-left:5px;}
+        div.main>div.info-top>div.address>div.map>span{font-size: 14px;margin-left:5px;}
+
+        div.main>div.info-top>div.address>div.address-text{font-size: 14px;margin-left:5px;color: #666;margin-top:5px;}
+        div.main>div.work-title{font-size: 16px;width:94%;padding: 7px 5px;background-color:white;margin-top:5px;color:#0000cc;}
+        div.main>div.work-info{width:94%;padding: 7px 5px;background-color:white;margin-top:1px;}
+
+        div.main>div.work-info>ul.info-ul-p>li{line-height: 30px;}
+        div.main>div.work-info>ul.info-ul-p>li>ul.info-ul-s:after{content:"";display:block;clear:both;}
+        div.main>div.work-info>ul.info-ul-p>li>ul.info-ul-s>li{font-size: 14px;color:#666;}
+
+        div.main>div.work-info>ul.info-ul-p>li>ul.info-ul-s>li:first-child{width:20%;float: left;}
+        div.main>div.work-info>ul.info-ul-p>li>ul.info-ul-s>li:last-child{margin-left:5%;width:70%;float: left;}
+
+        div.btn-div{width: 100%;background: white;position: fixed;bottom: 0;padding: 6px 0;}
+        div.btn-div>span{display: block;padding: 8px 0;width: 80%;background: #0000ff;color:white;border-radius: 10px;text-align: center;}
+        div.cloak{background-color:#eee;position: fixed;z-index:9999;top:0;left:0;right:0;bottom: 0;display: none;opacity:0.5;width: 100%;}
+        div.report,div.enroll{background-color:white;width:60%;height:120px;position: fixed;z-index:99999;top:0;left:0;text-align: center;border-radius: 10px;overflow: hidden;display: none;}
+        div.report>ul>li:first-child,div.enroll>ul>li:first-child{font-size: 16px;}
+        div.report>ul>li,div.enroll>ul>li{margin-top:5%;font-size: 14px;height: 25px;}
+
+        div.report>ul>li:last-child,div.enroll>ul>li:last-child{height: 35px;border-top:1px solid #eee;}
+        div.report>ul>li:last-child>span,div.enroll>ul>li:last-child>span{display: inline-block;width:50%;height: 100%;line-height: 35px;}
+        div.report>ul>li:last-child>span:last-child,div.enroll>ul>li:last-child>span:last-child{border-left:1px solid #eee;box-sizing: border-box;}
+        div.report>ul>li:last-child>span:last-child>a{color:#000;text-decoration: none;}
+
+        div.enroll_alert{width:45%;height:40px;background-color:white;border-radius: 12px;position: fixed;top:0;left:0;z-index: 99999;text-align: center;line-height: 40px;display: none;}
+    </style>
+    <script src="/static/js/jquery-3.3.1.min.js"></script>
+    <script src="/static/js/com.js"></script>
+</head>
+<body>
+<!--<div class="top">
+    <div class="logo_div">
+        <img src="/static/../img/board_fabu@3x.png"/><span>招聘</span>
+    </div>
+</div>-->
+    <div class="banner" id="banner">
+        <img src="/static/../img/timg-2.jpeg"/>
+        <div class="middle-div">
+            <div class="left-rec-logo">
+                {{if $dec.enter_logo == ''}}<img src="/static/../img/fastFitHead.png"/>{{else}}<img src="/{{$dec.enter_logo}}"/>{{/if}}
+                <span style="display: inline-block;margin-top:3px;">{{$dec.enterprise_name}}</span>
+            </div>
+            <div class="right-icon">
+                <img src="/static/../img/jubao@2x.png" style="top:5px;" id="bohao"/>
+                <img src="/static/../img/chakan@2x.png" onclick="recDes(this,'{{$dec.eid}}');" style="bottom: 10px;left:12px;" class="rec-info"/>
+            </div>
+        </div>
+    </div>
+
+    <div class="main">
+        <!--公司名称 招聘要求-->
+        <div class="info-top">
+            <div class="rec-name">
+                <span class="name-text">{{$dec.enterprise_name}}</span>
+                <span  class="times-text">{{$dec.recruit_pay}}/天</span>
+            </div>
+            <div class="ask">
+                <span class="ask-limit">还需{{$dec.number}}人/{{$dec.requirement}}/{{$dec.settlement}}</span>
+            </div>
+            <div class="address">
+                <div class="map"><img src="/static/../img/weizhi@2x.png"/><span class="address-text">四川-{{$dec.city}}-{{$dec.area}}</span></div>
+                <div class="address-text"><span class="address-text">{{$dec.rec_address}}</span></div>
+            </div>
+        </div>
+        <input type="hidden" id="eid" value="{{$dec.id}}"/>
+        <input type="hidden" id="rement" value="{{$dec.requirement}}"/>
+        <input type="hidden" id="sex" value="{{$dec.sex}}"/>
+        <input type="hidden" id="enter_id" value="{{$dec.eid}}"/>
+        <input type="hidden" id="uid" value="{{$dec.user_id}}"/>
+        <!--工作简介-->
+        <div class="work-title">
+            <span>职位信息</span>
+        </div>
+        <div class="work-info">
+            <ul class="info-ul-p">
+                <li>
+                    <ul class="info-ul-s">
+                        <li><span>工作内容:</span></li>
+                        <li><span>{{$dec.description}}</span></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <ul class="info-ul-s">
+                        <li><span>招聘人数:</span></li>
+                        <li><span>{{$dec.number}}</span></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <ul class="info-ul-s">
+                        <li><span>工作时间:</span></li>
+                        <li><span>{{$dec.big_time}}天</span></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <ul class="info-ul-s">
+                        <li><span>岗位要求:</span></li>
+                        <li><span>{{$dec.requirement}}</span></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <ul class="info-ul-s">
+                        <li><span>有效日期:</span></li>
+                        <li><span>不限</span></li>
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+    <div class="cloak"></div>
+    <div class="report">
+        <ul>
+            <li><span>举报电话</span></li>
+            <li><span>{{$dec.phone}}</span></li>
+            <li><span class="cancel">取消</span><span><a href="tel:{{$dec.phone}}">呼叫</a></span></li>
+        </ul>
+    </div>
+
+    <div class="enroll">
+        <ul>
+            <li><span>请确认报名信息</span></li>
+            <li><span>礼仪小姐</span></li>
+            <li><span class="cancel">取消</span><span class="enroll-btn">报名</span></li>
+        </ul>
+    </div>
+
+    <div class="enroll_alert">
+        <span>报名成功</span>
+    </div>
+
+    <div class="btn-div is_enter">
+        <input type="hidden" id="is_en" value="{{$dec.is_enroll}}"/>
+        {{if $dec.is_enroll == 1}}
+        <span style="background: #aaa;">已报名</span>
+        {{else}}
+        <span>立即报名</span>
+        {{/if}}
+    </div>
+
+</body>
+<script>
+    $(function(){
+        var is_en = $('#is_en').val();
+        if(is_en == 1){
+            $('div.btn-div').attr('class','btn-div');
+        }
+
+        $('#bohao').click(function(){
+            var w = window.screen.width;
+            var h = window.screen.height;
+
+            var t = (h-120)/2;
+            var l = (w-(w*0.6))/2;
+
+            $("div.cloak").css({display:'block',height:h+'px',width:w+'px'});
+            $("div.report").css({display:'block',left:l+'px',top:t+'px'});
+
+        });
+        $("div.cloak").click(function(){
+
+            $(this).css('display','none');
+            $("div.report").css('display','none');
+            $("div.enroll").css('display','none');
+            $("div.enroll_alert").css('display','none');
+
+        });
+        $("span.cancel").click(function(){
+
+            $("div.cloak").css('display','none');
+            $("div.report").css('display','none');
+            $("div.enroll").css('display','none');
+            $("div.enroll_alert").css('display','none');
+
+        });
+        $("div.is_enter").click(function(){
+
+            var w = window.screen.width;
+            var h = window.screen.height;
+
+            var t = (h-120)/2;
+            var l = (w-(w*0.6))/2;
+
+            $("div.cloak").css({display:'block',height:h+'px',width:w+'px'});
+
+            $("div.enroll").css({display:'block',left:l+'px',top:t+'px'});
+
+        });
+
+        $("div.enroll_alert").click(function(){
+
+            $("div.cloak").css('display','none');
+            $("div.report").css('display','none');
+            $("div.enroll").css('display','none');
+            $("div.enroll_alert").css('display','none');
+
+        });
+
+        $('span.enroll-btn').click(function(){
+            $("div.enroll").css('display','none');
+            $("div.cloak").css('display','none');
+            var uid = localStorage.getItem('uid_');
+            if(!uid){
+                uid = $('input#uid').val();
+            }
+            var eid = $('input#eid').val();
+            var enter_id = $('input#enter_id').val();
+            var rement = $('input#rement').val(),sex = $('input#sex').val(),is = true;
+            if(rement[1] != sex){
+                is = false;
+            }
+            if(uid && is){
+                $.ajax({
+                    url:"{{:url('recruit/enrollRecruit')}}",
+                    data:{u:uid,recruit_id:eid,enter_id:enter_id},
+                    type:'post',
+                    success:function(arg){
+                        if(arg == 200){
+                            msg('成功,前往我的兼职');
+                            var timer = setTimeout(function(){window.location.href = "{{:url('recruit/index')}}?u="+uid;},1500);
+                        }
+                    }
+                })
+            }else {
+                if(!uid){
+                    msg('需要先登陆才能报名');
+                    timer = setTimeout(function(){window.location.href = "{{:url('login/index')}}?u="+uid;},1500);
+                }
+                if(!is){
+                    msg('要求限制,不能报名');
+                    timer = setTimeout(function(){window.location.href = "{{:url('recruit/index')}}?u="+uid;},1500);
+                }
+            }
+
+
+
+        });
+
+
+
+    });
+
+    function recDes(that,id){
+        var uid = localStorage.getItem('uid_');
+        if(!uid){
+            uid = $('input#uid').val();
+        }
+
+        window.location.href = "{{:url('recruit/info')}}?e="+id+'&u='+uid;
+
+
+    }
+
+</script>
+</html>

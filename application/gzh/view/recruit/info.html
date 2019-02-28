@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>招聘</title>
+    <style>
+        *{margin:0 auto;padding:0;}
+        li{list-style-type: none;}
+        body{background: #eee;}
+        div.top{width: 96%;height: 70px;}
+        div.logo_div{width:100%;height:100%;line-height: 70px;text-align: center;position:relative;}
+        div.logo_div>img{height: 25px;position:absolute;left:2%;top:25%;}
+        div.logo_div>span{font-size: 20px;color:#343434;}
+
+        div.banner{width: 100%;height: 120px;position:relative;}
+        div.banner>img{height: 120px;width: 100%;position:absolute;}
+
+        div.banner>div.rec-logo{width: 23%;height: 100%;z-index:999;position: relative;}
+        div.banner>div.rec-logo>img{width: 100%;display: block;position: absolute;bottom: -20px;border-radius: 100%;}
+
+        div.rec-title{padding: 7px 5px;width: 94%;background: white;border-radius:10px;}
+        div.rec-title>span{display: block;text-align: center;}
+        div.rec-title>span:first-child{font-size: 16px;margin-top:25px;}
+        div.rec-title>span:last-child{font-size: 14px;margin-top:5px;color:#666;}
+
+        div.rec-details{padding: 7px 5px 20px 5px;width:94%;background-color:white;border-radius: 10px;margin-top:5px;}
+        div.rec-details>div.rec-abstract{padding-bottom:20px;}
+        div.rec-details>div.rec-abstract>span.info-title{display: block;text-align: center;font-size: 18px;color:#333;}
+        div.rec-details>div.rec-abstract>div.abstract-info{width: 88%;font-size:14px;color:#666;}
+        div.rec-details>div.rec-abstract>div.abstract-info>p.content-p{text-indent: 2em;display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 4;overflow: hidden;}
+        div.rec-details>div.rec-abstract>div.abstract-info>p.content-p1{text-indent: 2em;}
+        div.rec-details>div.rec-abstract>div.abstract-info>img.xiala{height: 14px;display: block;margin-top:10px;}
+        div.rec-details>div.rec-abstract>img.hr-img{display: block;margin-top:8px;margin-bottom: 15px;width: 35px;}
+
+        div.rec-details>div.rec-address{width: 88%;}
+        div.rec-details>div.rec-address>span.address-title{font-size: 18px;position: relative;left:-10px;line-height: 36px;}
+        div.rec-details>div.rec-address>ul>li{font-size: 15px;line-height: 40px;border-bottom: 1px solid #eee;color:#666;}
+        div.rec-details>div.rec-address>ul>li:first-child:after{content:"";display: block;clear:both;}
+        div.rec-details>div.rec-address>ul>li:last-child>span:first-child{position: relative;left:-10px;}
+        div.rec-details>div.rec-address>ul>li:first-child>span:first-child{position: relative;left:-10px;}
+        div.rec-details>div.rec-address>ul>li:first-child>span:last-child{float: right;font-size: 18px;}
+
+        div.rec-details>div.icbc-info{width: 88%;margin-top:15px;}
+        div.rec-details>div.icbc-info>span.icbc-title{font-size: 18px;position: relative;left:-10px;line-height: 36px;}
+        div.rec-details>div.icbc-info>span.rec-names{display: block;text-align: center;line-height: 30px;padding: 5px 0;font-size: 16px;}
+        div.rec-details>div.icbc-info>ul{border:1px solid #aaa;width: 100%;text-align: center;font-size: 14px;}
+        div.rec-details>div.icbc-info>ul>li{line-height: 35px;color:#666;}
+        div.rec-details>div.icbc-info>ul>li>span{display: inline-block;}
+        div.rec-details>div.icbc-info>ul>li:not(:first-child){border-top:1px solid #aaa;}
+        div.rec-details>div.icbc-info>ul>li>span:first-child{border-right:1px solid #aaa;width: 35%;box-sizing: border-box;}
+        div.rec-details>div.icbc-info>ul>li>span:last-child{width: 65%;}
+
+
+
+    </style>
+    <script src="/static/js/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+<!--<div class="top">
+    <div class="logo_div">
+        <img src="/static/../img/board_fabu@3x.png"/><span>招聘</span>
+    </div>
+</div>-->
+<div class="banner" id="banner">
+    <img src="/static/../img/timg-2.jpeg"/>
+    <div class="rec-logo">
+        <img src="/static/../img/fastFitHead.png"/>
+    </div>
+</div>
+<div class="rec-title">
+    <span class="title-name">{{$info.enterprise_name}}</span>
+    <span class="title-ask">{{$info.p_from}}/{{$info.financing}}/{{$info.scale}}/{{$info.enter_type}}</span>
+</div>
+
+<div class="rec-details">
+    <div class="rec-abstract">
+        <span class="info-title">公司简介</span>
+        <img src="/static/../img/di@2x.png" class="hr-img"/>
+        <div class="abstract-info">
+            <p class="content-p">
+                {{$info.enter_dis}}
+            </p>
+            <img src="/static/../img/zhankai@2x.png" flag="1" class="xiala"/>
+        </div>
+    </div>
+
+    <!--地址-->
+    <div class="rec-address">
+        <span class="address-title">公司地址</span>
+        <ul>
+            <li><span>{{$info.p_from}}-{{$info.city}}-{{$info.area}}</span><span class="map-span">></span></li>
+            <li><span>{{$info.info_address}}</span></li>
+        </ul>
+    </div>
+
+    <div class="icbc-info">
+        <span class="icbc-title">工商信息</span>
+        <span class="rec-names">{{$info.enterprise_name}}</span>
+        <ul>
+            <li><span>成立时间</span><span>2</span></li>
+            <li><span>成立时间</span><span>2</span></li>
+            <li><span>成立时间</span><span>2</span></li>
+            <li><span>成立时间</span><span>2</span></li>
+        </ul>
+
+    </div>
+
+</div>
+
+
+
+</body>
+<script>
+
+    $(function(){
+
+        $('img.xiala').click(function(){
+            var flag = $(this).attr('flag');
+            if(flag == 1){
+                $('p.content-p').attr('class','content-p1');
+                $(this).attr('flag',2);
+                $(this).css('transform','rotate(180deg)');
+            }else{
+                $('p.content-p1').attr('class','content-p');
+                $(this).attr('flag',1);
+                $(this).css('transform','rotate(0deg)')
+            }
+
+        });
+
+
+
+    });
+
+</script>
+</html>
